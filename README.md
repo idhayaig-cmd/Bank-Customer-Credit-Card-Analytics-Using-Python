@@ -206,7 +206,4 @@ The project also demonstrates the value of integrating Python analysis with Powe
 
 Aspiring Data Analyst | Python | SQL | Power BI | Excel
 
-
 ---
-
-*This project was developed for data analytics learning and portfolio demonstration. The findings are based on the dataset analyzed and are not intended to replace formal banking or credit-risk assessment procedures.*
