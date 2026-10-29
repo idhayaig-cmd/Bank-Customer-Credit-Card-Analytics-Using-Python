@@ -187,6 +187,23 @@ Use statistical analysis and visualizations to understand relationships between 
 - Business Insight Generation
 - Python and Pandas
 - Power BI Data Preparation
+- 
+**Key findings**
+- The bank customer dataset contains **1,000** customers, with total annual income of **744M**.
+- **Pune** has the highest customer count among the displayed cities, at **119**, followed by **Ahmedabad** at **114**.
+- **Premium** customers have the highest average monthly spending at approximately **91K**, followed by **Mass Affluent** at **40K**.
+- **Signature** cardholders have the highest average monthly spending among the four card types, at approximately **37K**.
+- The report shows **18.58M** in total online spending and an average transaction amount of **2.11K**.
+
+- **Premium** customers spend more on average than other customer segments, suggesting a difference in spending behavior across segments.
+
+- **Signature** cardholders have the highest average monthly spending, while average transaction counts across card types are very similar, at approximately **19.67–20.21**.
+- Average credit utilization differs by segment: Basic customers show approximately **18, Mass Affluent** **15**, **Premium **12**, and **Standard 8**.
+- The average credit score varies by occupation, from approximately **675** for Business to **688** for Government.
+- The average credit score varies by occupation, from approximately **675** for Business to **688** for Government.
+- The average credit score varies by occupation, from approximately 675 for Business to **688** for **Government**.
+- The payment-status chart shows **466** customers marked **On Time** and **461** marked **Delayed**, with another 73 in a third category whose label is not fully legible in the report.
+- There are **539** customers counted under the Customers With Late Payments KPI, and average credit utilization is **13.91**. These figures identify areas for further analysis, but they do not establish future default risk.
 
 ## Project Outcome
 
