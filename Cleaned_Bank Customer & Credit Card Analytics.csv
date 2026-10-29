@@ -1,0 +1,1001 @@
+customer_id,age,gender,marital_status,education,occupation,city,account_type,account_balance,annual_income,credit_score,years_with_bank,num_credit_cards,credit_limit,card_type,monthly_spend,num_transactions,avg_transaction_amount,cash_withdrawal,online_spend,late_payments,loan_status,loan_amount,payment_status,customer_segment,credit_utilization_pct
+CUST0001,34,Male,Married,Bachelor's,Other,Mumbai,Savings,121200.0,390600.0,606.0,4.9,2,246500.0,Signature,66882.89,18,3618.22,7348.22,21222.14,0,No Loan,0.0,On Time,Mass Affluent,27.13
+CUST0002,43,Male,Married,High School,Healthcare,Delhi,Current,609700.0,1074000.0,708.0,4.7,5,511500.0,Platinum,28572.19,16,1713.7,2966.44,10191.27,1,Closed,143300.0,Occasional Delay,Mass Affluent,5.59
+CUST0003,58,Female,Divorced,Master's,Healthcare,Ahmedabad,Salary,5000.0,736600.0,681.0,6.5,6,274900.0,Gold,63192.27,21,2997.09,11332.1,39093.04,1,No Loan,0.0,Occasional Delay,Mass Affluent,22.99
+CUST0004,43,Female,Single,High School,Government,Pune,Savings,152100.0,764000.0,678.0,13.5,3,354400.0,Platinum,30297.66,29,1086.82,3473.98,10784.81,0,Active,889800.0,On Time,Mass Affluent,8.55
+CUST0005,31,Male,Single,Master's,Business,Chennai,Current,190300.0,872400.0,717.0,1.7,5,552700.0,Signature,51041.54,18,4100.82,8713.87,18697.22,3,Closed,660600.0,Delayed,Mass Affluent,9.23
+CUST0006,61,Male,Married,Bachelor's,Engineering,Jaipur,Savings,91800.0,773700.0,655.0,3.6,3,295900.0,Classic,83571.24,28,2857.02,17335.25,63793.16,2,No Loan,0.0,Occasional Delay,Mass Affluent,28.24
+CUST0007,45,Female,Single,Bachelor's,Other,Jaipur,Salary,531400.0,1361700.0,758.0,4.7,2,1075600.0,Gold,33077.82,17,1964.74,788.64,18569.77,1,Active,124300.0,Occasional Delay,Mass Affluent,3.08
+CUST0008,33,Female,Married,Bachelor's,Other,Jaipur,Savings,43900.0,180000.0,681.0,12.3,4,64500.0,Classic,27054.5,28,1185.13,6496.24,11715.17,0,No Loan,0.0,On Time,Basic,41.94
+CUST0009,33,Male,Married,Master's,Education,Kochi,Salary,123900.0,429400.0,706.0,5.5,2,206100.0,Classic,16052.9,22,718.6,3745.45,11389.19,1,Active,143400.0,Occasional Delay,Standard,7.79
+CUST0010,21,Male,Married,Master's,Retail,Jaipur,Savings,205400.0,824200.0,723.0,1.9,2,557600.0,Classic,65018.29,19,3592.16,7040.88,22108.25,0,No Loan,0.0,On Time,Mass Affluent,11.66
+CUST0011,40,Male,Divorced,Master's,Retail,Kolkata,Salary,380600.0,771600.0,713.0,5.3,3,336000.0,Gold,25468.8,19,1783.9,5442.71,14508.1,1,Active,266500.0,Occasional Delay,Mass Affluent,7.58
+CUST0012,43,Female,Married,High School,IT Professional,Ahmedabad,Current,133800.0,549100.0,695.0,7.3,4,221800.0,Classic,38781.62,18,2978.6,6130.54,23529.39,0,Active,1184000.0,On Time,Mass Affluent,17.48
+CUST0013,45,Male,Divorced,Master's,Retail,Kochi,Current,693700.0,1304900.0,798.0,20.0,3,914300.0,Classic,11071.25,14,1049.17,2505.63,7917.91,0,No Loan,0.0,On Time,Mass Affluent,1.21
+CUST0014,39,Male,Married,Bachelor's,IT Professional,Hyderabad,Savings,496200.0,1384000.0,727.0,5.2,2,604800.0,Platinum,77912.32,26,3814.73,16098.05,58351.9,0,Active,866700.0,On Time,Premium,12.88
+CUST0015,30,Female,Single,Diploma,Other,Kolkata,Savings,32200.0,812100.0,738.0,9.5,3,566800.0,Classic,44884.38,17,2797.37,4194.95,19183.61,0,Closed,426600.0,On Time,Mass Affluent,7.92
+CUST0016,44,Female,Single,Bachelor's,Government,Pune,Savings,206000.0,850500.0,649.0,2.7,3,407200.0,Platinum,19264.64,15,1451.68,1898.64,9313.09,0,Closed,1303000.0,On Time,Mass Affluent,4.73
+CUST0017,41,Female,Married,Diploma,Business,Bengaluru,Savings,445000.0,606300.0,632.0,11.5,4,345300.0,Classic,22358.93,25,1067.14,2327.24,10005.91,1,No Loan,0.0,Occasional Delay,Standard,6.48
+CUST0018,28,Male,Single,Bachelor's,Education,Ahmedabad,Current,133900.0,913000.0,584.0,4.3,6,388800.0,Classic,19609.48,20,1363.46,3896.54,8716.47,3,No Loan,0.0,Delayed,Mass Affluent,5.04
+CUST0019,44,Male,Single,Diploma,Government,Kochi,Current,186000.0,538400.0,726.0,2.3,4,400200.0,Signature,8814.53,17,665.18,1885.89,6207.96,0,No Loan,0.0,On Time,Standard,2.2
+CUST0020,56,Female,Single,Diploma,Education,Hyderabad,Savings,602600.0,960800.0,731.0,7.6,5,321300.0,Gold,24858.92,13,1962.92,4713.69,14299.16,0,No Loan,0.0,On Time,Mass Affluent,7.74
+CUST0021,36,Male,Single,Master's,IT Professional,Kochi,Salary,19300.0,536800.0,617.0,6.6,2,158400.0,Classic,43814.58,17,2939.06,1815.42,25748.22,1,Active,384300.0,Occasional Delay,Mass Affluent,27.66
+CUST0022,46,Female,Married,High School,IT Professional,Jaipur,Savings,81700.0,607400.0,689.0,12.4,6,164700.0,Gold,33362.89,18,1809.33,6205.44,18876.07,1,No Loan,0.0,Occasional Delay,Mass Affluent,20.26
+CUST0023,39,Female,Married,Bachelor's,Finance,Kolkata,Savings,9400.0,378300.0,656.0,4.3,3,99400.0,Platinum,45517.59,19,2339.95,5780.49,28632.12,2,Active,670500.0,Occasional Delay,Mass Affluent,45.79
+CUST0024,38,Male,Married,Bachelor's,IT Professional,Hyderabad,Savings,220200.0,504800.0,666.0,3.8,3,129400.0,Gold,53813.36,29,2840.3,8509.72,35096.13,0,Active,1098400.0,On Time,Mass Affluent,41.59
+CUST0025,22,Male,Married,Bachelor's,Business,Bengaluru,Savings,101500.0,754600.0,732.0,12.7,6,563800.0,Classic,31415.96,21,1501.94,2874.05,8553.18,0,No Loan,0.0,On Time,Mass Affluent,5.57
+CUST0026,39,Male,Married,Bachelor's,Retail,Chennai,Salary,395500.0,865200.0,749.0,3.2,5,587100.0,Gold,10907.17,8,1370.66,1600.3,4722.99,1,Active,1041000.0,Occasional Delay,Mass Affluent,1.86
+CUST0027,37,Male,Divorced,Bachelor's,Healthcare,Ahmedabad,Savings,114000.0,740700.0,724.0,4.7,6,312500.0,Classic,137918.19,22,6701.95,22879.79,105684.65,2,Closed,272900.0,Occasional Delay,Mass Affluent,44.13
+CUST0028,23,Male,Married,Bachelor's,Retail,Kochi,Savings,105700.0,806700.0,698.0,9.1,4,208800.0,Classic,80591.96,23,3393.83,12750.84,34525.48,0,No Loan,0.0,On Time,Mass Affluent,38.6
+CUST0029,36,Male,Married,Master's,IT Professional,Kolkata,Savings,106600.0,469500.0,744.0,1.9,4,242000.0,Signature,73296.11,21,3429.91,11165.02,19187.0,1,Active,509000.0,Occasional Delay,Mass Affluent,30.29
+CUST0030,37,Female,Single,Professional,Other,Chennai,Savings,207300.0,926700.0,737.0,10.3,3,656600.0,Classic,25717.27,21,1200.71,981.83,20506.68,0,No Loan,0.0,On Time,Mass Affluent,3.92
+CUST0031,50,Male,Married,Bachelor's,IT Professional,Kolkata,Salary,5000.0,777300.0,676.0,3.3,1,168000.0,Classic,32484.31,24,1295.26,7893.2,20339.17,2,Active,2069100.0,Occasional Delay,Mass Affluent,19.34
+CUST0032,33,Female,Married,Master's,Other,Ahmedabad,Savings,704700.0,2050100.0,811.0,6.9,3,962200.0,Classic,28722.83,21,1695.79,973.58,22026.08,0,Active,788100.0,On Time,Mass Affluent,2.99
+CUST0033,55,Male,Married,Diploma,Engineering,Jaipur,Savings,340200.0,970700.0,644.0,9.3,2,479700.0,Signature,29067.46,25,1306.26,5635.07,13299.65,0,No Loan,0.0,On Time,Mass Affluent,6.06
+CUST0034,33,Male,Single,Master's,Healthcare,Mumbai,Salary,29900.0,746200.0,688.0,6.2,3,238300.0,Classic,19498.38,19,1451.49,1756.0,14549.44,1,Active,234100.0,Occasional Delay,Mass Affluent,8.18
+CUST0035,24,Male,Married,Bachelor's,Education,Mumbai,Savings,37100.0,658800.0,755.0,3.4,4,368600.0,Gold,90325.71,22,4115.68,13154.96,61874.76,1,No Loan,0.0,Occasional Delay,Mass Affluent,24.51
+CUST0036,45,Female,Married,Master's,Finance,Kolkata,Savings,79400.0,471800.0,661.0,2.6,4,115200.0,Classic,32467.93,15,3163.72,4732.32,22140.45,1,Active,1077000.0,Occasional Delay,Mass Affluent,28.18
+CUST0037,25,Female,Married,Master's,Finance,Delhi,Savings,176200.0,874800.0,612.0,6.0,1,431900.0,Classic,19347.06,16,1597.39,4784.14,6370.25,3,Active,401900.0,Delayed,Mass Affluent,4.48
+CUST0038,31,Male,Single,Professional,Healthcare,Mumbai,Salary,106900.0,428800.0,636.0,4.3,2,149000.0,Classic,56356.0,21,2634.64,8503.63,16248.88,3,Active,650900.0,Delayed,Mass Affluent,37.82
+CUST0039,42,Male,Married,Diploma,IT Professional,Delhi,Savings,363300.0,898900.0,654.0,1.9,5,212000.0,Signature,59889.7,18,3247.97,5406.8,31587.04,1,Closed,1906700.0,Occasional Delay,Mass Affluent,28.25
+CUST0040,40,Male,Single,Bachelor's,Other,Jaipur,Savings,42600.0,239600.0,703.0,2.0,3,117100.0,Classic,14702.06,15,1306.87,3333.13,7207.0,1,No Loan,0.0,Occasional Delay,Basic,12.56
+CUST0041,23,Female,Married,High School,Government,Hyderabad,Salary,291400.0,834300.0,666.0,5.3,2,523700.0,Gold,27118.17,30,1330.76,1016.27,14310.37,0,Closed,202900.0,On Time,Mass Affluent,5.18
+CUST0042,34,Female,Single,Master's,Business,Mumbai,Salary,68700.0,1305500.0,675.0,3.9,3,392100.0,Platinum,21846.21,23,1246.72,5181.05,5698.2,0,No Loan,0.0,On Time,Mass Affluent,5.57
+CUST0043,33,Female,Married,Diploma,Finance,Kochi,Savings,138900.0,372500.0,665.0,13.9,1,124900.0,Signature,37979.33,19,2137.96,6663.34,18878.74,0,Active,931600.0,On Time,Mass Affluent,30.41
+CUST0044,43,Male,Married,Bachelor's,Healthcare,Mumbai,Salary,113700.0,1127500.0,737.0,2.0,1,831700.0,Platinum,15732.8,23,797.85,320.79,10881.72,0,Closed,123900.0,On Time,Mass Affluent,1.89
+CUST0045,62,Female,Married,Professional,Education,Bengaluru,Savings,236200.0,490400.0,701.0,0.7,2,269700.0,Platinum,40760.13,14,3263.66,2168.69,28960.54,2,No Loan,0.0,Occasional Delay,Mass Affluent,15.11
+CUST0046,31,Female,Married,Diploma,Engineering,Hyderabad,Current,179300.0,823900.0,774.0,0.6,2,607800.0,Gold,23084.38,28,933.45,1484.88,15886.9,0,Closed,449800.0,On Time,Mass Affluent,3.8
+CUST0047,36,Female,Single,High School,Finance,Pune,Savings,305700.0,731900.0,719.0,11.8,3,376500.0,Classic,16202.71,12,1316.94,3807.67,5037.35,0,Active,527900.0,On Time,Mass Affluent,4.3
+CUST0048,37,Female,Single,Bachelor's,IT Professional,Ahmedabad,Current,178300.0,722000.0,657.0,7.4,3,275600.0,Platinum,58194.61,18,3849.86,7350.5,28485.81,0,No Loan,0.0,On Time,Mass Affluent,21.12
+CUST0049,28,Male,Single,High School,Business,Chennai,Savings,118300.0,788500.0,706.0,6.4,5,541600.0,Platinum,26486.37,22,1486.36,3561.56,7193.38,3,Closed,336100.0,Delayed,Mass Affluent,4.89
+CUST0050,25,Male,Single,Bachelor's,Business,Pune,Current,132200.0,634900.0,635.0,3.3,2,402500.0,Classic,46258.09,30,1758.28,3300.06,26814.5,0,Closed,169500.0,On Time,Mass Affluent,11.49
+CUST0051,36,Male,Married,Bachelor's,IT Professional,Jaipur,Salary,342100.0,1390400.0,773.0,3.3,2,414400.0,Platinum,28693.67,21,1929.98,5291.98,12878.48,1,Active,326900.0,Occasional Delay,Mass Affluent,6.92
+CUST0052,53,Female,Single,Diploma,Business,Pune,Savings,478100.0,1361500.0,686.0,3.5,2,757300.0,Gold,31750.15,21,1603.96,1092.31,23121.03,1,No Loan,0.0,Occasional Delay,Mass Affluent,4.19
+CUST0053,25,Female,Single,Bachelor's,Government,Hyderabad,Savings,271100.0,572500.0,696.0,2.3,3,295100.0,Signature,17681.85,19,1299.67,1463.35,8146.38,0,No Loan,0.0,On Time,Standard,5.99
+CUST0054,43,Male,Married,Bachelor's,Healthcare,Delhi,Salary,228600.0,647300.0,640.0,7.3,6,166700.0,Gold,20287.34,18,1202.8,2468.89,15518.3,0,Closed,1033300.0,On Time,Standard,12.17
+CUST0055,34,Male,Single,Master's,Business,Mumbai,Savings,22300.0,480700.0,607.0,4.2,2,134000.0,Gold,26000.34,22,1395.64,860.61,10892.51,0,No Loan,0.0,On Time,Standard,19.4
+CUST0056,43,Male,Married,Master's,Business,Kochi,Savings,62500.0,1361300.0,738.0,1.4,2,880900.0,Signature,41512.04,16,2957.23,2574.56,17626.64,2,No Loan,0.0,Occasional Delay,Mass Affluent,4.71
+CUST0057,49,Female,Single,Bachelor's,Business,Jaipur,Salary,59900.0,320400.0,587.0,5.2,3,89000.0,Classic,38430.51,18,2364.97,5122.92,10983.69,0,No Loan,0.0,On Time,Mass Affluent,43.18
+CUST0058,52,Male,Divorced,Diploma,Government,Delhi,Savings,388900.0,660500.0,665.0,2.9,2,540000.0,Signature,56102.57,24,2419.9,5290.73,19571.51,0,Active,588200.0,On Time,Mass Affluent,10.39
+CUST0059,53,Female,Divorced,Bachelor's,IT Professional,Ahmedabad,Salary,5000.0,595400.0,752.0,3.6,3,424600.0,Gold,35511.54,25,1582.47,1015.9,18858.25,2,No Loan,0.0,Occasional Delay,Mass Affluent,8.36
+CUST0060,21,Female,Single,Diploma,IT Professional,Kolkata,Current,157700.0,472000.0,583.0,4.6,5,173700.0,Platinum,69030.79,22,3860.43,11158.3,40167.83,1,No Loan,0.0,Occasional Delay,Mass Affluent,39.74
+CUST0061,45,Male,Married,High School,Other,Ahmedabad,Savings,5000.0,908000.0,701.0,10.7,2,258900.0,Gold,9283.05,17,622.04,1525.02,6920.55,1,Active,1530600.0,Occasional Delay,Mass Affluent,3.59
+CUST0062,60,Female,Married,Bachelor's,Healthcare,Kochi,Salary,302200.0,1188100.0,731.0,5.5,3,596800.0,Classic,52807.67,17,3621.66,7180.92,33649.57,1,Active,1520200.0,Occasional Delay,Mass Affluent,8.85
+CUST0063,46,Male,Married,High School,Business,Mumbai,Savings,5000.0,946400.0,677.0,7.0,6,293600.0,Gold,26798.49,19,1515.13,2130.01,16868.67,1,Active,982100.0,Occasional Delay,Mass Affluent,9.13
+CUST0064,63,Female,Divorced,Bachelor's,Finance,Kolkata,Savings,350700.0,649900.0,614.0,19.9,3,291800.0,Classic,18504.31,18,1476.69,2920.32,10326.57,0,Closed,1195100.0,On Time,Standard,6.34
+CUST0065,37,Female,Married,High School,Other,Kochi,Current,86200.0,531400.0,653.0,0.7,3,239400.0,Gold,30618.91,22,1489.46,5462.18,16533.46,0,Closed,290800.0,On Time,Mass Affluent,12.79
+CUST0066,63,Male,Divorced,Bachelor's,Government,Delhi,Salary,557800.0,1153200.0,727.0,7.4,3,303100.0,Platinum,26006.18,13,2978.5,5466.95,9103.68,2,No Loan,0.0,Occasional Delay,Mass Affluent,8.58
+CUST0067,41,Male,Married,Master's,Engineering,Hyderabad,Savings,465000.0,875000.0,686.0,1.6,5,457100.0,Gold,90014.5,24,3886.6,20390.59,34616.34,0,No Loan,0.0,On Time,Mass Affluent,19.69
+CUST0068,21,Male,Married,Bachelor's,Finance,Kolkata,Current,52400.0,712100.0,636.0,2.5,2,392100.0,Platinum,10384.15,14,802.83,1980.85,7167.29,0,No Loan,0.0,On Time,Mass Affluent,2.65
+CUST0069,29,Female,Married,Bachelor's,Business,Bengaluru,Current,5000.0,458400.0,693.0,5.4,4,310200.0,Gold,48417.78,33,1676.99,9742.36,17599.26,0,Closed,488500.0,On Time,Mass Affluent,15.61
+CUST0070,45,Female,Married,Professional,Government,Kochi,Savings,5000.0,819700.0,710.0,4.3,4,444500.0,Gold,33393.65,17,1964.55,6163.49,22635.41,0,Active,631100.0,On Time,Mass Affluent,7.51
+CUST0071,40,Female,Single,High School,Business,Kochi,Current,116300.0,1233300.0,740.0,3.2,3,484200.0,Platinum,46195.63,24,2596.21,6699.35,15782.46,2,Active,1165500.0,Occasional Delay,Mass Affluent,9.54
+CUST0072,21,Female,Divorced,High School,Engineering,Kochi,Savings,50100.0,979600.0,725.0,5.2,6,509100.0,Gold,58958.27,32,2303.22,13370.18,30176.42,0,No Loan,0.0,On Time,Mass Affluent,11.58
+CUST0073,40,Male,Single,Bachelor's,Business,Mumbai,Salary,118500.0,366500.0,597.0,1.9,5,87200.0,Gold,64015.02,25,2865.78,7599.68,39997.41,3,No Loan,0.0,Delayed,Mass Affluent,73.41
+CUST0074,52,Female,Married,Master's,Education,Kochi,Salary,27500.0,414800.0,654.0,6.1,5,110000.0,Platinum,55819.16,22,3294.39,7353.97,26312.64,1,No Loan,0.0,Occasional Delay,Mass Affluent,50.74
+CUST0075,48,Female,Married,Master's,IT Professional,Jaipur,Savings,233900.0,640800.0,588.0,4.3,2,251900.0,Gold,15528.11,28,828.76,2049.21,5138.24,2,No Loan,0.0,Occasional Delay,Standard,6.16
+CUST0076,45,Female,Single,Bachelor's,Education,Delhi,Savings,68800.0,380200.0,665.0,6.4,3,169000.0,Gold,9856.13,19,710.89,2346.31,4647.15,1,No Loan,0.0,Occasional Delay,Basic,5.83
+CUST0077,51,Male,Single,Bachelor's,Engineering,Kolkata,Salary,294300.0,679400.0,708.0,0.9,5,362700.0,Gold,23325.34,19,1180.66,1119.43,10829.37,3,Active,598600.0,Delayed,Standard,6.43
+CUST0078,49,Male,Married,Master's,Business,Delhi,Savings,113500.0,527400.0,741.0,5.2,5,271900.0,Gold,24851.99,21,1773.5,4325.09,12931.55,0,No Loan,0.0,On Time,Standard,9.14
+CUST0079,47,Female,Married,Master's,Government,Bengaluru,Salary,15400.0,339700.0,614.0,8.0,6,91800.0,Signature,23852.97,23,1281.77,4850.7,7731.96,2,No Loan,0.0,Occasional Delay,Basic,25.98
+CUST0080,46,Female,Single,Master's,Retail,Kolkata,Savings,33900.0,1195300.0,745.0,4.3,2,366900.0,Classic,11802.88,21,844.4,2059.03,4653.68,1,No Loan,0.0,Occasional Delay,Mass Affluent,3.22
+CUST0081,37,Female,Single,Bachelor's,Healthcare,Kochi,Current,151600.0,766800.0,642.0,2.4,4,449200.0,Signature,55512.83,22,2723.4,10616.18,21832.5,1,Active,175400.0,Occasional Delay,Mass Affluent,12.36
+CUST0082,39,Female,Single,Diploma,Business,Bengaluru,Salary,94300.0,451000.0,724.0,1.8,7,255700.0,Classic,34499.74,20,1686.46,1610.42,23329.61,1,Closed,780900.0,Occasional Delay,Mass Affluent,13.49
+CUST0083,31,Male,Married,Professional,Business,Bengaluru,Savings,110600.0,533600.0,653.0,5.6,5,228200.0,Platinum,9670.35,27,505.58,1877.48,3324.4,0,No Loan,0.0,On Time,Standard,4.24
+CUST0084,34,Male,Married,Master's,Government,Kochi,Savings,779500.0,1634700.0,810.0,8.6,7,774700.0,Gold,21701.82,22,1353.75,5306.95,14531.89,1,Closed,274300.0,Occasional Delay,Mass Affluent,2.8
+CUST0085,33,Female,Married,Bachelor's,Business,Bengaluru,Savings,339100.0,1032500.0,690.0,5.8,2,266600.0,Classic,18436.06,23,835.41,4342.2,6202.56,0,Active,650500.0,On Time,Mass Affluent,6.92
+CUST0086,50,Male,Married,Bachelor's,Finance,Kochi,Savings,275400.0,665500.0,653.0,0.5,3,337900.0,Classic,43794.1,21,2080.61,2367.86,28381.71,0,Active,608000.0,On Time,Mass Affluent,12.96
+CUST0087,47,Female,Married,Bachelor's,Education,Delhi,Savings,5000.0,659300.0,591.0,0.7,2,141600.0,Classic,44809.02,19,2310.36,9791.33,18259.09,1,No Loan,0.0,Occasional Delay,Mass Affluent,31.64
+CUST0088,55,Male,Married,Master's,Business,Ahmedabad,Current,81000.0,719700.0,655.0,0.5,3,415400.0,Gold,36369.63,25,1691.2,3087.69,17921.13,2,No Loan,0.0,Occasional Delay,Mass Affluent,8.76
+CUST0089,42,Female,Single,Bachelor's,Education,Kolkata,Savings,50800.0,1044900.0,692.0,6.3,2,647700.0,Classic,32324.62,21,1509.33,765.01,20550.47,0,No Loan,0.0,On Time,Mass Affluent,4.99
+CUST0090,52,Female,Married,Bachelor's,Healthcare,Mumbai,Salary,151300.0,324700.0,572.0,14.0,2,138800.0,Gold,47877.48,25,2845.06,10024.1,16579.12,3,No Loan,0.0,Delayed,Mass Affluent,34.49
+CUST0091,37,Male,Married,Diploma,Healthcare,Delhi,Salary,322900.0,819300.0,690.0,2.1,4,535300.0,Classic,25436.98,24,1394.22,2044.27,11088.64,1,No Loan,0.0,Occasional Delay,Mass Affluent,4.75
+CUST0092,21,Male,Married,Master's,IT Professional,Jaipur,Salary,177800.0,597900.0,737.0,6.8,3,435700.0,Classic,81552.26,23,3503.73,2997.46,48851.67,0,No Loan,0.0,On Time,Mass Affluent,18.72
+CUST0093,31,Female,Single,Professional,IT Professional,Jaipur,Savings,654100.0,1798600.0,777.0,2.7,2,934800.0,Classic,24377.85,18,1995.59,5541.44,8201.83,0,No Loan,0.0,On Time,Mass Affluent,2.61
+CUST0094,42,Female,Divorced,Diploma,Government,Bengaluru,Salary,835000.0,2047000.0,827.0,5.4,3,656300.0,Platinum,18905.2,21,1068.98,2080.03,7153.78,2,No Loan,0.0,Occasional Delay,Mass Affluent,2.88
+CUST0095,40,Male,Single,Bachelor's,Finance,Bengaluru,Salary,250000.0,798300.0,652.0,8.1,6,259300.0,Signature,26049.51,15,2005.15,5577.53,16431.82,0,Active,319300.0,On Time,Mass Affluent,10.05
+CUST0096,39,Female,Married,Diploma,Government,Chennai,Savings,5000.0,395900.0,660.0,8.3,4,145400.0,Platinum,25436.22,22,1327.53,2064.79,19156.83,1,No Loan,0.0,Occasional Delay,Basic,17.49
+CUST0097,40,Male,Single,Bachelor's,Healthcare,Bengaluru,Salary,40000.0,417600.0,686.0,3.7,2,233400.0,Classic,27883.69,12,2789.91,3683.11,14286.09,2,Active,504400.0,Occasional Delay,Standard,11.95
+CUST0098,32,Male,Married,Professional,Finance,Chennai,Salary,5000.0,931100.0,710.0,4.1,5,476700.0,Platinum,41752.04,22,2524.9,6722.32,15724.04,2,Active,202800.0,Occasional Delay,Mass Affluent,8.76
+CUST0099,29,Female,Married,Bachelor's,IT Professional,Pune,Savings,63100.0,1243800.0,770.0,7.4,2,854900.0,Classic,18293.25,23,853.6,2002.62,10636.49,1,No Loan,0.0,Occasional Delay,Mass Affluent,2.14
+CUST0100,54,Female,Married,Bachelor's,Business,Jaipur,Savings,5000.0,313800.0,622.0,0.6,3,70000.0,Signature,50557.83,24,2176.76,9721.3,27519.18,1,No Loan,0.0,Occasional Delay,Mass Affluent,72.23
+CUST0101,39,Male,Married,Bachelor's,IT Professional,Kolkata,Savings,107300.0,572200.0,697.0,5.5,3,337500.0,Signature,92355.92,22,5891.73,19126.81,63863.02,1,No Loan,0.0,Occasional Delay,Mass Affluent,27.36
+CUST0102,48,Female,Single,Professional,Other,Chennai,Savings,7500.0,487500.0,665.0,3.0,5,174200.0,Platinum,22464.61,20,1575.08,866.44,6343.17,0,Active,806700.0,On Time,Standard,12.9
+CUST0103,50,Male,Single,High School,Business,Jaipur,Savings,263500.0,456300.0,678.0,6.5,2,278700.0,Gold,53738.99,20,2705.66,2137.81,13544.62,1,No Loan,0.0,Occasional Delay,Mass Affluent,19.28
+CUST0104,29,Female,Single,Master's,Business,Pune,Savings,54700.0,514400.0,643.0,9.8,3,268800.0,Platinum,22944.12,19,1855.16,4147.44,7677.63,2,No Loan,0.0,Occasional Delay,Standard,8.54
+CUST0105,26,Male,Single,Bachelor's,Business,Ahmedabad,Salary,73000.0,335200.0,627.0,4.6,1,95700.0,Signature,26259.28,12,2211.99,809.66,17624.24,0,Active,831500.0,On Time,Basic,27.44
+CUST0106,23,Male,Divorced,Master's,Government,Chennai,Current,62700.0,265700.0,588.0,3.0,2,125600.0,Classic,69376.66,18,5669.47,13747.49,37269.37,2,Closed,699300.0,Occasional Delay,Mass Affluent,55.24
+CUST0107,37,Female,Married,Master's,Healthcare,Ahmedabad,Savings,303400.0,1262500.0,742.0,1.5,3,348600.0,Classic,14716.17,19,1156.09,416.54,10431.38,1,Closed,1778300.0,Occasional Delay,Mass Affluent,4.22
+CUST0108,26,Female,Married,Master's,IT Professional,Jaipur,Savings,99200.0,395800.0,662.0,5.1,2,153300.0,Classic,33279.87,14,2547.14,2473.81,10944.36,0,No Loan,0.0,On Time,Mass Affluent,21.71
+CUST0109,49,Female,Divorced,High School,Government,Jaipur,Savings,189400.0,1168500.0,744.0,0.5,3,631300.0,Platinum,29929.31,18,2455.66,5737.87,7626.89,0,Active,323800.0,On Time,Mass Affluent,4.74
+CUST0110,58,Male,Married,Diploma,IT Professional,Kolkata,Current,34200.0,437700.0,637.0,3.5,6,271300.0,Classic,18281.59,18,1051.72,1641.89,10414.39,0,No Loan,0.0,On Time,Standard,6.74
+CUST0111,59,Female,Married,Master's,Business,Mumbai,Savings,287100.0,726400.0,733.0,2.6,4,395800.0,Classic,35984.48,28,1449.3,3327.99,16326.75,1,Active,251200.0,Occasional Delay,Mass Affluent,9.09
+CUST0112,49,Male,Single,Professional,Education,Delhi,Savings,82900.0,539200.0,736.0,2.4,2,277300.0,Classic,35568.28,23,1545.51,6042.76,21901.43,1,Active,1405300.0,Occasional Delay,Mass Affluent,12.83
+CUST0113,31,Male,Married,Bachelor's,Engineering,Jaipur,Salary,31200.0,464700.0,673.0,9.3,2,205000.0,Classic,95333.63,22,4940.19,5266.99,52595.55,1,Active,287200.0,Occasional Delay,Mass Affluent,46.5
+CUST0114,38,Female,Single,Diploma,Business,Delhi,Savings,75800.0,381200.0,585.0,0.6,4,104500.0,Signature,27521.89,28,1353.69,2575.45,16280.16,3,Active,845400.0,Delayed,Basic,26.34
+CUST0115,43,Male,Divorced,Bachelor's,Finance,Ahmedabad,Savings,5000.0,191800.0,660.0,1.4,2,130600.0,Gold,33557.81,17,1956.61,5257.42,13630.76,1,No Loan,0.0,Occasional Delay,Mass Affluent,25.7
+CUST0116,42,Female,Married,Bachelor's,IT Professional,Delhi,Savings,724500.0,1117300.0,731.0,1.8,5,431700.0,Classic,14812.18,14,1554.12,2112.18,5328.11,0,Active,579700.0,On Time,Mass Affluent,3.43
+CUST0117,59,Female,Married,Professional,Business,Delhi,Current,280100.0,522900.0,733.0,4.6,5,405800.0,Classic,33485.4,18,1811.67,4866.86,14556.32,0,Active,397600.0,On Time,Mass Affluent,8.25
+CUST0118,35,Male,Single,High School,IT Professional,Pune,Savings,168500.0,418600.0,719.0,1.7,5,157900.0,Signature,50076.5,24,2277.21,10836.8,13626.54,0,No Loan,0.0,On Time,Mass Affluent,31.71
+CUST0119,24,Female,Single,High School,Finance,Hyderabad,Savings,5000.0,746600.0,744.0,12.5,2,490700.0,Classic,35431.25,23,1898.97,3196.3,18956.69,0,Closed,185600.0,On Time,Mass Affluent,7.22
+CUST0120,54,Female,Married,High School,Retail,Hyderabad,Savings,270100.0,746300.0,709.0,4.1,3,465000.0,Classic,43854.35,22,1936.79,4663.72,24938.54,3,No Loan,0.0,Delayed,Mass Affluent,9.43
+CUST0121,47,Female,Married,Diploma,IT Professional,Pune,Savings,447900.0,908500.0,679.0,4.3,1,309500.0,Classic,32304.33,23,2004.34,5175.18,22019.29,0,No Loan,0.0,On Time,Mass Affluent,10.44
+CUST0122,21,Male,Single,Bachelor's,IT Professional,Pune,Savings,255800.0,875200.0,648.0,2.6,4,386100.0,Classic,17454.92,19,897.75,3487.07,5993.69,1,No Loan,0.0,Occasional Delay,Mass Affluent,4.52
+CUST0123,61,Male,Married,Master's,Retail,Bengaluru,Current,252100.0,1019900.0,762.0,3.6,3,547400.0,Classic,34074.17,20,2198.71,7908.15,23615.05,0,No Loan,0.0,On Time,Mass Affluent,6.22
+CUST0124,42,Male,Married,Bachelor's,Education,Kochi,Savings,68500.0,655800.0,605.0,2.0,3,336200.0,Platinum,13421.08,19,877.61,2981.22,4065.23,0,No Loan,0.0,On Time,Standard,3.99
+CUST0125,39,Female,Single,Bachelor's,Finance,Kolkata,Savings,141300.0,527700.0,597.0,7.6,6,182300.0,Signature,80292.04,26,3081.57,6308.13,40632.45,3,Closed,715100.0,Delayed,Mass Affluent,44.04
+CUST0126,57,Female,Married,High School,Finance,Pune,Savings,121800.0,688700.0,715.0,6.1,2,410400.0,Classic,27046.05,23,1563.92,1618.28,21248.33,0,Active,204900.0,On Time,Standard,6.59
+CUST0127,40,Male,Married,Bachelor's,Finance,Chennai,Savings,5000.0,358800.0,689.0,3.0,1,166100.0,Platinum,14664.86,22,708.18,851.67,9883.07,1,Active,303600.0,Occasional Delay,Basic,8.83
+CUST0128,56,Male,Divorced,High School,Business,Mumbai,Savings,144100.0,841200.0,684.0,11.7,3,418500.0,Gold,16697.52,18,1321.68,1946.28,9692.38,1,No Loan,0.0,Occasional Delay,Mass Affluent,3.99
+CUST0129,37,Female,Married,Bachelor's,Healthcare,Chennai,Savings,327300.0,745400.0,724.0,10.0,3,531300.0,Classic,13540.68,15,1274.33,1715.75,6345.09,1,No Loan,0.0,Occasional Delay,Mass Affluent,2.55
+CUST0130,22,Male,Married,Professional,Business,Ahmedabad,Salary,113600.0,980200.0,732.0,5.1,4,347900.0,Gold,22133.03,17,1463.84,825.89,9792.55,4,No Loan,0.0,Delayed,Mass Affluent,6.36
+CUST0131,54,Female,Single,Master's,Healthcare,Bengaluru,Current,12900.0,350400.0,681.0,1.5,2,99600.0,Gold,34985.58,26,1649.06,5512.43,17803.11,0,No Loan,0.0,On Time,Mass Affluent,35.13
+CUST0132,37,Male,Married,High School,Engineering,Kochi,Savings,86700.0,2174600.0,850.0,4.8,1,1335300.0,Platinum,65305.21,18,4210.0,12275.24,39725.04,2,Closed,639200.0,Occasional Delay,Premium,4.89
+CUST0133,49,Male,Single,High School,Healthcare,Hyderabad,Savings,36900.0,585400.0,648.0,10.6,4,204600.0,Platinum,33196.86,15,2301.85,5555.71,24859.17,0,Active,402400.0,On Time,Mass Affluent,16.23
+CUST0134,40,Male,Married,Master's,IT Professional,Pune,Savings,6500.0,180000.0,589.0,3.1,5,67800.0,Classic,19916.96,18,1448.44,2288.24,7396.53,2,Active,1651400.0,Occasional Delay,Basic,29.38
+CUST0135,49,Female,Married,Bachelor's,Retail,Mumbai,Savings,84800.0,664600.0,623.0,7.0,4,399400.0,Classic,38211.27,15,2429.75,3311.33,14585.56,0,Active,199300.0,On Time,Mass Affluent,9.57
+CUST0136,49,Male,Married,Bachelor's,Engineering,Ahmedabad,Current,162400.0,447000.0,723.0,3.3,5,165300.0,Gold,30483.89,16,2324.64,5344.73,19781.83,2,Active,353700.0,Occasional Delay,Mass Affluent,18.44
+CUST0137,25,Male,Married,Diploma,Education,Kolkata,Savings,17000.0,315100.0,647.0,1.8,2,95600.0,Classic,27883.46,15,2261.08,2388.93,20008.26,1,Closed,285000.0,Occasional Delay,Basic,29.17
+CUST0138,47,Female,Married,High School,Business,Kochi,Salary,395900.0,712900.0,676.0,6.0,2,375100.0,Gold,22207.02,21,1166.58,605.69,15996.26,0,No Loan,0.0,On Time,Mass Affluent,5.92
+CUST0139,61,Female,Married,Bachelor's,IT Professional,Mumbai,Savings,108200.0,644200.0,631.0,3.3,2,218500.0,Gold,11616.56,15,891.73,1582.93,7107.95,0,No Loan,0.0,On Time,Standard,5.32
+CUST0140,38,Female,Married,Bachelor's,Business,Ahmedabad,Savings,349400.0,1566400.0,677.0,1.6,3,764100.0,Classic,92660.42,21,4590.77,12654.93,30030.2,0,Active,140900.0,On Time,Premium,12.13
+CUST0141,33,Male,Married,Bachelor's,Government,Ahmedabad,Savings,114600.0,571400.0,744.0,5.0,4,417000.0,Classic,39863.75,22,2672.96,8600.38,24059.36,0,No Loan,0.0,On Time,Mass Affluent,9.56
+CUST0142,31,Female,Married,Master's,Other,Pune,Salary,200500.0,1129200.0,801.0,3.0,4,953300.0,Platinum,23514.51,17,1841.28,1789.07,11519.9,1,No Loan,0.0,Occasional Delay,Mass Affluent,2.47
+CUST0143,36,Male,Married,Professional,Education,Bengaluru,Savings,37700.0,286000.0,674.0,6.0,3,72300.0,Classic,43924.73,24,1770.97,3529.68,23651.54,0,No Loan,0.0,On Time,Mass Affluent,60.75
+CUST0144,25,Male,Married,Bachelor's,Engineering,Kolkata,Salary,169900.0,592200.0,625.0,2.0,3,265100.0,Classic,34605.76,18,1959.88,2422.36,16946.69,2,Closed,486700.0,Occasional Delay,Mass Affluent,13.05
+CUST0145,21,Female,Divorced,High School,Engineering,Hyderabad,Savings,119000.0,648600.0,732.0,3.5,1,209700.0,Classic,36184.98,16,2549.19,6751.55,21259.83,1,Closed,713300.0,Occasional Delay,Mass Affluent,17.26
+CUST0146,35,Female,Single,Bachelor's,Engineering,Hyderabad,Savings,128800.0,342200.0,560.0,6.8,3,128900.0,Gold,48339.72,22,2400.05,7018.34,33259.07,0,No Loan,0.0,On Time,Mass Affluent,37.5
+CUST0147,45,Female,Single,Master's,Business,Bengaluru,Savings,5000.0,1002800.0,742.0,3.9,3,304100.0,Gold,48609.8,21,2386.54,9549.19,16614.42,0,Closed,1016800.0,On Time,Mass Affluent,15.98
+CUST0148,45,Female,Single,Bachelor's,Engineering,Ahmedabad,Savings,73900.0,422700.0,615.0,3.3,5,248200.0,Classic,24816.96,22,1163.28,924.82,8218.55,0,No Loan,0.0,On Time,Standard,10.0
+CUST0149,57,Male,Single,Bachelor's,Business,Delhi,Salary,380900.0,839100.0,685.0,2.1,3,248300.0,Gold,104228.95,21,5688.83,16350.01,44697.27,0,Active,454100.0,On Time,Mass Affluent,41.98
+CUST0150,29,Female,Married,Master's,Business,Hyderabad,Savings,88100.0,419500.0,649.0,8.3,4,125200.0,Signature,14048.59,22,654.24,756.35,9448.41,2,Active,347300.0,Occasional Delay,Standard,11.22
+CUST0151,39,Male,Single,Professional,Business,Chennai,Savings,15600.0,353500.0,530.0,2.4,4,105400.0,Platinum,35535.23,23,1893.16,8194.43,12416.82,2,Closed,1098000.0,Occasional Delay,Mass Affluent,33.71
+CUST0152,37,Male,Married,Bachelor's,Healthcare,Jaipur,Savings,8600.0,292300.0,638.0,10.7,3,146400.0,Platinum,30139.395,25,2638.06,7838.41,20302.16,0,Active,686300.0,On Time,Mass Affluent,33.84
+CUST0153,33,Male,Divorced,Master's,IT Professional,Chennai,Savings,322800.0,1147300.0,720.0,2.7,2,663300.0,Gold,26355.12,18,1757.69,5875.87,6698.76,1,No Loan,0.0,Occasional Delay,Mass Affluent,3.97
+CUST0154,45,Male,Married,High School,Government,Ahmedabad,Savings,70900.0,719300.0,633.0,6.8,5,276400.0,Platinum,9119.15,20,564.25,1932.47,3568.09,0,Closed,266400.0,On Time,Mass Affluent,3.3
+CUST0155,53,Female,Single,High School,Government,Pune,Salary,230300.0,1778300.0,780.0,4.8,6,899000.0,Gold,23378.13,16,1442.25,2251.62,17093.97,2,Closed,1485300.0,Occasional Delay,Mass Affluent,2.6
+CUST0156,30,Male,Single,Master's,Business,Chennai,Savings,51600.0,679000.0,750.0,2.1,3,288200.0,Gold,55687.2,17,4492.44,9764.88,16161.03,1,Active,230100.0,Occasional Delay,Mass Affluent,19.32
+CUST0157,52,Male,Single,Diploma,IT Professional,Delhi,Current,186100.0,672700.0,633.0,5.0,2,436600.0,Classic,34138.07,18,1914.14,3667.82,18707.6,2,Active,1621500.0,Occasional Delay,Mass Affluent,7.82
+CUST0158,22,Female,Single,Diploma,Other,Bengaluru,Savings,49300.0,1278400.0,673.0,7.9,3,624400.0,Gold,32693.9,19,2141.88,6183.3,20851.69,0,Active,706600.0,On Time,Mass Affluent,5.24
+CUST0159,35,Female,Married,Bachelor's,IT Professional,Delhi,Savings,746600.0,1481900.0,733.0,6.6,3,518500.0,Signature,44581.13,21,2214.42,1951.41,17153.28,0,No Loan,0.0,On Time,Mass Affluent,8.6
+CUST0160,34,Male,Married,Bachelor's,IT Professional,Ahmedabad,Savings,523500.0,1409500.0,701.0,12.7,3,439200.0,Classic,75256.38,20,3811.21,10291.96,45141.12,1,No Loan,0.0,Occasional Delay,Premium,17.13
+CUST0161,26,Male,Married,Bachelor's,Engineering,Pune,Current,96100.0,876600.0,702.0,2.6,2,306700.0,Platinum,53917.98,19,3742.94,3320.41,33620.07,1,No Loan,0.0,Occasional Delay,Mass Affluent,17.58
+CUST0162,46,Male,Single,Bachelor's,Healthcare,Kolkata,Savings,393600.0,743100.0,686.0,9.2,1,401900.0,Classic,24051.02,19,1889.81,1099.55,13663.15,0,No Loan,0.0,On Time,Mass Affluent,5.98
+CUST0163,46,Male,Single,Bachelor's,Healthcare,Chennai,Savings,59700.0,1874800.0,850.0,1.7,2,698600.0,Gold,27103.38,18,1634.72,2655.39,20674.25,2,No Loan,0.0,Occasional Delay,Mass Affluent,3.88
+CUST0164,44,Female,Married,Bachelor's,Healthcare,Kochi,Current,186300.0,340200.0,719.0,1.1,5,120500.0,Platinum,52136.73,26,1940.85,12708.75,38229.74,2,No Loan,0.0,Occasional Delay,Mass Affluent,43.27
+CUST0165,25,Male,Divorced,Master's,Education,Ahmedabad,Salary,5000.0,1016500.0,676.0,9.3,4,724900.0,Classic,169331.85,24,8737.64,27015.78,43681.14,0,Active,408200.0,On Time,Mass Affluent,23.36
+CUST0166,27,Female,Married,Master's,Retail,Bengaluru,Current,73500.0,679800.0,697.0,7.7,3,219700.0,Gold,21248.52,17,1822.16,1569.04,12400.05,0,Active,364400.0,On Time,Standard,9.67
+CUST0167,31,Male,Married,Bachelor's,Healthcare,Kochi,Salary,15400.0,576900.0,668.0,4.0,3,387300.0,Platinum,45153.99,23,2955.5,2177.4,35714.06,0,No Loan,0.0,On Time,Mass Affluent,11.66
+CUST0168,36,Male,Married,High School,Government,Kolkata,Savings,169300.0,848200.0,718.0,10.4,2,487800.0,Classic,16146.93,19,957.64,3896.73,4606.98,0,Active,616500.0,On Time,Mass Affluent,3.31
+CUST0169,42,Female,Single,Professional,Business,Mumbai,Savings,295000.0,829000.0,647.0,6.2,3,545800.0,Signature,8307.27,16,581.8,1100.17,3776.89,0,No Loan,0.0,On Time,Mass Affluent,1.52
+CUST0170,46,Male,Single,Diploma,Business,Pune,Salary,544200.0,1017500.0,710.0,6.1,2,551200.0,Gold,43360.07,19,2766.13,6621.05,27684.65,0,Active,590700.0,On Time,Mass Affluent,7.87
+CUST0171,24,Male,Married,Bachelor's,Other,Hyderabad,Salary,84100.0,647900.0,669.0,4.2,3,432900.0,Gold,23315.24,19,1751.53,4206.91,9207.5,2,No Loan,0.0,Occasional Delay,Standard,5.39
+CUST0172,25,Female,Single,Bachelor's,Retail,Hyderabad,Current,37900.0,1302300.0,738.0,0.7,2,586300.0,Classic,27548.5,17,2299.74,3995.32,20811.26,0,Closed,406900.0,On Time,Mass Affluent,4.7
+CUST0173,35,Female,Married,Master's,Engineering,Chennai,Savings,113600.0,1092800.0,755.0,0.6,3,878800.0,Platinum,42812.29,28,1465.08,7240.4,32904.87,1,Active,643400.0,Occasional Delay,Mass Affluent,4.87
+CUST0174,45,Female,Married,Professional,IT Professional,Chennai,Savings,230100.0,719900.0,758.0,12.0,2,468300.0,Classic,40139.22,17,2756.31,2605.71,29465.15,0,Active,216400.0,On Time,Mass Affluent,8.57
+CUST0175,63,Male,Married,Bachelor's,IT Professional,Hyderabad,Savings,344500.0,590800.0,695.0,5.7,2,431300.0,Signature,13923.26,14,1201.97,850.14,5690.38,1,Active,261900.0,Occasional Delay,Standard,3.23
+CUST0176,41,Male,Married,Bachelor's,IT Professional,Chennai,Savings,179000.0,449300.0,633.0,4.3,5,211500.0,Classic,29770.02,25,1757.31,3525.98,23217.99,0,Active,784800.0,On Time,Standard,14.08
+CUST0177,26,Female,Single,Master's,IT Professional,Hyderabad,Salary,276300.0,1006200.0,748.0,7.2,5,545700.0,Classic,29583.55,18,1699.71,5884.54,17720.14,0,Closed,554300.0,On Time,Mass Affluent,5.42
+CUST0178,40,Female,Single,Bachelor's,Other,Kochi,Savings,253000.0,447100.0,654.0,5.1,5,191000.0,Classic,47972.44,19,2498.85,3240.58,28113.15,0,Active,454500.0,On Time,Mass Affluent,25.12
+CUST0179,29,Female,Single,Bachelor's,Retail,Kochi,Salary,207300.0,341000.0,701.0,12.2,2,185000.0,Platinum,26829.62,22,1500.45,3618.3,16193.93,0,No Loan,0.0,On Time,Basic,14.5
+CUST0180,36,Male,Single,Bachelor's,Healthcare,Mumbai,Current,371200.0,749000.0,738.0,2.3,3,556800.0,Classic,29769.81,24,1722.59,6528.02,7940.55,1,No Loan,0.0,Occasional Delay,Mass Affluent,5.35
+CUST0181,39,Male,Single,Master's,Engineering,Mumbai,Salary,5000.0,1002800.0,747.0,6.6,2,703100.0,Classic,48408.11,23,2635.85,4268.73,20402.53,0,No Loan,0.0,On Time,Mass Affluent,6.88
+CUST0182,38,Male,Married,Diploma,Finance,Kochi,Savings,103600.0,574700.0,636.0,5.5,1,180500.0,Platinum,15952.53,23,910.58,1156.24,7560.17,0,Closed,714500.0,On Time,Standard,8.84
+CUST0183,49,Male,Married,High School,Business,Pune,Current,385300.0,1067400.0,655.0,7.2,3,448300.0,Gold,81400.1,20,4000.55,14718.89,44949.36,0,Active,328600.0,On Time,Mass Affluent,18.16
+CUST0184,31,Male,Married,Master's,Government,Hyderabad,Salary,183800.0,753000.0,710.0,3.1,3,560000.0,Classic,48814.94,16,3840.53,9318.72,35576.04,0,Active,511200.0,On Time,Mass Affluent,8.72
+CUST0185,42,Male,Married,Master's,Government,Chennai,Current,96600.0,672600.0,676.0,13.3,3,280300.0,Signature,83791.87,25,3192.73,6404.05,29097.84,0,Active,72400.0,On Time,Mass Affluent,29.89
+CUST0186,21,Male,Single,Bachelor's,Finance,Pune,Salary,79800.0,898000.0,782.0,1.4,3,739900.0,Classic,27120.22,26,1128.89,2804.18,12506.23,0,No Loan,0.0,On Time,Mass Affluent,3.67
+CUST0187,22,Male,Single,Bachelor's,IT Professional,Kolkata,Current,93600.0,477700.0,634.0,1.1,5,287800.0,Platinum,86495.97,21,4573.25,6002.12,45296.87,1,Active,771900.0,Occasional Delay,Mass Affluent,30.05
+CUST0188,58,Male,Married,Bachelor's,Engineering,Chennai,Current,38800.0,559200.0,648.0,2.7,4,314100.0,Classic,32170.11,23,1601.3,6571.99,9425.65,0,No Loan,0.0,On Time,Mass Affluent,10.24
+CUST0189,41,Male,Married,Bachelor's,Business,Chennai,Savings,5000.0,864700.0,663.0,4.5,1,271200.0,Gold,30713.86,13,3073.12,1605.34,14511.61,1,No Loan,0.0,Occasional Delay,Mass Affluent,11.33
+CUST0190,28,Male,Married,Bachelor's,Government,Ahmedabad,Savings,164500.0,415600.0,703.0,10.1,1,220300.0,Signature,12968.37,11,1585.21,1865.75,6668.89,0,No Loan,0.0,On Time,Standard,5.89
+CUST0191,37,Male,Single,Master's,Healthcare,Pune,Savings,50400.0,494800.0,668.0,4.7,3,245500.0,Classic,55042.63,17,4077.86,4114.87,23277.63,0,Active,444900.0,On Time,Mass Affluent,22.42
+CUST0192,50,Male,Married,Professional,Finance,Kochi,Savings,56600.0,180800.0,645.0,2.1,4,73300.0,Classic,33926.21,21,1707.22,3315.96,22426.42,0,No Loan,0.0,On Time,Mass Affluent,46.28
+CUST0193,41,Male,Divorced,High School,Education,Ahmedabad,Savings,261300.0,983900.0,665.0,4.6,2,404300.0,Gold,57624.01,22,3897.99,4867.42,16417.73,1,Active,313100.0,Occasional Delay,Mass Affluent,14.25
+CUST0194,34,Male,Married,High School,Other,Kochi,Savings,315200.0,935600.0,734.0,0.9,3,533200.0,Classic,23342.4,24,1112.71,1825.65,14829.66,1,No Loan,0.0,Occasional Delay,Mass Affluent,4.38
+CUST0195,54,Male,Single,High School,Education,Delhi,Savings,365000.0,806500.0,695.0,13.7,4,225400.0,Platinum,40042.35,18,3364.46,5367.42,23008.93,1,Closed,2927200.0,Occasional Delay,Mass Affluent,17.77
+CUST0196,33,Male,Single,Bachelor's,Healthcare,Ahmedabad,Savings,326200.0,850000.0,689.0,4.4,2,370100.0,Classic,11432.89,19,923.14,1507.6,3560.76,0,No Loan,0.0,On Time,Mass Affluent,3.09
+CUST0197,43,Female,Single,Master's,Healthcare,Mumbai,Savings,492200.0,828000.0,710.0,18.3,4,400700.0,Classic,20611.15,12,1849.73,1335.22,13428.44,1,Closed,990900.0,Occasional Delay,Mass Affluent,5.14
+CUST0198,44,Male,Single,Bachelor's,Education,Kolkata,Salary,68700.0,312700.0,652.0,6.8,4,172700.0,Classic,26021.0,19,1342.99,4507.53,14358.27,0,No Loan,0.0,On Time,Basic,15.07
+CUST0199,45,Male,Married,Bachelor's,Finance,Mumbai,Savings,65100.0,621700.0,689.0,9.1,2,200400.0,Gold,20757.58,21,1004.82,693.65,10968.11,1,Closed,627800.0,Occasional Delay,Standard,10.36
+CUST0200,50,Male,Married,Diploma,Business,Kochi,Current,5000.0,603700.0,699.0,3.0,4,357800.0,Gold,67881.9,20,4184.88,4705.42,28500.2,1,No Loan,0.0,Occasional Delay,Mass Affluent,18.97
+CUST0201,30,Female,Divorced,Professional,Other,Bengaluru,Salary,5000.0,506000.0,652.0,18.2,2,256600.0,Classic,40714.42,23,2392.49,5983.44,25352.93,1,Active,592800.0,Occasional Delay,Mass Affluent,15.87
+CUST0202,48,Male,Single,Diploma,Education,Hyderabad,Savings,110500.0,367300.0,643.0,5.2,2,243000.0,Platinum,64254.77,22,3617.67,9992.55,21812.11,1,Active,394100.0,Occasional Delay,Mass Affluent,26.44
+CUST0203,39,Male,Divorced,Bachelor's,Other,Pune,Savings,5000.0,806500.0,706.0,3.8,5,548500.0,Classic,63834.96,26,2787.59,6007.76,46297.51,0,No Loan,0.0,On Time,Mass Affluent,11.64
+CUST0204,46,Female,Married,Diploma,IT Professional,Kolkata,Current,334900.0,825800.0,649.0,1.2,5,476900.0,Classic,57117.21,14,5220.35,4829.93,20181.32,0,Active,1078100.0,On Time,Mass Affluent,11.98
+CUST0205,57,Male,Married,Diploma,Retail,Delhi,Current,82000.0,287200.0,659.0,1.1,1,111900.0,Platinum,21778.4,25,897.09,4450.06,15529.93,2,No Loan,0.0,Occasional Delay,Basic,19.46
+CUST0206,37,Female,Single,Master's,Retail,Hyderabad,Savings,85500.0,506400.0,675.0,2.2,1,344200.0,Classic,17791.94,18,1080.66,2450.2,10328.38,1,No Loan,0.0,Occasional Delay,Standard,5.17
+CUST0207,45,Female,Married,Bachelor's,Government,Kolkata,Savings,115900.0,428900.0,683.0,4.3,2,268300.0,Gold,57151.89,18,3105.86,6869.95,20648.73,1,Active,438300.0,Occasional Delay,Mass Affluent,21.3
+CUST0208,34,Female,Divorced,Bachelor's,Education,Ahmedabad,Savings,172400.0,1082100.0,690.0,1.5,3,559600.0,Gold,35431.42,13,2977.94,4881.63,10501.22,1,Closed,988100.0,Occasional Delay,Mass Affluent,6.33
+CUST0209,42,Male,Married,Master's,Government,Jaipur,Savings,484400.0,1084900.0,763.0,1.2,2,827600.0,Classic,42728.83,21,2085.49,6637.43,26437.13,1,Closed,1166500.0,Occasional Delay,Mass Affluent,5.16
+CUST0210,40,Female,Single,Master's,IT Professional,Chennai,Savings,213800.0,457900.0,659.0,11.0,1,286300.0,Gold,43585.44,25,1675.61,1569.65,16604.06,0,No Loan,0.0,On Time,Mass Affluent,15.22
+CUST0211,31,Male,Married,Bachelor's,Healthcare,Chennai,Savings,5000.0,359000.0,666.0,7.3,2,155900.0,Classic,72003.48,21,3911.56,5260.36,38163.72,1,Active,979300.0,Occasional Delay,Mass Affluent,46.19
+CUST0212,21,Female,Married,High School,Education,Jaipur,Current,139200.0,607700.0,577.0,1.5,2,159800.0,Gold,21498.56,15,1482.74,2214.44,14715.17,1,No Loan,0.0,Occasional Delay,Standard,13.45
+CUST0213,37,Female,Married,Bachelor's,Other,Pune,Savings,237800.0,579300.0,680.0,7.6,5,170500.0,Classic,21520.26,16,1551.75,3809.87,11805.84,0,Active,98000.0,On Time,Standard,12.62
+CUST0214,33,Male,Single,High School,Engineering,Delhi,Salary,329200.0,704400.0,701.0,3.2,2,209600.0,Gold,38294.43,24,2109.1,2660.56,9635.72,0,Closed,226100.0,On Time,Mass Affluent,18.27
+CUST0215,43,Male,Single,Bachelor's,Retail,Kolkata,Salary,112000.0,391300.0,622.0,5.9,3,240000.0,Gold,36458.96,23,1890.77,5323.34,23168.02,0,No Loan,0.0,On Time,Mass Affluent,15.19
+CUST0216,44,Female,Divorced,Bachelor's,Engineering,Kolkata,Savings,272800.0,592100.0,626.0,7.0,2,323300.0,Gold,39266.6,18,2726.26,6798.9,14364.94,1,No Loan,0.0,Occasional Delay,Mass Affluent,12.15
+CUST0217,38,Male,Divorced,Professional,Government,Delhi,Savings,581100.0,970500.0,664.0,9.1,2,488700.0,Gold,24629.9,23,1307.87,5205.23,14645.62,1,Active,677100.0,Occasional Delay,Mass Affluent,5.04
+CUST0218,42,Female,Single,Master's,IT Professional,Mumbai,Savings,270400.0,1226600.0,646.0,2.6,2,661500.0,Gold,16658.4,22,821.38,1033.67,4764.88,1,No Loan,0.0,Occasional Delay,Mass Affluent,2.52
+CUST0219,45,Male,Married,Bachelor's,IT Professional,Hyderabad,Savings,11600.0,446500.0,619.0,6.0,5,229600.0,Gold,34683.94,26,1330.17,6536.65,15120.4,0,Active,1642300.0,On Time,Mass Affluent,15.11
+CUST0220,39,Female,Married,Professional,Healthcare,Jaipur,Savings,87000.0,334900.0,590.0,2.2,1,99300.0,Classic,27144.94,26,1501.19,4915.75,11933.43,1,No Loan,0.0,Occasional Delay,Basic,27.34
+CUST0221,55,Female,Divorced,Master's,IT Professional,Kochi,Current,145200.0,315000.0,635.0,11.8,1,97400.0,Classic,17999.7,14,1572.55,4231.34,8146.04,2,No Loan,0.0,Occasional Delay,Basic,18.48
+CUST0222,33,Female,Married,Bachelor's,Business,Kochi,Salary,199300.0,722600.0,718.0,6.3,3,549600.0,Platinum,43153.65,17,3241.92,9897.7,19750.24,2,No Loan,0.0,Occasional Delay,Mass Affluent,7.85
+CUST0223,26,Female,Married,High School,Business,Pune,Salary,113300.0,553900.0,674.0,1.3,3,251900.0,Gold,40108.39,8,6267.34,9616.14,18923.7,1,No Loan,0.0,Occasional Delay,Mass Affluent,15.92
+CUST0224,41,Male,Married,Bachelor's,Government,Hyderabad,Savings,161000.0,1084000.0,704.0,8.5,3,310300.0,Platinum,17457.51,26,1025.67,753.47,6338.11,1,Closed,771100.0,Occasional Delay,Mass Affluent,5.63
+CUST0225,21,Female,Single,Diploma,Engineering,Jaipur,Savings,339600.0,614200.0,580.0,6.3,4,335800.0,Classic,55149.34,22,3177.4,1113.22,32851.66,0,No Loan,0.0,On Time,Mass Affluent,16.42
+CUST0226,60,Female,Single,High School,Engineering,Jaipur,Salary,5000.0,634300.0,602.0,0.5,3,397900.0,Classic,29395.2,25,1167.43,4599.43,17206.17,0,Closed,456100.0,On Time,Standard,7.39
+CUST0227,40,Female,Married,Master's,Government,Ahmedabad,Salary,88500.0,401300.0,614.0,4.3,5,109500.0,Classic,7999.08,19,482.11,1910.17,3036.94,1,Active,1282500.0,Occasional Delay,Standard,7.31
+CUST0228,42,Female,Married,Bachelor's,Retail,Pune,Current,5000.0,1011000.0,711.0,9.0,4,613000.0,Classic,16315.15,19,1209.03,1341.75,6838.53,0,No Loan,0.0,On Time,Mass Affluent,2.66
+CUST0229,55,Female,Single,Bachelor's,Engineering,Kochi,Savings,152100.0,370300.0,635.0,6.2,2,140800.0,Platinum,20704.77,18,1255.71,611.9,6172.97,0,No Loan,0.0,On Time,Basic,14.71
+CUST0230,43,Female,Married,Professional,Business,Ahmedabad,Savings,241800.0,1050700.0,683.0,1.5,5,475800.0,Gold,4903.8,16,427.32,171.6,1910.23,1,Closed,1195200.0,Occasional Delay,Mass Affluent,1.03
+CUST0231,30,Female,Single,Master's,Education,Jaipur,Savings,149200.0,813000.0,682.0,1.5,5,248800.0,Gold,35646.86,21,1954.37,6471.4,19641.87,1,Active,1278800.0,Occasional Delay,Mass Affluent,14.33
+CUST0232,27,Female,Married,Master's,Finance,Hyderabad,Savings,259400.0,399200.0,661.0,4.5,3,145600.0,Classic,39571.91,19,2056.43,7284.42,18553.96,2,No Loan,0.0,Occasional Delay,Mass Affluent,27.18
+CUST0233,41,Male,Single,Bachelor's,Healthcare,Bengaluru,Savings,297300.0,931100.0,672.0,1.2,3,518500.0,Platinum,9240.53,15,691.34,1437.42,7102.69,1,Closed,1374300.0,Occasional Delay,Mass Affluent,1.78
+CUST0234,55,Female,Married,Master's,Engineering,Kolkata,Savings,232200.0,598900.0,612.0,0.6,3,327700.0,Gold,41942.29,17,3079.78,9860.72,11642.31,0,Active,135100.0,On Time,Mass Affluent,12.8
+CUST0235,28,Male,Divorced,Professional,Government,Kochi,Savings,422900.0,1075900.0,774.0,3.5,5,428200.0,Platinum,44253.69,23,2705.09,5755.72,29955.49,1,Active,481500.0,Occasional Delay,Mass Affluent,10.33
+CUST0236,22,Female,Divorced,Bachelor's,Retail,Jaipur,Savings,305200.0,706300.0,681.0,5.0,2,472300.0,Gold,55347.92,17,3136.0,6135.54,27150.75,1,Closed,929600.0,Occasional Delay,Mass Affluent,11.72
+CUST0237,44,Female,Married,Master's,Other,Jaipur,Savings,5000.0,1193900.0,703.0,0.6,4,675000.0,Classic,39067.87,19,3071.72,7827.68,16803.74,1,Active,255600.0,Occasional Delay,Mass Affluent,5.79
+CUST0238,43,Male,Married,Bachelor's,Education,Chennai,Savings,78600.0,342900.0,627.0,6.2,3,97200.0,Classic,30981.67,18,1739.07,1119.23,15878.52,2,Closed,279300.0,Occasional Delay,Mass Affluent,31.87
+CUST0239,30,Male,Divorced,High School,Business,Chennai,Savings,5000.0,537500.0,734.0,1.2,3,408200.0,Gold,26538.75,15,1750.01,1083.84,16083.65,0,Active,1001000.0,On Time,Standard,6.5
+CUST0240,42,Male,Married,Bachelor's,Engineering,Jaipur,Savings,597500.0,1612600.0,750.0,5.4,4,754800.0,Platinum,35206.3,16,2611.06,4848.42,24351.92,2,No Loan,0.0,Occasional Delay,Mass Affluent,4.66
+CUST0241,45,Male,Single,Bachelor's,Engineering,Jaipur,Salary,139900.0,644700.0,590.0,4.6,5,236000.0,Classic,49367.87,25,2760.92,1763.36,24376.21,2,Closed,512200.0,Occasional Delay,Mass Affluent,20.92
+CUST0242,45,Female,Single,Bachelor's,Business,Pune,Savings,224600.0,522600.0,641.0,3.8,1,151500.0,Signature,41800.89,15,2936.85,2933.51,11772.44,0,No Loan,0.0,On Time,Mass Affluent,27.59
+CUST0243,50,Male,Married,Professional,Finance,Pune,Salary,87600.0,459500.0,715.0,6.0,1,296000.0,Classic,24809.74,18,1890.4,2292.37,15304.11,0,Closed,1772300.0,On Time,Standard,8.38
+CUST0244,49,Male,Single,Master's,Finance,Bengaluru,Current,297500.0,685500.0,661.0,2.5,1,271200.0,Classic,27818.86,22,1484.19,5653.62,8886.42,0,No Loan,0.0,On Time,Standard,10.26
+CUST0245,22,Female,Married,Master's,Education,Hyderabad,Savings,339600.0,768100.0,649.0,2.0,3,267100.0,Platinum,18420.24,16,1458.52,3543.57,10926.83,0,Closed,167100.0,On Time,Mass Affluent,6.9
+CUST0246,47,Male,Single,Master's,Engineering,Pune,Current,88900.0,938500.0,750.0,9.6,2,385600.0,Classic,30148.54,18,1649.22,2549.94,8626.22,2,No Loan,0.0,Occasional Delay,Mass Affluent,7.82
+CUST0247,45,Female,Married,Bachelor's,Government,Ahmedabad,Savings,211400.0,531900.0,706.0,4.6,2,170500.0,Classic,31681.27,16,2703.14,1803.55,22893.4,0,Closed,219000.0,On Time,Mass Affluent,18.58
+CUST0248,50,Male,Married,Master's,Other,Kochi,Current,146900.0,558600.0,647.0,3.2,3,332600.0,Classic,20914.21,24,934.01,1369.13,8565.63,0,No Loan,0.0,On Time,Standard,6.29
+CUST0249,61,Male,Married,Bachelor's,Finance,Kolkata,Salary,174400.0,699800.0,712.0,4.5,1,456000.0,Classic,17434.34,19,1278.38,1446.52,13084.89,0,No Loan,0.0,On Time,Standard,3.82
+CUST0250,33,Male,Single,Master's,Education,Pune,Salary,349600.0,873600.0,697.0,8.6,5,335800.0,Classic,78180.86,23,4578.29,2993.59,36058.96,3,Active,590200.0,Delayed,Mass Affluent,23.28
+CUST0251,21,Male,Single,Bachelor's,Business,Bengaluru,Savings,5000.0,772000.0,674.0,7.9,2,315600.0,Platinum,17477.94,18,1430.24,2495.57,9460.24,0,Closed,414000.0,On Time,Mass Affluent,5.54
+CUST0252,56,Female,Married,Professional,IT Professional,Mumbai,Savings,5000.0,1151800.0,740.0,7.0,1,652300.0,Platinum,10052.72,21,680.64,2356.86,4267.13,1,No Loan,0.0,Occasional Delay,Mass Affluent,1.54
+CUST0253,44,Female,Single,Master's,Healthcare,Kolkata,Savings,95700.0,393300.0,695.0,2.9,1,182100.0,Classic,19057.13,17,1068.34,4345.49,10385.13,2,Active,165500.0,Occasional Delay,Basic,10.47
+CUST0254,54,Female,Single,Master's,Business,Pune,Salary,146300.0,559200.0,672.0,6.2,1,249700.0,Classic,59396.42,19,3818.28,10747.88,21236.9,2,No Loan,0.0,Occasional Delay,Mass Affluent,23.79
+CUST0255,40,Male,Married,Master's,Education,Kolkata,Salary,97100.0,674300.0,638.0,8.1,2,286900.0,Platinum,26951.61,17,2100.47,5705.41,16871.23,0,No Loan,0.0,On Time,Standard,9.39
+CUST0256,36,Male,Married,Diploma,Retail,Pune,Savings,24200.0,243400.0,638.0,6.6,3,64200.0,Classic,85765.18,23,4875.72,3897.5,33919.42,2,Active,467200.0,Occasional Delay,Mass Affluent,99.9
+CUST0257,58,Female,Divorced,Diploma,Government,Jaipur,Savings,328800.0,783400.0,596.0,7.7,7,320000.0,Gold,50639.12,19,2548.73,2734.11,26235.5,2,Active,515200.0,Occasional Delay,Mass Affluent,15.82
+CUST0258,44,Male,Single,Bachelor's,Education,Pune,Savings,204100.0,1313200.0,781.0,6.6,4,881100.0,Classic,19060.76,15,1527.19,539.57,7964.18,0,Active,133600.0,On Time,Mass Affluent,2.16
+CUST0259,44,Male,Single,Bachelor's,Healthcare,Delhi,Savings,133100.0,290400.0,672.0,3.7,2,196800.0,Classic,4425.82,24,273.34,188.86,2869.8,0,No Loan,0.0,On Time,Basic,2.25
+CUST0260,35,Male,Married,High School,Engineering,Pune,Salary,201400.0,658200.0,690.0,19.7,2,399800.0,Platinum,15167.43,19,837.62,3585.57,7312.7,0,Active,798200.0,On Time,Standard,3.79
+CUST0261,44,Female,Married,Master's,Business,Jaipur,Savings,257000.0,580100.0,723.0,4.5,2,213500.0,Platinum,43955.79,22,2079.51,3260.28,16237.39,1,Closed,1029600.0,Occasional Delay,Mass Affluent,20.59
+CUST0262,34,Female,Single,Bachelor's,IT Professional,Jaipur,Salary,69000.0,924900.0,778.0,5.1,4,282900.0,Platinum,29370.57,24,1281.64,6660.98,9999.17,1,No Loan,0.0,Occasional Delay,Mass Affluent,10.38
+CUST0263,39,Female,Married,Bachelor's,Retail,Chennai,Savings,316400.0,1170600.0,737.0,4.0,5,435600.0,Classic,32432.08,17,2407.22,7709.41,11546.86,0,No Loan,0.0,On Time,Mass Affluent,7.45
+CUST0264,35,Female,Single,Master's,Engineering,Kolkata,Salary,91600.0,884800.0,728.0,4.1,4,560200.0,Signature,24627.24,21,1480.65,3455.39,12201.67,0,Active,477400.0,On Time,Mass Affluent,4.4
+CUST0265,54,Male,Divorced,Professional,IT Professional,Jaipur,Salary,66700.0,1419200.0,731.0,9.8,2,574500.0,Gold,32855.83,20,2326.28,8092.94,26116.92,2,Active,296800.0,Occasional Delay,Mass Affluent,5.72
+CUST0266,31,Male,Single,Master's,Government,Delhi,Salary,280000.0,977100.0,721.0,6.4,3,688000.0,Classic,55048.62,22,3342.83,11459.06,37822.79,1,Active,228400.0,Occasional Delay,Mass Affluent,8.0
+CUST0267,65,Female,Married,Master's,Finance,Bengaluru,Salary,104200.0,397500.0,697.0,6.4,5,287300.0,Gold,24168.66,17,1818.49,542.06,13531.59,1,Closed,124100.0,Occasional Delay,Basic,8.41
+CUST0268,41,Female,Married,Professional,Finance,Hyderabad,Savings,192000.0,508300.0,555.0,6.2,3,246600.0,Gold,6288.31,14,637.11,1135.5,3333.41,4,No Loan,0.0,Delayed,Standard,2.55
+CUST0269,26,Male,Married,Master's,Government,Pune,Savings,180300.0,718800.0,593.0,6.3,2,164300.0,Platinum,15872.99,18,1049.37,3194.89,9681.78,1,Closed,420800.0,Occasional Delay,Mass Affluent,9.66
+CUST0270,28,Female,Single,Bachelor's,Engineering,Chennai,Savings,69500.0,462300.0,667.0,7.4,3,280000.0,Platinum,29470.78,18,1755.56,4785.77,21613.57,0,No Loan,0.0,On Time,Standard,10.53
+CUST0271,35,Male,Married,Bachelor's,Government,Mumbai,Savings,300500.0,1251200.0,747.0,14.1,5,865300.0,Signature,22628.45,21,1441.04,2124.79,11497.78,2,No Loan,0.0,Occasional Delay,Mass Affluent,2.62
+CUST0272,41,Female,Single,Master's,Healthcare,Jaipur,Savings,5000.0,573400.0,645.0,4.7,6,242400.0,Classic,23179.84,11,2399.27,1041.37,8881.42,0,Closed,1074100.0,On Time,Standard,9.56
+CUST0273,39,Female,Married,Diploma,Other,Kochi,Savings,126700.0,309900.0,655.0,6.4,3,134500.0,Gold,70831.74,21,3237.09,9987.07,37047.2,0,Active,292500.0,On Time,Mass Affluent,52.66
+CUST0274,43,Female,Married,Bachelor's,IT Professional,Jaipur,Savings,26200.0,180000.0,588.0,6.0,5,59800.0,Classic,52486.74,16,3378.02,8710.87,17293.08,3,Closed,1234900.0,Delayed,Mass Affluent,87.77
+CUST0275,68,Female,Single,High School,Government,Chennai,Savings,263900.0,787800.0,764.0,5.1,7,446200.0,Platinum,21758.29,25,1108.91,4486.06,17259.09,1,Active,365600.0,Occasional Delay,Mass Affluent,4.88
+CUST0276,46,Male,Married,Bachelor's,Retail,Kolkata,Savings,236900.0,844700.0,647.0,16.7,4,560900.0,Classic,26316.64,22,1684.18,4916.49,13411.9,0,Closed,636200.0,On Time,Mass Affluent,4.69
+CUST0277,45,Male,Married,High School,Engineering,Pune,Savings,5000.0,673400.0,553.0,4.4,5,159000.0,Classic,13353.0,16,906.95,401.8,9733.75,1,No Loan,0.0,Occasional Delay,Standard,8.4
+CUST0278,28,Male,Divorced,Diploma,Retail,Hyderabad,Savings,210200.0,897900.0,746.0,5.8,5,270200.0,Gold,21726.29,14,1711.25,1867.57,17115.66,1,No Loan,0.0,Occasional Delay,Mass Affluent,8.04
+CUST0279,21,Male,Single,Professional,Business,Pune,Salary,257100.0,1447500.0,683.0,4.5,2,906600.0,Classic,250000.0,28,14793.19,23498.42,71927.26,0,Active,75900.0,On Time,Premium,27.58
+CUST0280,48,Female,Single,High School,Engineering,Jaipur,Savings,5000.0,589200.0,665.0,10.2,4,188500.0,Platinum,26628.89,20,1715.1,1334.57,20620.46,0,Active,726300.0,On Time,Standard,14.13
+CUST0281,43,Male,Single,Master's,IT Professional,Chennai,Salary,73600.0,507400.0,664.0,3.1,5,213100.0,Gold,20916.42,18,1622.4,842.36,11104.57,0,Active,657700.0,On Time,Standard,9.82
+CUST0282,46,Female,Single,High School,Business,Pune,Savings,91700.0,783400.0,736.0,2.9,2,261900.0,Platinum,41809.7,23,1763.71,9252.38,28052.86,1,No Loan,0.0,Occasional Delay,Mass Affluent,15.96
+CUST0283,50,Male,Single,Master's,Retail,Jaipur,Current,198600.0,1031600.0,666.0,1.0,3,455800.0,Classic,14704.65,17,1316.23,3207.11,9964.71,2,Closed,381200.0,Occasional Delay,Mass Affluent,3.23
+CUST0284,41,Female,Single,Master's,Other,Kochi,Salary,386600.0,1898400.0,788.0,5.8,3,1386400.0,Gold,18730.05,20,1152.33,1291.37,4780.47,0,No Loan,0.0,On Time,Mass Affluent,1.35
+CUST0285,30,Male,Single,Professional,Finance,Chennai,Current,69500.0,180000.0,622.0,8.1,4,43300.0,Platinum,47625.22,18,2858.5,4604.54,30741.23,0,Closed,389700.0,On Time,Mass Affluent,99.9
+CUST0286,47,Female,Single,Master's,Finance,Hyderabad,Savings,241300.0,482700.0,630.0,10.9,4,208100.0,Gold,24192.18,15,1662.43,1312.69,9197.52,0,Active,1587500.0,On Time,Standard,11.63
+CUST0287,47,Male,Married,Bachelor's,Business,Pune,Savings,5000.0,657500.0,659.0,12.8,2,418400.0,Signature,13346.93,16,1077.82,783.92,5576.49,1,No Loan,0.0,Occasional Delay,Standard,3.19
+CUST0288,61,Female,Single,High School,Healthcare,Hyderabad,Salary,208000.0,455600.0,611.0,13.0,2,206600.0,Gold,43402.32,18,2952.04,10086.92,14438.35,2,Closed,309600.0,Occasional Delay,Mass Affluent,21.01
+CUST0289,51,Female,Divorced,Diploma,Business,Delhi,Savings,428700.0,986900.0,663.0,4.6,4,407800.0,Gold,54012.3,21,3291.62,12111.44,22581.39,2,Active,359200.0,Occasional Delay,Mass Affluent,13.24
+CUST0290,42,Female,Married,Bachelor's,IT Professional,Ahmedabad,Salary,162800.0,415000.0,627.0,7.7,3,240400.0,Classic,103267.25,22,4696.88,8476.72,65831.5,4,Closed,1349200.0,Delayed,Mass Affluent,42.96
+CUST0291,34,Female,Single,Master's,Education,Jaipur,Savings,118900.0,258700.0,659.0,7.9,5,75300.0,Gold,13544.04,12,1380.68,1646.76,9578.6,1,Active,752600.0,Occasional Delay,Basic,17.99
+CUST0292,59,Female,Married,High School,Finance,Ahmedabad,Current,5000.0,799100.0,720.0,3.1,3,228500.0,Platinum,12424.94,25,739.24,1088.74,9315.43,1,Active,162600.0,Occasional Delay,Mass Affluent,5.44
+CUST0293,42,Male,Single,Bachelor's,Business,Jaipur,Savings,159400.0,1162100.0,731.0,0.9,5,488700.0,Gold,34477.03,22,2000.43,2138.64,18499.05,1,No Loan,0.0,Occasional Delay,Mass Affluent,7.05
+CUST0294,51,Male,Single,Master's,IT Professional,Ahmedabad,Savings,171700.0,382000.0,679.0,10.3,4,153600.0,Gold,28995.92,14,2058.26,662.15,15968.01,0,No Loan,0.0,On Time,Basic,18.88
+CUST0295,37,Male,Married,Bachelor's,Engineering,Ahmedabad,Savings,295400.0,816400.0,650.0,1.1,5,380800.0,Platinum,27053.55,18,1996.87,574.38,14541.22,0,Active,969500.0,On Time,Mass Affluent,7.1
+CUST0296,21,Male,Married,Bachelor's,Engineering,Hyderabad,Savings,5000.0,992800.0,657.0,2.2,3,283400.0,Gold,34447.25,21,2056.46,3674.54,15412.84,0,No Loan,0.0,On Time,Mass Affluent,12.15
+CUST0297,21,Female,Married,Master's,Business,Bengaluru,Savings,292100.0,458500.0,623.0,1.1,7,139500.0,Gold,16255.13,21,869.28,1307.34,4582.21,1,No Loan,0.0,Occasional Delay,Standard,11.65
+CUST0298,37,Female,Married,High School,Education,Kochi,Savings,19600.0,654100.0,699.0,7.5,3,268500.0,Gold,27174.63,18,1463.25,2791.85,12265.04,0,Active,2781600.0,On Time,Standard,10.12
+CUST0299,43,Female,Single,Bachelor's,Other,Bengaluru,Current,201100.0,593300.0,648.0,1.4,1,385000.0,Gold,29783.84,19,1594.29,1394.34,23247.98,0,No Loan,0.0,On Time,Standard,7.74
+CUST0300,54,Male,Single,Master's,Government,Bengaluru,Savings,47800.0,660500.0,610.0,4.4,5,83600.0,Classic,18963.14,16,1207.55,1948.71,10679.48,2,Active,313800.0,Occasional Delay,Basic,22.68
+CUST0301,42,Male,Married,Diploma,Government,Delhi,Salary,53400.0,381000.0,629.0,7.9,4,171100.0,Classic,21113.35,19,1462.04,1494.26,12835.21,0,Active,225400.0,On Time,Basic,12.34
+CUST0302,43,Male,Married,High School,Finance,Kochi,Salary,287500.0,866400.0,744.0,10.2,4,470100.0,Classic,43691.78,26,1946.9,7857.43,16833.57,5,No Loan,0.0,Delayed,Mass Affluent,9.29
+CUST0303,49,Male,Married,Professional,Other,Kolkata,Current,68100.0,349200.0,640.0,2.4,4,117200.0,Gold,54288.59,23,2517.46,5695.6,34635.04,0,No Loan,0.0,On Time,Mass Affluent,46.32
+CUST0304,46,Male,Single,Bachelor's,IT Professional,Kolkata,Savings,291000.0,580200.0,640.0,6.2,6,230900.0,Gold,70121.72,21,3915.94,7128.5,48089.59,1,Active,809600.0,Occasional Delay,Mass Affluent,30.37
+CUST0305,47,Male,Married,Diploma,IT Professional,Hyderabad,Savings,128300.0,548800.0,676.0,8.1,4,349000.0,Classic,26796.34,19,1432.05,3702.89,17255.36,0,Active,259300.0,On Time,Standard,7.68
+CUST0306,38,Female,Single,Diploma,Healthcare,Delhi,Current,296700.0,1196300.0,730.0,0.6,5,604700.0,Signature,29333.1,14,2899.38,6032.55,9178.57,1,Active,365000.0,Occasional Delay,Mass Affluent,4.85
+CUST0307,43,Female,Divorced,High School,Government,Chennai,Savings,53000.0,458400.0,647.0,10.5,2,177000.0,Platinum,43648.56,30,1743.31,6569.94,21436.63,1,Closed,146000.0,Occasional Delay,Mass Affluent,24.66
+CUST0308,51,Male,Married,Bachelor's,Government,Bengaluru,Savings,175000.0,717800.0,641.0,1.0,5,380000.0,Signature,41201.27,24,1788.66,6162.31,11071.23,1,No Loan,0.0,Occasional Delay,Mass Affluent,10.84
+CUST0309,43,Female,Married,Professional,Engineering,Bengaluru,Salary,520900.0,1719500.0,772.0,7.6,6,807600.0,Gold,12718.72,19,994.69,544.97,5634.18,0,Active,1102100.0,On Time,Mass Affluent,1.57
+CUST0310,41,Male,Single,High School,Government,Delhi,Savings,384600.0,1294400.0,733.0,9.7,4,738800.0,Platinum,70773.1,22,3097.87,13684.15,22636.38,0,Active,716900.0,On Time,Premium,9.58
+CUST0311,32,Male,Single,High School,IT Professional,Hyderabad,Savings,137500.0,841400.0,726.0,5.8,2,372800.0,Classic,20134.33,14,2062.36,2568.19,6671.72,1,Active,676800.0,Occasional Delay,Mass Affluent,5.4
+CUST0312,67,Female,Single,Diploma,IT Professional,Pune,Savings,44400.0,247900.0,558.0,1.7,2,72300.0,Classic,34296.91,19,2663.6,3197.98,22150.57,2,Active,1363500.0,Occasional Delay,Mass Affluent,47.44
+CUST0313,47,Male,Single,High School,Retail,Bengaluru,Savings,167600.0,419600.0,602.0,3.3,2,96100.0,Platinum,20291.87,26,1104.6,2922.14,6132.44,0,Closed,281000.0,On Time,Standard,21.12
+CUST0314,58,Female,Married,Bachelor's,Government,Delhi,Current,108200.0,444800.0,609.0,3.5,2,144100.0,Classic,27716.22,18,1502.84,1014.91,19993.81,0,No Loan,0.0,On Time,Standard,19.23
+CUST0315,36,Female,Single,Bachelor's,Business,Mumbai,Savings,160500.0,737100.0,705.0,3.8,1,415700.0,Platinum,43881.62,26,1959.17,3340.09,20377.12,1,No Loan,0.0,Occasional Delay,Mass Affluent,10.56
+CUST0316,30,Male,Single,Bachelor's,Engineering,Kolkata,Savings,34500.0,969200.0,715.0,20.0,3,381300.0,Signature,28126.99,11,2798.11,3084.28,9413.14,0,No Loan,0.0,On Time,Mass Affluent,7.38
+CUST0317,26,Female,Single,Master's,IT Professional,Bengaluru,Savings,265200.0,657200.0,606.0,3.5,4,393900.0,Gold,10510.17,12,1128.2,1828.14,7604.28,1,No Loan,0.0,Occasional Delay,Standard,2.67
+CUST0318,40,Female,Single,High School,Retail,Kochi,Savings,251100.0,545900.0,659.0,0.7,7,145500.0,Classic,18058.09,15,1332.98,3173.41,5312.53,1,Closed,558600.0,Occasional Delay,Standard,12.41
+CUST0319,44,Male,Married,High School,Retail,Chennai,Savings,146100.0,683600.0,633.0,1.1,3,283200.0,Platinum,42718.32,29,1924.28,5471.46,16707.34,1,No Loan,0.0,Occasional Delay,Mass Affluent,15.08
+CUST0320,36,Male,Married,High School,Government,Chennai,Savings,99400.0,519200.0,735.0,7.4,4,399700.0,Classic,39755.26,18,2437.85,871.69,11701.31,2,Active,99600.0,Occasional Delay,Mass Affluent,9.95
+CUST0321,32,Male,Single,Diploma,IT Professional,Mumbai,Savings,252700.0,664400.0,615.0,0.8,1,406100.0,Gold,20298.9,19,1217.92,4359.83,7350.08,0,No Loan,0.0,On Time,Standard,5.0
+CUST0322,44,Male,Married,Bachelor's,IT Professional,Jaipur,Savings,71300.0,404700.0,690.0,2.9,6,251200.0,Classic,6199.21,19,318.34,264.71,2747.74,0,No Loan,0.0,On Time,Standard,2.47
+CUST0323,36,Male,Single,Bachelor's,Finance,Chennai,Savings,131000.0,630300.0,619.0,3.5,6,203400.0,Classic,80552.52,32,3420.02,7452.56,26147.57,3,Active,332200.0,Delayed,Mass Affluent,39.6
+CUST0324,53,Female,Divorced,Bachelor's,Engineering,Jaipur,Salary,224000.0,860600.0,671.0,4.4,4,587700.0,Classic,31939.92,27,1522.86,3882.08,17532.32,0,Active,450700.0,On Time,Mass Affluent,5.43
+CUST0325,39,Female,Married,Professional,Finance,Hyderabad,Current,397800.0,872400.0,724.0,5.7,2,332300.0,Platinum,19336.06,15,1488.43,4022.45,6742.84,0,Active,693200.0,On Time,Mass Affluent,5.82
+CUST0326,33,Male,Married,Diploma,IT Professional,Chennai,Salary,32400.0,514800.0,649.0,2.7,4,276500.0,Classic,68075.99,20,3894.52,7980.79,28967.88,0,Active,373900.0,On Time,Mass Affluent,24.62
+CUST0327,21,Male,Married,Diploma,Government,Hyderabad,Salary,40800.0,799500.0,668.0,4.5,4,492400.0,Gold,71632.46,21,4833.27,16477.06,37442.92,3,No Loan,0.0,Delayed,Mass Affluent,14.55
+CUST0328,52,Male,Married,Bachelor's,Business,Kochi,Savings,264700.0,572900.0,627.0,4.0,1,200700.0,Gold,31366.77,20,1672.3,4059.78,17841.26,0,No Loan,0.0,On Time,Mass Affluent,15.63
+CUST0329,22,Male,Married,Bachelor's,Education,Delhi,Current,153900.0,760700.0,686.0,7.1,1,430300.0,Signature,10747.27,22,727.41,2226.62,5689.4,0,Closed,987900.0,On Time,Mass Affluent,2.5
+CUST0330,21,Male,Single,Professional,Business,Ahmedabad,Salary,263800.0,493800.0,630.0,4.0,4,146800.0,Gold,10151.08,19,722.5,1522.68,4728.57,0,Active,473100.0,On Time,Standard,6.91
+CUST0331,65,Male,Married,Bachelor's,Education,Bengaluru,Current,271300.0,614700.0,575.0,5.7,7,213200.0,Platinum,43247.14,23,2695.13,1622.92,17028.03,5,Active,294500.0,Delayed,Mass Affluent,20.28
+CUST0332,48,Female,Single,Master's,Finance,Pune,Savings,5000.0,1487300.0,773.0,3.9,4,835800.0,Classic,12955.65,14,925.22,2442.28,3678.62,2,Active,943100.0,Occasional Delay,Mass Affluent,1.55
+CUST0333,42,Male,Married,Bachelor's,Finance,Pune,Current,31900.0,517000.0,652.0,3.1,7,139100.0,Platinum,8782.36,20,526.33,2020.33,6893.64,0,No Loan,0.0,On Time,Standard,6.31
+CUST0334,58,Male,Single,Bachelor's,IT Professional,Kochi,Current,55000.0,1288000.0,670.0,1.9,1,593400.0,Platinum,51345.56,19,2880.81,3223.74,34610.64,0,No Loan,0.0,On Time,Mass Affluent,8.65
+CUST0335,35,Female,Married,Professional,Government,Hyderabad,Savings,106800.0,703700.0,701.0,2.0,2,333500.0,Classic,18032.6,13,1854.36,485.65,6317.24,1,No Loan,0.0,Occasional Delay,Mass Affluent,5.41
+CUST0336,30,Male,Single,Master's,Healthcare,Kolkata,Salary,17500.0,633200.0,645.0,5.9,2,423800.0,Classic,53773.64,19,2819.9,10435.94,39812.99,1,Active,1442000.0,Occasional Delay,Mass Affluent,12.69
+CUST0337,46,Female,Single,Bachelor's,Education,Jaipur,Savings,305600.0,994600.0,622.0,1.7,1,241300.0,Platinum,55098.26,19,2900.86,12074.9,16685.42,0,No Loan,0.0,On Time,Mass Affluent,22.83
+CUST0338,33,Male,Married,High School,IT Professional,Mumbai,Savings,11500.0,273700.0,624.0,5.6,2,168700.0,Platinum,41349.71,18,3376.85,9216.44,28466.16,3,Active,1074900.0,Delayed,Mass Affluent,24.51
+CUST0339,27,Male,Single,Bachelor's,Other,Chennai,Savings,211400.0,563800.0,681.0,6.8,4,362300.0,Gold,11106.1,13,1021.84,1912.84,5219.64,2,Closed,374700.0,Occasional Delay,Standard,3.07
+CUST0340,33,Male,Single,Diploma,Education,Hyderabad,Salary,133700.0,456100.0,664.0,10.7,3,168600.0,Classic,86323.04,25,4479.88,19679.29,52262.08,0,Closed,329200.0,On Time,Mass Affluent,51.2
+CUST0341,42,Female,Married,Master's,IT Professional,Jaipur,Savings,233400.0,862100.0,645.0,1.9,3,419300.0,Classic,17813.17,14,1944.09,1184.06,12930.73,1,Active,462400.0,Occasional Delay,Mass Affluent,4.25
+CUST0342,31,Male,Married,Bachelor's,Finance,Mumbai,Savings,447800.0,797600.0,567.0,9.3,2,211300.0,Gold,32195.42,21,1678.36,1210.38,18873.95,3,Closed,147300.0,Delayed,Mass Affluent,15.24
+CUST0343,51,Male,Married,Professional,Education,Ahmedabad,Savings,77600.0,358200.0,647.0,4.1,4,149400.0,Signature,35099.34,19,1834.66,4531.66,9255.88,0,No Loan,0.0,On Time,Mass Affluent,23.49
+CUST0344,46,Female,Married,Bachelor's,Education,Kochi,Savings,50400.0,744700.0,718.0,6.3,5,561200.0,Signature,29030.71,23,1505.69,7062.76,9219.34,1,No Loan,0.0,Occasional Delay,Mass Affluent,5.17
+CUST0345,35,Male,Married,Diploma,Business,Chennai,Savings,175800.0,888400.0,719.0,3.9,5,263800.0,Platinum,47051.88,20,3446.14,2820.73,25219.2,0,Active,799200.0,On Time,Mass Affluent,17.84
+CUST0346,49,Female,Married,Professional,Other,Kolkata,Savings,87300.0,439000.0,637.0,10.6,3,205600.0,Classic,49445.51,24,2342.41,1514.05,13124.02,0,Closed,451000.0,On Time,Mass Affluent,24.05
+CUST0347,54,Male,Married,Master's,Business,Jaipur,Savings,5000.0,314500.0,570.0,5.2,3,94600.0,Gold,12225.25,21,882.63,467.97,9697.14,2,Closed,460000.0,Occasional Delay,Basic,12.92
+CUST0348,38,Female,Single,Bachelor's,Government,Pune,Savings,116600.0,365200.0,666.0,6.7,2,253200.0,Gold,31390.21,27,1433.23,1567.56,24201.11,0,Active,667400.0,On Time,Mass Affluent,12.4
+CUST0349,41,Male,Single,Professional,Government,Ahmedabad,Savings,185800.0,427100.0,665.0,4.6,3,172800.0,Gold,19781.37,15,1918.16,498.91,14295.06,1,No Loan,0.0,Occasional Delay,Standard,11.45
+CUST0350,41,Female,Married,High School,Healthcare,Bengaluru,Savings,373900.0,1671500.0,697.0,4.4,3,1107000.0,Signature,22173.47,20,1432.44,529.63,12341.29,0,No Loan,0.0,On Time,Mass Affluent,2.0
+CUST0351,39,Male,Married,Bachelor's,IT Professional,Mumbai,Savings,427400.0,1324500.0,817.0,9.2,3,624600.0,Classic,37112.4,22,2179.31,5585.14,13181.34,0,Closed,1013700.0,On Time,Mass Affluent,5.94
+CUST0352,32,Female,Married,Bachelor's,Business,Kolkata,Salary,113600.0,314400.0,647.0,9.6,5,107700.0,Classic,26541.92,19,2083.53,979.66,17218.58,0,No Loan,0.0,On Time,Basic,24.64
+CUST0353,37,Female,Single,Master's,Business,Kolkata,Salary,5000.0,641800.0,638.0,7.3,3,279300.0,Gold,72748.9,24,3407.41,7275.35,45566.09,1,Closed,123500.0,Occasional Delay,Mass Affluent,26.05
+CUST0354,56,Male,Divorced,High School,Government,Kolkata,Current,51600.0,403700.0,731.0,6.4,2,223200.0,Classic,52757.28,26,2046.53,1365.34,31444.93,1,No Loan,0.0,Occasional Delay,Mass Affluent,23.64
+CUST0355,53,Female,Married,High School,Engineering,Ahmedabad,Savings,116000.0,1112100.0,745.0,6.4,7,521900.0,Classic,25380.82,21,1367.05,2348.71,19035.5,0,No Loan,0.0,On Time,Mass Affluent,4.86
+CUST0356,42,Female,Married,Master's,Education,Mumbai,Savings,92200.0,545200.0,627.0,2.3,2,283900.0,Classic,36759.16,18,2156.39,7744.35,20100.5,1,Closed,1212800.0,Occasional Delay,Mass Affluent,12.95
+CUST0357,22,Female,Single,Bachelor's,IT Professional,Ahmedabad,Savings,22900.0,319900.0,685.0,11.8,3,228900.0,Classic,47662.57,23,2500.36,6854.31,14890.97,0,No Loan,0.0,On Time,Mass Affluent,20.82
+CUST0358,36,Male,Married,Bachelor's,IT Professional,Bengaluru,Salary,188900.0,736400.0,670.0,2.3,3,455000.0,Signature,86377.99,24,4456.4,20730.29,69079.23,2,Active,194600.0,Occasional Delay,Mass Affluent,18.98
+CUST0359,39,Female,Single,Master's,Business,Bengaluru,Salary,266800.0,657200.0,708.0,12.2,1,251300.0,Gold,52461.87,23,2393.75,4424.26,14729.73,2,Closed,297400.0,Occasional Delay,Mass Affluent,20.88
+CUST0360,24,Female,Married,High School,Government,Pune,Salary,122200.0,686100.0,618.0,0.6,4,440300.0,Classic,22340.22,22,1315.0,4067.39,6340.77,1,Closed,683400.0,Occasional Delay,Standard,5.07
+CUST0361,42,Male,Divorced,Professional,IT Professional,Kochi,Salary,155500.0,774600.0,747.0,3.7,2,587400.0,Gold,28324.29,25,1731.72,2318.2,17292.64,0,No Loan,0.0,On Time,Mass Affluent,4.82
+CUST0362,32,Male,Married,Diploma,Government,Pune,Savings,5000.0,582000.0,727.0,6.2,3,187900.0,Classic,11067.7,13,1123.83,1957.0,7896.65,0,Active,737100.0,On Time,Standard,5.89
+CUST0363,45,Female,Single,Master's,Retail,Pune,Salary,5000.0,991500.0,702.0,9.1,4,626400.0,Platinum,7341.43,17,528.07,441.89,3476.07,1,Active,946700.0,Occasional Delay,Mass Affluent,1.17
+CUST0364,39,Male,Divorced,Master's,IT Professional,Chennai,Current,431900.0,919900.0,676.0,3.8,2,611900.0,Platinum,63924.33,27,2425.38,11184.22,28235.25,0,Active,202700.0,On Time,Mass Affluent,10.45
+CUST0365,49,Female,Married,High School,IT Professional,Chennai,Current,125500.0,717600.0,589.0,4.3,3,450200.0,Classic,51648.05,19,2693.94,2231.05,39402.33,3,Active,768700.0,Delayed,Mass Affluent,11.47
+CUST0366,45,Female,Single,Bachelor's,IT Professional,Jaipur,Salary,44200.0,402200.0,658.0,7.7,4,100100.0,Signature,7203.14,9,781.7,1702.48,3145.23,1,Active,529700.0,Occasional Delay,Standard,7.2
+CUST0367,42,Male,Married,Professional,IT Professional,Mumbai,Savings,91500.0,1242600.0,714.0,2.3,3,734900.0,Gold,3903.34,16,343.39,220.42,2211.37,0,Active,356300.0,On Time,Mass Affluent,1.0
+CUST0368,51,Female,Married,Bachelor's,Education,Pune,Savings,105200.0,425800.0,682.0,2.6,4,203800.0,Platinum,37677.46,20,2107.45,3195.06,15044.88,0,No Loan,0.0,On Time,Mass Affluent,18.49
+CUST0369,38,Female,Married,Bachelor's,Other,Ahmedabad,Savings,80800.0,594800.0,629.0,6.3,4,253500.0,Gold,27379.91,21,1784.53,3061.5,7350.61,3,No Loan,0.0,Delayed,Standard,10.8
+CUST0370,33,Female,Single,Diploma,Business,Mumbai,Savings,315000.0,546300.0,639.0,8.7,1,314300.0,Gold,15469.92,30,682.6,961.72,7799.74,1,Active,646700.0,Occasional Delay,Standard,4.92
+CUST0371,31,Female,Single,Professional,IT Professional,Mumbai,Salary,128800.0,714600.0,708.0,1.6,4,488200.0,Classic,19148.3,19,1393.92,2697.98,13141.16,1,No Loan,0.0,Occasional Delay,Mass Affluent,3.92
+CUST0372,21,Female,Divorced,Diploma,Engineering,Ahmedabad,Savings,115700.0,285500.0,647.0,0.8,1,66000.0,Gold,11413.19,13,923.96,2185.47,3115.58,0,Active,165900.0,On Time,Basic,17.29
+CUST0373,29,Female,Married,Master's,Retail,Bengaluru,Salary,167600.0,770500.0,687.0,1.7,1,511900.0,Gold,34936.83,23,1504.33,4734.05,25518.1,1,No Loan,0.0,Occasional Delay,Mass Affluent,6.82
+CUST0374,53,Male,Married,Master's,Retail,Kochi,Savings,259700.0,642200.0,740.0,3.0,5,307800.0,Gold,34739.22,19,1778.46,5391.23,23951.41,1,Closed,424200.0,Occasional Delay,Mass Affluent,11.29
+CUST0375,24,Male,Single,Master's,Engineering,Jaipur,Salary,13800.0,318200.0,627.0,1.1,4,188900.0,Gold,23826.36,20,1793.11,1803.28,9623.04,0,Active,576100.0,On Time,Basic,12.61
+CUST0376,54,Male,Divorced,High School,IT Professional,Jaipur,Savings,5000.0,722200.0,659.0,6.2,4,470100.0,Classic,21911.37,21,1029.83,2767.41,15716.28,1,No Loan,0.0,Occasional Delay,Mass Affluent,4.66
+CUST0377,29,Male,Single,Diploma,Healthcare,Kolkata,Savings,5000.0,795100.0,713.0,7.5,7,522000.0,Platinum,19850.66,19,1471.42,4498.14,5244.83,0,Active,168100.0,On Time,Mass Affluent,3.8
+CUST0378,28,Female,Married,Diploma,Government,Delhi,Savings,58400.0,253700.0,579.0,3.5,1,91800.0,Gold,16238.32,21,1033.95,3522.54,9099.33,2,No Loan,0.0,Occasional Delay,Basic,17.69
+CUST0379,40,Male,Married,Master's,Business,Kochi,Savings,534000.0,1082800.0,781.0,5.2,2,405400.0,Classic,32836.84,20,2204.01,6673.9,12828.42,0,No Loan,0.0,On Time,Mass Affluent,8.1
+CUST0380,41,Female,Married,Diploma,Education,Kolkata,Savings,227400.0,490100.0,724.0,10.6,4,344600.0,Platinum,41079.29,18,2240.66,3674.07,19233.29,1,Active,351100.0,Occasional Delay,Mass Affluent,11.92
+CUST0381,42,Male,Married,Bachelor's,Healthcare,Delhi,Savings,171500.0,1071600.0,708.0,9.2,1,378200.0,Signature,50839.84,28,2613.74,11384.72,26225.0,0,Closed,299100.0,On Time,Mass Affluent,13.44
+CUST0382,50,Male,Single,Bachelor's,IT Professional,Delhi,Savings,365200.0,722800.0,741.0,7.3,3,239700.0,Classic,20117.18,19,1220.92,2087.33,6809.19,0,Active,177100.0,On Time,Mass Affluent,8.39
+CUST0383,41,Female,Married,High School,Engineering,Kolkata,Savings,222000.0,1226500.0,773.0,1.8,2,503700.0,Classic,17318.75,14,1322.74,2466.05,5761.77,1,No Loan,0.0,Occasional Delay,Mass Affluent,3.44
+CUST0384,38,Male,Married,Bachelor's,Healthcare,Jaipur,Savings,307100.0,1197000.0,734.0,1.8,1,516000.0,Classic,43483.65,26,1688.14,4124.54,24581.52,0,Active,67700.0,On Time,Mass Affluent,8.43
+CUST0385,45,Male,Married,Bachelor's,Healthcare,Bengaluru,Savings,305100.0,828300.0,704.0,8.3,4,402800.0,Classic,12190.45,17,684.02,2262.97,5314.12,0,No Loan,0.0,On Time,Mass Affluent,3.03
+CUST0386,34,Female,Single,Master's,Finance,Bengaluru,Savings,84200.0,687400.0,681.0,14.2,2,241300.0,Gold,20910.64,15,1587.28,2209.28,5485.8,0,Active,912000.0,On Time,Standard,8.67
+CUST0387,48,Male,Single,Professional,IT Professional,Pune,Savings,106900.0,549200.0,671.0,3.9,2,316000.0,Gold,42257.94,22,2079.91,4188.21,24450.92,3,No Loan,0.0,Delayed,Mass Affluent,13.37
+CUST0388,29,Male,Married,Master's,Engineering,Ahmedabad,Savings,152000.0,425400.0,625.0,6.7,2,256500.0,Gold,57654.27,21,4071.82,11553.61,22144.61,1,Active,3693100.0,Occasional Delay,Mass Affluent,22.48
+CUST0389,37,Female,Divorced,Master's,Education,Bengaluru,Salary,130200.0,473700.0,545.0,1.4,5,270700.0,Classic,38954.1,16,3378.41,1643.0,23577.59,3,No Loan,0.0,Delayed,Mass Affluent,14.39
+CUST0390,43,Male,Married,High School,IT Professional,Hyderabad,Salary,98100.0,459100.0,667.0,3.5,4,225200.0,Classic,18392.44,14,1391.39,1503.55,13028.85,1,No Loan,0.0,Occasional Delay,Standard,8.17
+CUST0391,59,Male,Married,High School,Government,Hyderabad,Salary,179200.0,1223400.0,785.0,2.0,7,734800.0,Classic,31238.52,28,1173.3,1123.93,17722.28,2,No Loan,0.0,Occasional Delay,Mass Affluent,4.25
+CUST0392,32,Female,Married,Professional,Finance,Hyderabad,Savings,20000.0,1597900.0,779.0,3.5,3,1282100.0,Classic,56464.6,18,3164.77,12439.41,29202.44,1,No Loan,0.0,Occasional Delay,Mass Affluent,4.4
+CUST0393,31,Male,Single,Diploma,Healthcare,Pune,Current,96800.0,351500.0,582.0,6.2,1,199900.0,Classic,17714.94,18,1486.76,2708.87,4741.54,1,No Loan,0.0,Occasional Delay,Basic,8.86
+CUST0394,39,Female,Married,Bachelor's,Education,Mumbai,Salary,198800.0,435500.0,650.0,2.3,4,213800.0,Platinum,21194.63,17,1785.16,2096.08,13144.57,0,Closed,666000.0,On Time,Standard,9.91
+CUST0395,59,Male,Married,High School,IT Professional,Chennai,Savings,94200.0,651500.0,602.0,1.1,1,143300.0,Classic,39208.63,16,2458.67,3968.91,16764.61,0,No Loan,0.0,On Time,Mass Affluent,27.36
+CUST0396,48,Female,Single,Bachelor's,Retail,Kochi,Salary,166500.0,447100.0,676.0,5.1,1,190300.0,Classic,25696.27,18,1677.98,5779.14,20101.46,0,Active,599800.0,On Time,Standard,13.5
+CUST0397,42,Female,Married,Professional,Business,Hyderabad,Savings,162600.0,555300.0,614.0,13.8,3,343500.0,Classic,26922.13,17,2189.95,6371.5,7246.99,0,Closed,104300.0,On Time,Standard,7.84
+CUST0398,38,Male,Married,Bachelor's,IT Professional,Kolkata,Current,210000.0,367600.0,632.0,0.6,6,180700.0,Gold,23178.02,22,1360.11,2984.72,18096.68,0,No Loan,0.0,On Time,Basic,12.83
+CUST0399,60,Female,Single,Bachelor's,IT Professional,Jaipur,Savings,249200.0,692900.0,647.0,2.5,3,463200.0,Platinum,62136.62,25,2617.75,1300.76,47647.31,1,Active,945100.0,Occasional Delay,Mass Affluent,13.41
+CUST0400,44,Male,Married,Bachelor's,Finance,Pune,Savings,514100.0,1075000.0,701.0,6.7,3,377600.0,Signature,11605.46,21,562.67,511.06,7509.72,2,Active,1118600.0,Occasional Delay,Mass Affluent,3.07
+CUST0401,37,Female,Single,Bachelor's,IT Professional,Hyderabad,Salary,261900.0,588200.0,688.0,3.5,2,194100.0,Platinum,18952.11,13,1713.64,4724.49,14884.39,1,Active,1071100.0,Occasional Delay,Standard,9.76
+CUST0402,44,Male,Single,Bachelor's,IT Professional,Pune,Savings,155800.0,496800.0,527.0,4.4,1,224900.0,Gold,15219.08,23,682.16,1641.37,5072.74,3,No Loan,0.0,Delayed,Standard,6.77
+CUST0403,42,Male,Divorced,Diploma,Engineering,Mumbai,Savings,279500.0,449000.0,706.0,9.6,3,327800.0,Gold,72158.43,16,4611.83,13067.46,54206.05,0,No Loan,0.0,On Time,Mass Affluent,22.01
+CUST0404,26,Female,Married,Bachelor's,Education,Bengaluru,Savings,168300.0,421400.0,638.0,11.3,6,140500.0,Signature,9298.57,16,855.98,1131.22,6181.36,2,No Loan,0.0,Occasional Delay,Standard,6.62
+CUST0405,34,Female,Single,Bachelor's,Engineering,Chennai,Current,113600.0,360500.0,648.0,6.4,3,86200.0,Classic,21397.77,18,1508.81,1007.81,13011.86,1,No Loan,0.0,Occasional Delay,Basic,24.82
+CUST0406,58,Male,Married,High School,Retail,Chennai,Current,73400.0,355200.0,704.0,9.9,4,167000.0,Gold,38865.17,17,2537.56,3476.26,15730.65,1,No Loan,0.0,Occasional Delay,Mass Affluent,23.27
+CUST0407,54,Female,Single,Diploma,Retail,Kolkata,Savings,166200.0,752000.0,631.0,6.0,3,258000.0,Gold,50724.61,20,2535.25,7026.4,15037.98,0,Active,447400.0,On Time,Mass Affluent,19.66
+CUST0408,21,Male,Married,Master's,Business,Chennai,Current,5000.0,353600.0,650.0,7.4,2,231400.0,Gold,12209.14,24,553.68,2452.07,6961.97,0,Closed,575600.0,On Time,Basic,5.28
+CUST0409,40,Female,Married,High School,Government,Kolkata,Savings,162900.0,732100.0,731.0,15.1,3,223900.0,Classic,25526.98,27,964.22,5064.84,20362.0,0,No Loan,0.0,On Time,Mass Affluent,11.4
+CUST0410,44,Female,Single,Bachelor's,Business,Bengaluru,Salary,66000.0,721100.0,650.0,3.6,2,220700.0,Signature,31412.1,19,2391.64,6998.17,20597.15,0,Active,246300.0,On Time,Mass Affluent,14.23
+CUST0411,57,Female,Married,Master's,Finance,Jaipur,Savings,130100.0,508300.0,705.0,5.4,2,139000.0,Classic,26004.35,20,1730.04,5213.03,8949.91,2,Closed,1105500.0,Occasional Delay,Standard,18.71
+CUST0412,39,Female,Married,High School,Healthcare,Ahmedabad,Savings,55100.0,962600.0,647.0,3.9,4,575100.0,Classic,42323.25,14,2988.93,6580.8,32027.88,1,Active,469800.0,Occasional Delay,Mass Affluent,7.36
+CUST0413,36,Female,Divorced,Master's,Retail,Hyderabad,Savings,73100.0,474500.0,618.0,2.8,1,234700.0,Platinum,74049.98,29,2516.87,4528.5,48867.1,1,No Loan,0.0,Occasional Delay,Mass Affluent,31.55
+CUST0414,26,Female,Married,Professional,Business,Kolkata,Savings,59900.0,506000.0,548.0,3.9,2,163200.0,Gold,23078.35,19,1170.27,3867.89,18399.6,2,Active,298000.0,Occasional Delay,Standard,14.14
+CUST0415,37,Female,Divorced,Bachelor's,Finance,Kolkata,Savings,104700.0,777100.0,651.0,4.8,3,445500.0,Gold,45715.29,20,2862.89,11116.39,34370.57,1,No Loan,0.0,Occasional Delay,Mass Affluent,10.26
+CUST0416,42,Female,Single,Bachelor's,Retail,Kochi,Savings,308400.0,829200.0,654.0,7.6,2,232500.0,Gold,32638.37,23,2148.27,6417.26,17814.82,0,No Loan,0.0,On Time,Mass Affluent,14.04
+CUST0417,36,Male,Single,Bachelor's,Education,Pune,Savings,355900.0,1143900.0,721.0,13.6,3,467800.0,Gold,33365.91,26,1331.64,8051.21,25683.81,0,No Loan,0.0,On Time,Mass Affluent,7.13
+CUST0418,44,Female,Married,Bachelor's,Finance,Kolkata,Savings,70600.0,621000.0,700.0,4.2,3,380700.0,Gold,26403.93,18,1826.29,5532.21,17344.88,2,Active,863800.0,Occasional Delay,Standard,6.94
+CUST0419,43,Female,Married,Master's,Education,Ahmedabad,Savings,493100.0,1591800.0,700.0,8.8,1,487200.0,Platinum,10647.37,21,686.62,2359.93,6191.29,2,Active,59600.0,Occasional Delay,Mass Affluent,2.19
+CUST0420,47,Female,Married,Master's,Education,Pune,Salary,271400.0,488400.0,651.0,3.7,3,336900.0,Platinum,76282.64,35,2370.97,8109.94,47065.39,1,Closed,208800.0,Occasional Delay,Mass Affluent,22.64
+CUST0421,39,Female,Single,Diploma,Government,Mumbai,Current,307000.0,943900.0,679.0,1.1,3,317700.0,Signature,22363.45,25,893.98,4023.75,8275.5,2,No Loan,0.0,Occasional Delay,Mass Affluent,7.04
+CUST0422,36,Male,Married,Professional,Business,Hyderabad,Salary,79500.0,620000.0,640.0,4.2,2,248400.0,Gold,46661.62,17,2774.75,1788.87,20443.6,1,Active,431400.0,Occasional Delay,Mass Affluent,18.78
+CUST0423,29,Male,Married,Master's,Business,Pune,Savings,75200.0,354400.0,651.0,13.1,1,144400.0,Classic,51423.77,17,3753.62,1127.05,12875.44,2,Active,373700.0,Occasional Delay,Mass Affluent,35.61
+CUST0424,30,Male,Married,Master's,Retail,Jaipur,Salary,54400.0,551400.0,676.0,2.1,1,227400.0,Classic,28175.6,18,1680.55,1861.13,16161.23,1,No Loan,0.0,Occasional Delay,Standard,12.39
+CUST0425,42,Male,Single,Bachelor's,IT Professional,Pune,Savings,44300.0,1074900.0,728.0,3.7,4,520100.0,Classic,35224.16,19,2706.52,4398.98,23697.52,0,No Loan,0.0,On Time,Mass Affluent,6.77
+CUST0426,21,Female,Married,Bachelor's,Business,Pune,Savings,163300.0,627500.0,676.0,5.5,5,397200.0,Classic,76305.55,23,3194.21,5306.69,41897.51,2,No Loan,0.0,Occasional Delay,Mass Affluent,19.21
+CUST0427,34,Male,Single,High School,Business,Bengaluru,Savings,237900.0,1148900.0,758.0,5.9,3,615800.0,Classic,29148.62,21,1539.36,4712.68,10826.87,1,No Loan,0.0,Occasional Delay,Mass Affluent,4.73
+CUST0428,49,Female,Married,Diploma,Engineering,Chennai,Savings,5000.0,938300.0,669.0,2.6,2,530300.0,Gold,38575.04,24,1661.02,6546.35,29694.44,0,No Loan,0.0,On Time,Mass Affluent,7.27
+CUST0429,47,Male,Married,Master's,Education,Delhi,Savings,306200.0,984200.0,749.0,1.8,5,581500.0,Classic,30139.395,25,2097.44,7674.96,11604.35,0,Active,323700.0,On Time,Mass Affluent,7.96
+CUST0430,40,Male,Divorced,Bachelor's,Healthcare,Ahmedabad,Salary,83500.0,921900.0,772.0,9.3,2,421400.0,Platinum,44061.44,18,2573.03,10205.2,28978.84,1,Active,1015900.0,Occasional Delay,Mass Affluent,10.46
+CUST0431,40,Female,Married,Master's,Education,Kochi,Savings,226200.0,1077700.0,810.0,5.3,5,317600.0,Classic,19785.41,17,1474.85,2753.64,6496.65,1,Closed,330900.0,Occasional Delay,Mass Affluent,6.23
+CUST0432,22,Female,Married,Bachelor's,Finance,Jaipur,Salary,103100.0,473200.0,692.0,7.9,5,309200.0,Platinum,24196.03,18,1586.05,3417.61,8265.4,0,Active,965000.0,On Time,Standard,7.83
+CUST0433,45,Female,Married,Bachelor's,Engineering,Jaipur,Salary,117700.0,322800.0,704.0,10.4,4,120300.0,Platinum,40340.98,18,2688.21,3301.23,28989.13,1,Closed,514900.0,Occasional Delay,Mass Affluent,33.53
+CUST0434,44,Female,Married,Master's,Other,Mumbai,Savings,212100.0,422000.0,660.0,0.5,2,263400.0,Classic,48182.95,18,3171.97,2650.35,17129.28,1,No Loan,0.0,Occasional Delay,Mass Affluent,18.29
+CUST0435,47,Male,Married,Bachelor's,IT Professional,Chennai,Salary,282800.0,1057700.0,757.0,6.5,3,762000.0,Classic,26752.6,22,1294.47,3236.28,12934.34,2,Closed,679800.0,Occasional Delay,Mass Affluent,3.51
+CUST0436,34,Female,Single,Professional,IT Professional,Kolkata,Savings,133900.0,488300.0,576.0,1.2,2,123100.0,Platinum,34788.59,18,2101.09,2485.91,25888.07,1,Active,1968400.0,Occasional Delay,Mass Affluent,28.26
+CUST0437,40,Female,Divorced,Professional,Engineering,Kolkata,Current,103600.0,593700.0,627.0,0.5,2,233700.0,Gold,23839.61,15,2186.27,1819.57,17862.73,1,Active,491200.0,Occasional Delay,Standard,10.2
+CUST0438,30,Male,Single,Bachelor's,Other,Mumbai,Savings,206300.0,1020700.0,700.0,9.4,3,760600.0,Signature,19796.52,15,1986.69,3207.81,5766.05,0,Active,353400.0,On Time,Mass Affluent,2.6
+CUST0439,49,Male,Married,Bachelor's,Engineering,Delhi,Savings,367800.0,802100.0,634.0,1.9,6,306700.0,Signature,78388.67,26,3356.97,17849.43,52221.9,1,Active,649200.0,Occasional Delay,Mass Affluent,25.56
+CUST0440,21,Female,Married,High School,Healthcare,Chennai,Current,318500.0,711800.0,738.0,9.6,5,393600.0,Classic,38712.26,12,3116.46,7258.06,13135.5,0,Active,824600.0,On Time,Mass Affluent,9.84
+CUST0441,40,Male,Married,Bachelor's,IT Professional,Kolkata,Savings,5000.0,659300.0,616.0,0.5,2,288300.0,Classic,13175.32,14,904.16,1752.0,6552.38,0,No Loan,0.0,On Time,Standard,4.57
+CUST0442,30,Male,Married,Master's,Education,Ahmedabad,Savings,86800.0,567600.0,599.0,8.3,1,355000.0,Classic,49963.29,26,2612.77,11445.73,22033.91,4,No Loan,0.0,Delayed,Mass Affluent,14.07
+CUST0443,41,Male,Married,Professional,Business,Bengaluru,Savings,214100.0,698000.0,705.0,1.1,3,516800.0,Platinum,45142.99,20,2306.12,10046.71,17052.74,1,No Loan,0.0,Occasional Delay,Mass Affluent,8.74
+CUST0444,35,Male,Divorced,Bachelor's,Engineering,Chennai,Salary,83800.0,371100.0,671.0,7.9,2,89100.0,Classic,24673.35,15,1630.51,1822.57,8443.71,1,Closed,349600.0,Occasional Delay,Basic,27.69
+CUST0445,28,Female,Single,Master's,Education,Chennai,Savings,256100.0,1006200.0,706.0,9.7,4,700800.0,Gold,26107.72,18,1666.25,1046.97,11757.29,0,Active,211100.0,On Time,Mass Affluent,3.73
+CUST0446,47,Male,Married,Bachelor's,IT Professional,Pune,Savings,617400.0,1079200.0,770.0,7.8,6,684300.0,Gold,52275.37,23,2991.04,10727.03,18005.46,1,No Loan,0.0,Occasional Delay,Mass Affluent,7.64
+CUST0447,36,Male,Single,Professional,Business,Ahmedabad,Savings,218800.0,709100.0,627.0,5.8,1,428400.0,Gold,44517.6,26,2370.77,2036.44,13457.23,2,No Loan,0.0,Occasional Delay,Mass Affluent,10.39
+CUST0448,28,Female,Married,High School,Government,Kochi,Salary,5000.0,815400.0,580.0,13.2,2,340800.0,Platinum,34613.71,25,1666.7,4955.33,14943.27,4,Active,731700.0,Delayed,Mass Affluent,10.16
+CUST0449,21,Male,Single,Master's,IT Professional,Delhi,Salary,58700.0,463400.0,631.0,8.2,3,269600.0,Platinum,17888.39,18,1183.87,455.52,4755.07,0,No Loan,0.0,On Time,Standard,6.64
+CUST0450,39,Female,Single,Bachelor's,Engineering,Hyderabad,Savings,82800.0,334900.0,670.0,1.4,3,137800.0,Classic,21905.07,13,1668.84,4032.63,7500.04,0,No Loan,0.0,On Time,Basic,15.9
+CUST0451,36,Female,Married,Bachelor's,Business,Kochi,Salary,124200.0,656300.0,600.0,5.5,3,374200.0,Gold,22069.81,18,1729.31,2673.87,12149.38,0,No Loan,0.0,On Time,Standard,5.9
+CUST0452,51,Male,Divorced,Bachelor's,IT Professional,Delhi,Savings,116700.0,701800.0,711.0,1.7,7,417700.0,Platinum,53945.21,24,2654.97,1869.67,13901.61,1,No Loan,0.0,Occasional Delay,Mass Affluent,12.91
+CUST0453,47,Male,Single,Diploma,Finance,Mumbai,Savings,379200.0,904600.0,806.0,0.8,3,638900.0,Platinum,36048.71,19,2517.97,4999.14,14341.71,0,No Loan,0.0,On Time,Mass Affluent,5.64
+CUST0454,56,Female,Married,Master's,Other,Kolkata,Salary,165500.0,532800.0,615.0,4.2,2,150800.0,Platinum,47466.67,17,4285.15,7564.56,18958.32,0,Active,155300.0,On Time,Mass Affluent,31.48
+CUST0455,42,Female,Married,High School,IT Professional,Mumbai,Current,85600.0,1506600.0,765.0,2.1,1,1164300.0,Platinum,13051.07,20,677.87,1637.43,5426.98,0,No Loan,0.0,On Time,Mass Affluent,1.12
+CUST0456,54,Female,Married,High School,Engineering,Ahmedabad,Savings,326900.0,661600.0,629.0,8.0,4,411100.0,Signature,19670.17,12,2047.88,4153.92,5283.2,1,Closed,763800.0,Occasional Delay,Standard,4.78
+CUST0457,33,Female,Single,Master's,Retail,Pune,Current,40600.0,499700.0,611.0,7.5,3,308400.0,Gold,10244.82,18,806.63,750.7,3876.61,3,Closed,2018700.0,Delayed,Standard,3.32
+CUST0458,44,Male,Single,Bachelor's,IT Professional,Chennai,Current,85700.0,613800.0,622.0,2.1,1,397000.0,Classic,91540.14,27,3491.55,9147.34,29896.05,0,Closed,998100.0,On Time,Mass Affluent,23.06
+CUST0459,34,Male,Single,Master's,Government,Ahmedabad,Current,41700.0,512700.0,668.0,1.8,3,315700.0,Gold,63746.66,25,2709.89,13456.47,35007.93,0,No Loan,0.0,On Time,Mass Affluent,20.19
+CUST0460,47,Female,Married,Bachelor's,Finance,Jaipur,Savings,382600.0,577400.0,647.0,12.5,3,395300.0,Classic,17389.38,21,1065.38,3499.98,13908.15,2,Active,1557200.0,Occasional Delay,Standard,4.4
+CUST0461,23,Female,Married,Bachelor's,Healthcare,Ahmedabad,Savings,158700.0,412500.0,692.0,12.0,2,237200.0,Signature,47526.11,19,2986.21,6660.04,30602.26,0,No Loan,0.0,On Time,Mass Affluent,20.04
+CUST0462,37,Female,Married,Bachelor's,Finance,Hyderabad,Savings,159000.0,859000.0,694.0,5.4,3,602100.0,Gold,31014.65,20,1990.68,5502.48,9635.73,0,Active,198700.0,On Time,Mass Affluent,5.15
+CUST0463,40,Female,Married,Bachelor's,Engineering,Delhi,Savings,183400.0,499500.0,621.0,14.8,3,192100.0,Gold,36943.58,21,2201.31,2384.08,26833.08,2,Active,1089900.0,Occasional Delay,Mass Affluent,19.23
+CUST0464,65,Female,Single,Master's,Business,Delhi,Savings,69700.0,399800.0,570.0,3.2,3,100900.0,Platinum,32221.85,13,2430.67,1900.19,20515.53,2,Closed,716200.0,Occasional Delay,Mass Affluent,31.93
+CUST0465,45,Female,Married,Bachelor's,Engineering,Bengaluru,Savings,125800.0,658900.0,670.0,4.4,4,194600.0,Gold,48499.93,19,2476.4,7891.75,20247.95,1,No Loan,0.0,Occasional Delay,Mass Affluent,24.92
+CUST0466,47,Male,Married,Bachelor's,IT Professional,Chennai,Savings,254000.0,489900.0,641.0,5.9,4,237200.0,Platinum,23760.02,17,1504.92,1367.42,13186.83,0,Active,311000.0,On Time,Standard,10.02
+CUST0467,21,Male,Divorced,Bachelor's,IT Professional,Kolkata,Savings,439600.0,1706900.0,749.0,7.4,3,875200.0,Classic,11894.18,20,828.74,2009.78,7265.01,1,Closed,133100.0,Occasional Delay,Mass Affluent,1.36
+CUST0468,27,Female,Single,Master's,Business,Chennai,Savings,358100.0,800800.0,732.0,2.7,3,358000.0,Platinum,26308.93,19,1572.99,3669.65,8938.44,1,No Loan,0.0,Occasional Delay,Mass Affluent,7.35
+CUST0469,56,Female,Married,Bachelor's,IT Professional,Delhi,Salary,319200.0,599000.0,676.0,10.9,3,377100.0,Gold,11187.86,11,1557.5,1219.66,5263.97,1,No Loan,0.0,Occasional Delay,Standard,2.97
+CUST0470,40,Male,Married,Master's,Business,Kochi,Salary,36100.0,1184500.0,773.0,3.2,2,345700.0,Classic,21279.59,20,1214.94,2427.38,12061.11,1,Closed,249900.0,Occasional Delay,Mass Affluent,6.16
+CUST0471,61,Female,Single,Diploma,Finance,Mumbai,Savings,104100.0,731300.0,733.0,5.3,2,375500.0,Signature,27876.95,16,1815.01,1200.42,21412.26,0,No Loan,0.0,On Time,Mass Affluent,7.42
+CUST0472,59,Male,Single,Diploma,IT Professional,Chennai,Current,5000.0,1015300.0,706.0,8.5,6,374400.0,Classic,24087.77,19,1932.76,4898.74,11951.83,2,Closed,1281400.0,Occasional Delay,Mass Affluent,6.43
+CUST0473,46,Male,Single,Diploma,Healthcare,Ahmedabad,Current,5000.0,558800.0,701.0,1.6,6,285000.0,Platinum,13242.45,18,888.27,348.04,7547.89,0,Active,243100.0,On Time,Standard,4.65
+CUST0474,34,Male,Single,High School,Healthcare,Bengaluru,Salary,152900.0,591400.0,684.0,15.9,3,363500.0,Classic,41684.98,26,1743.7,6720.7,16565.2,1,No Loan,0.0,Occasional Delay,Mass Affluent,11.47
+CUST0475,44,Female,Married,Diploma,IT Professional,Chennai,Current,60300.0,528900.0,666.0,10.5,3,274300.0,Gold,40679.63,25,2132.25,1692.76,29959.75,1,Closed,248800.0,Occasional Delay,Mass Affluent,14.83
+CUST0476,44,Male,Married,High School,Finance,Kolkata,Savings,104600.0,310200.0,606.0,6.3,4,199600.0,Classic,21038.66,15,1687.49,4402.27,8478.11,0,No Loan,0.0,On Time,Basic,10.54
+CUST0477,30,Female,Married,Bachelor's,IT Professional,Hyderabad,Savings,92900.0,347700.0,660.0,4.6,3,134300.0,Gold,27251.84,17,2064.26,605.49,19739.5,0,No Loan,0.0,On Time,Basic,20.29
+CUST0478,35,Male,Single,Master's,Government,Ahmedabad,Savings,60900.0,507200.0,667.0,11.4,3,344000.0,Signature,17358.67,18,1156.49,2305.64,9902.96,0,Closed,512100.0,On Time,Standard,5.05
+CUST0479,34,Female,Single,Diploma,Government,Chennai,Savings,418600.0,1318000.0,769.0,2.4,2,983400.0,Signature,34759.03,17,2795.87,1338.97,21460.39,0,Closed,992400.0,On Time,Mass Affluent,3.53
+CUST0480,46,Female,Married,Diploma,Education,Bengaluru,Savings,5000.0,1273700.0,741.0,2.3,3,717200.0,Signature,47920.93,20,2362.77,3119.75,33018.1,1,No Loan,0.0,Occasional Delay,Mass Affluent,6.68
+CUST0481,33,Female,Married,Bachelor's,Retail,Chennai,Salary,187400.0,1101900.0,726.0,5.3,3,567000.0,Classic,54036.44,19,3127.0,7539.05,22947.26,1,No Loan,0.0,Occasional Delay,Mass Affluent,9.53
+CUST0482,22,Female,Single,Bachelor's,Finance,Delhi,Current,65200.0,771000.0,688.0,7.9,7,304400.0,Classic,32128.62,20,2365.83,3596.22,16571.29,0,Active,1235900.0,On Time,Mass Affluent,10.55
+CUST0483,55,Female,Married,Bachelor's,Engineering,Delhi,Savings,481700.0,844000.0,679.0,0.5,3,290200.0,Platinum,36187.09,26,1439.34,4071.68,24381.37,2,Active,868000.0,Occasional Delay,Mass Affluent,12.47
+CUST0484,29,Female,Single,High School,Government,Kochi,Savings,198400.0,594800.0,674.0,4.5,7,391900.0,Gold,10869.23,12,1076.75,1644.89,2838.43,1,No Loan,0.0,Occasional Delay,Standard,2.77
+CUST0485,40,Female,Married,Master's,Retail,Kolkata,Savings,505200.0,992300.0,646.0,2.8,4,666300.0,Platinum,17325.58,15,1621.05,2672.75,8045.15,1,No Loan,0.0,Occasional Delay,Mass Affluent,2.6
+CUST0486,41,Male,Married,Bachelor's,Education,Delhi,Salary,20400.0,722100.0,616.0,3.8,3,206900.0,Classic,17880.09,19,1037.09,2628.78,13357.36,2,No Loan,0.0,Occasional Delay,Mass Affluent,8.64
+CUST0487,55,Female,Married,Master's,Retail,Ahmedabad,Savings,21400.0,676500.0,719.0,3.1,5,434700.0,Gold,34158.66,19,2004.77,7467.4,21021.58,1,Active,774300.0,Occasional Delay,Mass Affluent,7.86
+CUST0488,21,Male,Married,Bachelor's,Engineering,Ahmedabad,Salary,67500.0,466000.0,659.0,5.3,3,229800.0,Gold,38428.16,21,2690.37,2914.09,21119.4,0,No Loan,0.0,On Time,Mass Affluent,16.72
+CUST0489,45,Male,Married,High School,Healthcare,Pune,Savings,669200.0,2057100.0,767.0,2.8,5,1500000.0,Gold,37626.45,24,2113.52,6371.18,25455.29,1,Closed,3467500.0,Occasional Delay,Mass Affluent,2.51
+CUST0490,49,Male,Single,Bachelor's,Business,Delhi,Savings,353600.0,814900.0,644.0,2.0,3,252600.0,Signature,46418.03,26,1813.25,10153.66,14390.78,0,Active,774700.0,On Time,Mass Affluent,18.38
+CUST0491,49,Female,Married,High School,Education,Chennai,Salary,212900.0,534700.0,660.0,3.0,4,129600.0,Gold,31571.86,25,1470.99,5827.84,10995.5,0,Closed,499800.0,On Time,Mass Affluent,24.36
+CUST0492,46,Male,Married,Bachelor's,Engineering,Ahmedabad,Savings,79100.0,287800.0,676.0,8.4,4,70000.0,Classic,26532.71,16,2175.81,3284.03,15193.98,0,Active,1853700.0,On Time,Basic,37.9
+CUST0493,37,Female,Married,Bachelor's,Business,Pune,Savings,961300.0,2103000.0,831.0,8.9,2,1244900.0,Platinum,13004.73,17,960.38,2015.56,10160.56,2,No Loan,0.0,Occasional Delay,Mass Affluent,1.04
+CUST0494,38,Male,Married,Bachelor's,Retail,Kolkata,Savings,5300.0,659400.0,660.0,2.0,2,415400.0,Classic,12237.76,25,693.59,2445.05,7042.58,0,No Loan,0.0,On Time,Standard,2.95
+CUST0495,33,Female,Married,Professional,Education,Hyderabad,Savings,176400.0,452500.0,729.0,6.2,3,184500.0,Gold,58768.07,15,5320.37,2808.8,29955.76,2,No Loan,0.0,Occasional Delay,Mass Affluent,31.85
+CUST0496,41,Male,Divorced,Professional,Retail,Bengaluru,Current,44700.0,423400.0,657.0,5.6,6,141500.0,Classic,36326.36,27,1287.07,5422.64,25972.78,0,Closed,1111300.0,On Time,Mass Affluent,25.67
+CUST0497,35,Female,Married,Diploma,IT Professional,Pune,Savings,147000.0,481400.0,662.0,2.7,1,263100.0,Classic,42251.41,15,3478.8,4237.14,23016.67,1,No Loan,0.0,Occasional Delay,Mass Affluent,16.06
+CUST0498,21,Female,Married,Bachelor's,Other,Bengaluru,Salary,111300.0,578200.0,781.0,4.4,1,344400.0,Gold,14135.99,20,849.91,1443.58,4621.73,2,No Loan,0.0,Occasional Delay,Standard,4.1
+CUST0499,33,Female,Single,Professional,Engineering,Bengaluru,Salary,8200.0,622100.0,727.0,10.6,2,456100.0,Gold,18050.31,22,859.91,3990.45,11726.51,2,Active,212400.0,Occasional Delay,Standard,3.96
+CUST0500,52,Female,Married,Bachelor's,Business,Hyderabad,Savings,79700.0,590500.0,632.0,3.0,4,149900.0,Gold,121864.37,19,7036.61,27615.37,77171.59,1,Active,329900.0,Occasional Delay,Mass Affluent,81.3
+CUST0501,24,Female,Single,Diploma,Other,Ahmedabad,Savings,118100.0,516400.0,692.0,0.5,7,288500.0,Signature,26395.56,16,1763.46,6579.14,8174.75,1,Active,204500.0,Occasional Delay,Standard,9.15
+CUST0502,36,Male,Single,Professional,Education,Bengaluru,Savings,44800.0,667900.0,581.0,2.2,3,258700.0,Signature,48086.43,21,3359.03,4104.82,35592.7,3,Closed,815200.0,Delayed,Mass Affluent,18.59
+CUST0503,30,Male,Married,Master's,Other,Jaipur,Savings,5000.0,548400.0,618.0,6.1,4,292900.0,Classic,30890.4,25,1601.52,2850.33,13162.99,1,Active,217500.0,Occasional Delay,Mass Affluent,10.55
+CUST0504,63,Female,Married,Bachelor's,IT Professional,Hyderabad,Savings,20500.0,308600.0,661.0,8.7,4,166300.0,Classic,25553.4,21,1757.79,3616.24,15464.98,1,Active,3090200.0,Occasional Delay,Basic,15.37
+CUST0505,37,Male,Single,Bachelor's,Engineering,Chennai,Current,216800.0,575600.0,670.0,4.7,5,368400.0,Platinum,11838.92,22,647.24,1408.62,8433.26,1,No Loan,0.0,Occasional Delay,Standard,3.21
+CUST0506,21,Female,Single,Bachelor's,Engineering,Kochi,Current,122000.0,504100.0,569.0,4.5,3,113300.0,Gold,24498.19,23,1259.05,4180.37,13889.42,2,No Loan,0.0,Occasional Delay,Standard,21.62
+CUST0507,66,Female,Married,Bachelor's,IT Professional,Hyderabad,Savings,104300.0,757200.0,698.0,7.4,3,360500.0,Gold,15562.04,19,1050.96,1251.54,9495.47,0,No Loan,0.0,On Time,Mass Affluent,4.32
+CUST0508,46,Female,Divorced,Master's,Business,Chennai,Current,225200.0,1445600.0,766.0,5.8,1,624300.0,Gold,24754.23,19,1440.91,6072.33,11785.64,0,Active,1240300.0,On Time,Mass Affluent,3.97
+CUST0509,38,Female,Married,Diploma,Finance,Bengaluru,Savings,34000.0,475300.0,599.0,4.9,1,197000.0,Classic,85825.45,19,4623.59,19798.99,36480.18,1,No Loan,0.0,Occasional Delay,Mass Affluent,43.57
+CUST0510,27,Female,Married,Bachelor's,Finance,Hyderabad,Salary,255200.0,879300.0,711.0,12.4,1,428700.0,Platinum,19170.07,25,925.02,2073.1,5187.25,0,No Loan,0.0,On Time,Mass Affluent,4.47
+CUST0511,24,Female,Single,Professional,Finance,Jaipur,Savings,5000.0,453400.0,652.0,5.6,3,306400.0,Classic,33173.95,23,1411.61,4827.77,8737.45,0,No Loan,0.0,On Time,Mass Affluent,10.83
+CUST0512,45,Female,Divorced,Master's,IT Professional,Ahmedabad,Savings,118600.0,613000.0,677.0,6.0,3,415500.0,Classic,56773.44,19,3493.69,2395.44,14276.28,1,Closed,276700.0,Occasional Delay,Mass Affluent,13.66
+CUST0513,57,Female,Single,Master's,Retail,Pune,Savings,250000.0,651900.0,655.0,5.1,4,318700.0,Gold,14839.37,17,1016.97,3197.27,8541.15,1,Closed,189200.0,Occasional Delay,Standard,4.66
+CUST0514,45,Male,Married,Bachelor's,Healthcare,Chennai,Savings,170000.0,781600.0,712.0,5.2,2,267400.0,Classic,28576.47,26,1607.68,3926.76,9467.0,0,No Loan,0.0,On Time,Mass Affluent,10.69
+CUST0515,25,Female,Married,Bachelor's,Government,Delhi,Savings,274400.0,689900.0,709.0,6.9,1,322600.0,Classic,33854.67,17,2796.43,4223.92,23988.33,0,Closed,294200.0,On Time,Mass Affluent,10.49
+CUST0516,57,Male,Married,Bachelor's,IT Professional,Delhi,Savings,158500.0,877000.0,673.0,7.5,3,577500.0,Gold,51990.51,15,4493.94,5338.44,40104.83,1,Closed,1202300.0,Occasional Delay,Mass Affluent,9.0
+CUST0517,21,Female,Married,Bachelor's,Government,Pune,Savings,137700.0,462200.0,684.0,3.0,4,328700.0,Signature,42653.84,22,2438.58,7258.84,17266.2,3,Active,882700.0,Delayed,Mass Affluent,12.98
+CUST0518,46,Male,Single,Diploma,Retail,Hyderabad,Savings,55600.0,218000.0,613.0,2.1,3,70000.0,Gold,32119.27,18,2372.25,755.61,23389.05,0,No Loan,0.0,On Time,Mass Affluent,45.88
+CUST0519,42,Female,Divorced,Diploma,Education,Kolkata,Current,43700.0,607100.0,733.0,4.2,4,219400.0,Gold,69469.62,23,3811.59,5282.78,19195.49,2,No Loan,0.0,Occasional Delay,Mass Affluent,31.66
+CUST0520,48,Female,Married,Bachelor's,Healthcare,Ahmedabad,Savings,486700.0,953700.0,693.0,1.9,3,303000.0,Classic,54882.68,16,3314.85,1295.86,42802.24,1,Active,210100.0,Occasional Delay,Mass Affluent,18.11
+CUST0521,35,Female,Married,Bachelor's,Education,Pune,Current,145000.0,749700.0,614.0,10.4,5,477100.0,Classic,56963.66,16,3975.33,3242.22,41850.25,1,No Loan,0.0,Occasional Delay,Mass Affluent,11.94
+CUST0522,57,Female,Married,Bachelor's,Education,Hyderabad,Savings,64500.0,456300.0,604.0,5.5,4,192600.0,Gold,30466.8,16,2428.93,2402.83,10260.74,0,Active,189600.0,On Time,Mass Affluent,15.82
+CUST0523,31,Male,Married,Bachelor's,IT Professional,Ahmedabad,Savings,5000.0,2766900.0,850.0,5.1,5,982100.0,Classic,20354.59,17,1662.77,799.29,14752.47,1,Closed,299200.0,Occasional Delay,Mass Affluent,2.07
+CUST0524,47,Female,Married,Bachelor's,Other,Ahmedabad,Salary,250700.0,903900.0,696.0,0.9,5,611300.0,Classic,26965.47,20,1519.81,1495.51,10315.94,0,Closed,233900.0,On Time,Mass Affluent,4.41
+CUST0525,30,Male,Married,Bachelor's,Education,Ahmedabad,Savings,220100.0,744100.0,667.0,7.3,3,410600.0,Platinum,43258.17,26,1870.99,10564.19,21363.43,0,No Loan,0.0,On Time,Mass Affluent,10.54
+CUST0526,47,Male,Married,Diploma,Engineering,Kolkata,Salary,230200.0,549800.0,662.0,4.5,1,360800.0,Classic,30139.395,17,2449.37,8892.49,26551.29,0,No Loan,0.0,On Time,Mass Affluent,11.71
+CUST0527,21,Male,Married,Professional,Finance,Delhi,Savings,5000.0,548300.0,694.0,5.7,3,220200.0,Platinum,7963.67,18,437.57,723.14,4706.95,0,Closed,621400.0,On Time,Standard,3.62
+CUST0528,34,Male,Married,Bachelor's,Education,Delhi,Savings,160900.0,542000.0,593.0,3.6,2,318400.0,Platinum,25725.65,21,1540.27,5487.68,6951.88,1,Active,316000.0,Occasional Delay,Standard,8.08
+CUST0529,30,Female,Married,Bachelor's,Government,Kochi,Savings,64900.0,326300.0,681.0,4.7,6,123000.0,Gold,72637.8,26,2989.93,11804.64,27920.12,0,Active,264000.0,On Time,Mass Affluent,59.06
+CUST0530,40,Male,Married,Bachelor's,Engineering,Hyderabad,Salary,232700.0,571200.0,718.0,13.7,4,216100.0,Classic,40364.19,19,2101.78,6246.47,24682.77,0,No Loan,0.0,On Time,Mass Affluent,18.68
+CUST0531,30,Female,Married,Bachelor's,Engineering,Mumbai,Salary,83000.0,419000.0,629.0,1.3,2,272800.0,Signature,28499.7,25,1450.88,5219.32,18355.76,1,Closed,187500.0,Occasional Delay,Standard,10.45
+CUST0532,38,Female,Single,Bachelor's,Government,Pune,Savings,259000.0,907200.0,686.0,2.6,3,411900.0,Classic,23661.14,19,1287.75,1290.3,6585.82,0,No Loan,0.0,On Time,Mass Affluent,5.74
+CUST0533,23,Female,Married,Bachelor's,Government,Chennai,Salary,195300.0,454500.0,716.0,20.0,3,216100.0,Classic,69643.85,22,3415.31,1813.46,45550.07,0,No Loan,0.0,On Time,Mass Affluent,32.23
+CUST0534,34,Female,Married,Bachelor's,Government,Jaipur,Salary,155600.0,981500.0,733.0,2.0,5,635400.0,Classic,19291.3,20,1403.01,3085.54,9383.29,1,No Loan,0.0,Occasional Delay,Mass Affluent,3.04
+CUST0535,35,Male,Married,High School,IT Professional,Ahmedabad,Savings,458600.0,1027400.0,742.0,4.0,3,616200.0,Platinum,33930.58,18,2597.89,6901.95,26865.95,1,No Loan,0.0,Occasional Delay,Mass Affluent,5.51
+CUST0536,48,Female,Single,High School,Healthcare,Ahmedabad,Salary,277400.0,668300.0,696.0,8.3,3,479700.0,Classic,77977.55,20,4649.07,19491.24,29183.09,0,Active,436100.0,On Time,Mass Affluent,16.26
+CUST0537,35,Female,Married,Master's,Engineering,Pune,Salary,435000.0,1387900.0,751.0,11.1,1,449800.0,Classic,66782.68,24,2985.13,14570.53,48902.56,1,Active,1599700.0,Occasional Delay,Premium,14.85
+CUST0538,38,Female,Married,Bachelor's,IT Professional,Kochi,Savings,312700.0,755000.0,687.0,3.5,5,223600.0,Gold,33682.86,20,1970.03,4588.75,13676.77,1,Closed,782500.0,Occasional Delay,Mass Affluent,15.06
+CUST0539,49,Female,Single,Master's,IT Professional,Kochi,Savings,85200.0,501000.0,666.0,2.2,4,173100.0,Gold,13673.2,19,908.92,1995.85,6393.98,1,No Loan,0.0,Occasional Delay,Standard,7.9
+CUST0540,46,Female,Married,Bachelor's,Engineering,Pune,Current,19400.0,379200.0,613.0,4.7,3,177600.0,Platinum,52324.86,15,3679.14,6141.21,29949.51,3,No Loan,0.0,Delayed,Mass Affluent,29.46
+CUST0541,26,Male,Married,Master's,Healthcare,Pune,Salary,90200.0,887600.0,730.0,7.9,4,434300.0,Gold,21564.77,14,1856.03,3024.73,12880.48,0,Active,424100.0,On Time,Mass Affluent,4.97
+CUST0542,21,Female,Single,High School,Engineering,Ahmedabad,Savings,467900.0,1173100.0,726.0,6.1,3,676800.0,Gold,55879.56,22,3059.91,10361.45,15021.28,0,No Loan,0.0,On Time,Mass Affluent,8.26
+CUST0543,38,Male,Single,Bachelor's,Other,Ahmedabad,Savings,191200.0,646100.0,678.0,4.1,5,303800.0,Classic,75232.48,16,6583.36,1681.5,55428.93,0,No Loan,0.0,On Time,Mass Affluent,24.76
+CUST0544,35,Female,Married,High School,Healthcare,Hyderabad,Salary,5000.0,600700.0,641.0,3.2,4,363400.0,Signature,43822.9,25,2550.37,9680.33,32981.94,0,No Loan,0.0,On Time,Mass Affluent,12.06
+CUST0545,34,Male,Married,Professional,Business,Delhi,Salary,710800.0,1813000.0,839.0,6.7,2,1500000.0,Gold,18679.24,15,1628.08,1865.63,14193.6,0,Active,358500.0,On Time,Mass Affluent,1.25
+CUST0546,21,Female,Married,Master's,Healthcare,Bengaluru,Current,79200.0,334600.0,586.0,13.4,2,126400.0,Gold,27577.8,18,1475.54,5020.72,16960.0,3,Closed,199400.0,Delayed,Basic,21.82
+CUST0547,45,Female,Single,High School,Other,Mumbai,Savings,33500.0,852000.0,665.0,2.0,5,331300.0,Gold,40345.63,17,3474.69,6993.02,30985.75,0,Closed,2712800.0,On Time,Mass Affluent,12.18
+CUST0548,63,Female,Divorced,Master's,Engineering,Kolkata,Savings,269000.0,676300.0,584.0,9.6,2,398100.0,Gold,22663.28,12,1827.67,5139.41,10267.46,3,No Loan,0.0,Delayed,Standard,5.69
+CUST0549,53,Female,Married,Bachelor's,Government,Kolkata,Savings,117900.0,631400.0,595.0,5.2,5,260600.0,Classic,16023.1,22,769.63,3395.5,7913.19,4,Active,342800.0,Delayed,Standard,6.15
+CUST0550,30,Female,Single,Bachelor's,Education,Bengaluru,Current,5000.0,997000.0,667.0,2.3,6,494800.0,Gold,33363.59,11,3441.06,7672.74,12825.74,1,Closed,1776800.0,Occasional Delay,Mass Affluent,6.74
+CUST0551,39,Female,Divorced,Bachelor's,Business,Kolkata,Savings,225500.0,863500.0,762.0,6.6,2,576500.0,Gold,35373.83,16,2158.74,3557.26,14760.52,0,No Loan,0.0,On Time,Mass Affluent,6.14
+CUST0552,55,Male,Married,Master's,IT Professional,Chennai,Current,55000.0,445500.0,778.0,7.1,1,300600.0,Platinum,20728.91,26,1221.92,3738.28,12924.61,3,No Loan,0.0,Delayed,Standard,6.9
+CUST0553,36,Female,Divorced,Bachelor's,IT Professional,Jaipur,Savings,210100.0,1431200.0,738.0,3.2,5,515400.0,Gold,41329.63,18,3038.31,5091.51,22343.25,5,No Loan,0.0,Delayed,Mass Affluent,8.02
+CUST0554,21,Male,Married,Master's,Engineering,Kochi,Savings,139100.0,613300.0,756.0,4.4,3,276300.0,Gold,30496.66,26,1467.71,934.11,21118.82,0,No Loan,0.0,On Time,Mass Affluent,11.04
+CUST0555,21,Male,Divorced,Bachelor's,Government,Ahmedabad,Salary,828300.0,1706200.0,687.0,6.9,7,929600.0,Classic,17527.99,22,790.09,1526.58,7019.7,0,No Loan,0.0,On Time,Mass Affluent,1.89
+CUST0556,30,Female,Married,Bachelor's,Finance,Hyderabad,Savings,71200.0,566600.0,577.0,9.4,4,130300.0,Signature,34274.32,20,1688.01,1812.61,24476.54,2,No Loan,0.0,Occasional Delay,Mass Affluent,26.3
+CUST0557,42,Male,Married,Bachelor's,Healthcare,Hyderabad,Savings,215200.0,1135700.0,718.0,9.7,3,422000.0,Platinum,21841.12,26,917.55,1402.56,17454.18,0,Active,601000.0,On Time,Mass Affluent,5.18
+CUST0558,31,Male,Married,Professional,Healthcare,Kolkata,Savings,112500.0,383900.0,624.0,13.0,1,119100.0,Classic,26654.91,24,1655.07,4422.58,9476.08,0,No Loan,0.0,On Time,Basic,22.38
+CUST0559,41,Male,Married,Bachelor's,Education,Delhi,Savings,5000.0,361000.0,630.0,13.5,1,94700.0,Gold,54120.26,22,3098.85,3005.26,36074.77,2,No Loan,0.0,Occasional Delay,Mass Affluent,57.15
+CUST0560,27,Male,Married,Bachelor's,Engineering,Pune,Current,136800.0,712800.0,744.0,2.3,2,353000.0,Platinum,10039.51,16,794.25,1661.93,3918.08,2,Active,350600.0,Occasional Delay,Mass Affluent,2.84
+CUST0561,33,Female,Single,High School,Engineering,Kochi,Salary,244700.0,1097300.0,733.0,7.4,3,616400.0,Gold,44266.48,18,2645.26,2332.17,25345.4,0,Closed,506200.0,On Time,Mass Affluent,7.18
+CUST0562,28,Female,Married,High School,IT Professional,Pune,Savings,20800.0,429300.0,614.0,4.6,1,268500.0,Classic,68058.51,18,3647.91,10800.73,31430.58,1,No Loan,0.0,Occasional Delay,Mass Affluent,25.35
+CUST0563,21,Female,Married,Bachelor's,Healthcare,Bengaluru,Savings,127500.0,530600.0,715.0,2.9,5,363700.0,Gold,49591.29,19,2803.76,11955.01,14045.89,0,No Loan,0.0,On Time,Mass Affluent,13.64
+CUST0564,45,Female,Married,Bachelor's,Engineering,Pune,Savings,114700.0,375300.0,654.0,5.8,3,206000.0,Platinum,53136.93,23,3362.19,7754.97,31264.25,0,Active,523700.0,On Time,Mass Affluent,25.79
+CUST0565,24,Male,Married,Master's,IT Professional,Bengaluru,Salary,216900.0,626300.0,707.0,3.3,3,391500.0,Gold,40131.54,18,3257.66,9751.52,17572.22,1,Active,799600.0,Occasional Delay,Mass Affluent,10.25
+CUST0566,30,Male,Married,Master's,Education,Kochi,Savings,95500.0,258000.0,597.0,3.2,5,108900.0,Signature,27023.08,18,1496.21,6008.99,21289.76,3,No Loan,0.0,Delayed,Basic,24.81
+CUST0567,56,Male,Divorced,Master's,IT Professional,Kochi,Current,455200.0,1232700.0,699.0,3.4,2,483200.0,Gold,18466.13,15,1886.35,3464.5,6557.02,0,No Loan,0.0,On Time,Mass Affluent,3.82
+CUST0568,36,Male,Married,Bachelor's,Finance,Bengaluru,Savings,13400.0,663200.0,717.0,4.6,2,177700.0,Classic,37065.63,13,3336.93,3671.41,15658.05,1,Closed,908400.0,Occasional Delay,Mass Affluent,20.86
+CUST0569,29,Male,Married,High School,IT Professional,Hyderabad,Salary,56900.0,1438000.0,737.0,5.4,3,422600.0,Classic,29429.24,21,1410.82,4444.72,21474.9,1,Active,232100.0,Occasional Delay,Mass Affluent,6.96
+CUST0570,32,Female,Single,Diploma,Healthcare,Mumbai,Savings,26500.0,308800.0,655.0,1.7,4,164900.0,Platinum,13888.34,14,1115.89,490.65,8484.65,0,No Loan,0.0,On Time,Basic,8.42
+CUST0571,47,Male,Married,Professional,Education,Chennai,Salary,66700.0,289400.0,649.0,4.1,3,74100.0,Gold,36560.71,25,1762.4,6308.61,20921.98,2,Active,952500.0,Occasional Delay,Mass Affluent,49.34
+CUST0572,67,Female,Single,Diploma,Government,Ahmedabad,Savings,261300.0,805400.0,642.0,7.1,2,230300.0,Classic,19160.35,21,952.88,719.88,12303.52,0,No Loan,0.0,On Time,Mass Affluent,8.32
+CUST0573,45,Male,Single,Master's,Government,Ahmedabad,Savings,32500.0,401300.0,687.0,4.0,4,122100.0,Platinum,71197.65,23,3135.22,15110.81,27015.09,1,No Loan,0.0,Occasional Delay,Mass Affluent,58.31
+CUST0574,46,Female,Married,Master's,Healthcare,Kolkata,Current,200200.0,528200.0,664.0,3.9,2,199500.0,Platinum,81830.09,13,6479.99,6683.77,20982.55,1,Active,1936100.0,Occasional Delay,Mass Affluent,41.02
+CUST0575,28,Male,Married,High School,Other,Kolkata,Savings,122400.0,230600.0,578.0,2.8,1,141400.0,Gold,33275.07,26,1295.4,1399.32,16650.38,3,No Loan,0.0,Delayed,Mass Affluent,23.53
+CUST0576,22,Male,Single,Bachelor's,IT Professional,Mumbai,Salary,161100.0,461400.0,636.0,1.5,2,113500.0,Gold,15100.0,17,1337.15,2236.92,10476.37,2,Closed,914000.0,Occasional Delay,Standard,13.3
+CUST0577,42,Female,Married,High School,Healthcare,Bengaluru,Current,5000.0,936800.0,741.0,3.9,3,674300.0,Signature,29188.87,17,1962.13,3921.66,14236.66,0,No Loan,0.0,On Time,Mass Affluent,4.33
+CUST0578,25,Female,Single,Master's,Education,Delhi,Savings,60300.0,405100.0,641.0,4.8,2,167400.0,Classic,30130.25,22,1574.29,1995.44,16263.71,0,No Loan,0.0,On Time,Mass Affluent,18.0
+CUST0579,26,Male,Married,Bachelor's,Education,Ahmedabad,Savings,309400.0,1107800.0,682.0,4.7,2,660500.0,Signature,21062.48,24,1349.9,3311.45,15478.14,1,No Loan,0.0,Occasional Delay,Mass Affluent,3.19
+CUST0580,46,Male,Married,Master's,Education,Bengaluru,Savings,5000.0,1359400.0,779.0,2.5,3,942100.0,Gold,35069.19,15,2282.36,2809.97,22614.39,0,No Loan,0.0,On Time,Mass Affluent,3.72
+CUST0581,37,Female,Single,Master's,Education,Chennai,Savings,504500.0,1845200.0,785.0,13.6,2,865500.0,Gold,103573.39,21,4729.02,10809.06,31310.74,1,Closed,295500.0,Occasional Delay,Premium,11.97
+CUST0582,52,Female,Married,Bachelor's,Retail,Hyderabad,Savings,240400.0,958300.0,676.0,4.3,4,325200.0,Gold,31082.38,16,2165.07,6814.58,11728.07,1,Active,1711500.0,Occasional Delay,Mass Affluent,9.56
+CUST0583,40,Female,Married,Diploma,IT Professional,Kochi,Current,5000.0,556000.0,638.0,6.1,3,345600.0,Gold,98894.55,25,4180.85,10392.21,58209.62,1,Active,526500.0,Occasional Delay,Mass Affluent,28.62
+CUST0584,45,Female,Single,Bachelor's,Government,Hyderabad,Savings,83300.0,723200.0,667.0,9.8,3,296300.0,Gold,28205.51,15,2277.81,5767.61,11140.62,1,Active,1328400.0,Occasional Delay,Mass Affluent,9.52
+CUST0585,42,Male,Married,Master's,Finance,Bengaluru,Savings,5000.0,830800.0,677.0,5.8,4,534700.0,Classic,21442.96,20,1339.19,4045.75,10919.28,0,No Loan,0.0,On Time,Mass Affluent,4.01
+CUST0586,45,Male,Married,Diploma,Finance,Ahmedabad,Savings,29900.0,1119600.0,821.0,7.0,6,773600.0,Signature,23605.36,19,1592.17,3835.8,16602.08,1,No Loan,0.0,Occasional Delay,Mass Affluent,3.05
+CUST0587,46,Male,Married,High School,Engineering,Kolkata,Savings,750700.0,3156500.0,850.0,4.2,3,1260400.0,Signature,96151.07,23,4088.82,21814.13,48444.59,0,No Loan,0.0,On Time,Premium,7.63
+CUST0588,47,Male,Married,Bachelor's,Engineering,Chennai,Savings,123300.0,664800.0,715.0,4.9,3,505200.0,Platinum,19475.06,13,2037.38,4471.13,8359.15,2,Active,573500.0,Occasional Delay,Standard,3.85
+CUST0589,35,Female,Single,Professional,Government,Jaipur,Savings,61100.0,795800.0,772.0,4.8,3,281900.0,Gold,18973.43,12,1919.38,4376.47,6851.89,0,Active,600400.0,On Time,Mass Affluent,6.73
+CUST0590,58,Female,Divorced,Bachelor's,Education,Ahmedabad,Savings,215800.0,719500.0,770.0,2.0,4,395600.0,Signature,38882.02,17,2815.24,7559.23,27857.75,1,Closed,417600.0,Occasional Delay,Mass Affluent,9.83
+CUST0591,25,Male,Married,Professional,IT Professional,Mumbai,Savings,328700.0,1490800.0,778.0,2.5,1,939800.0,Gold,41848.52,25,2570.88,3319.51,23261.74,1,Closed,191000.0,Occasional Delay,Mass Affluent,4.45
+CUST0592,36,Female,Married,High School,Business,Delhi,Savings,202900.0,878200.0,641.0,2.0,2,490400.0,Classic,14776.72,23,888.25,765.3,6438.47,2,No Loan,0.0,Occasional Delay,Mass Affluent,3.01
+CUST0593,29,Male,Married,Professional,Finance,Hyderabad,Savings,116900.0,460600.0,634.0,3.6,3,286100.0,Classic,28054.62,15,2016.49,5599.91,13117.79,0,Closed,186100.0,On Time,Standard,9.81
+CUST0594,42,Male,Single,High School,Healthcare,Kolkata,Salary,175900.0,773100.0,674.0,5.9,4,465200.0,Classic,43336.23,22,2321.58,5588.17,29685.29,0,Closed,518600.0,On Time,Mass Affluent,9.32
+CUST0595,34,Female,Single,High School,Finance,Hyderabad,Savings,761400.0,1779800.0,786.0,1.4,2,539500.0,Classic,75880.23,20,3637.49,4154.36,22105.16,0,No Loan,0.0,On Time,Premium,14.06
+CUST0596,44,Male,Married,Bachelor's,Engineering,Mumbai,Salary,44100.0,475200.0,640.0,5.2,1,123700.0,Gold,51195.94,26,2000.88,6965.3,19589.06,2,No Loan,0.0,Occasional Delay,Mass Affluent,41.39
+CUST0597,29,Female,Divorced,Diploma,IT Professional,Hyderabad,Savings,215200.0,579700.0,608.0,7.8,2,359900.0,Gold,36957.24,19,2220.87,3868.51,12210.72,0,No Loan,0.0,On Time,Mass Affluent,10.27
+CUST0598,44,Male,Single,Master's,Other,Hyderabad,Savings,25400.0,953800.0,782.0,2.8,2,794100.0,Gold,13841.33,20,922.82,2606.9,10884.55,1,No Loan,0.0,Occasional Delay,Mass Affluent,1.74
+CUST0599,47,Male,Single,Bachelor's,Business,Chennai,Salary,201700.0,660500.0,671.0,2.3,6,215100.0,Signature,5755.59,17,409.82,1100.75,3718.16,1,Active,675500.0,Occasional Delay,Standard,2.68
+CUST0600,53,Male,Single,Bachelor's,Business,Hyderabad,Savings,102500.0,444700.0,584.0,10.8,5,102000.0,Platinum,64477.55,20,3715.5,11972.98,36935.2,1,Active,226900.0,Occasional Delay,Mass Affluent,63.21
+CUST0601,38,Female,Single,Bachelor's,IT Professional,Mumbai,Savings,376000.0,651900.0,692.0,6.1,3,461500.0,Gold,20010.53,20,1097.28,848.09,5841.22,1,No Loan,0.0,Occasional Delay,Standard,4.34
+CUST0602,40,Female,Single,Bachelor's,Healthcare,Kolkata,Savings,149700.0,750100.0,639.0,9.0,2,369300.0,Gold,51079.41,17,2926.44,12199.93,16815.62,0,No Loan,0.0,On Time,Mass Affluent,13.83
+CUST0603,38,Male,Married,Diploma,Business,Kolkata,Savings,5000.0,718100.0,648.0,2.3,1,456400.0,Gold,76253.98,17,5748.92,10767.08,21603.81,0,Active,828000.0,On Time,Mass Affluent,16.71
+CUST0604,23,Male,Married,Bachelor's,Healthcare,Bengaluru,Savings,5000.0,1718000.0,765.0,10.0,6,1149000.0,Gold,12410.23,19,648.27,558.02,9119.72,0,No Loan,0.0,On Time,Mass Affluent,1.08
+CUST0605,56,Female,Single,Bachelor's,Finance,Jaipur,Savings,5000.0,824100.0,713.0,4.2,5,561100.0,Classic,20200.88,29,893.66,1359.55,14659.21,0,Active,355300.0,On Time,Mass Affluent,3.6
+CUST0606,38,Male,Single,Diploma,Retail,Kochi,Salary,229300.0,880000.0,681.0,9.4,2,375000.0,Classic,35222.69,28,1260.45,6628.94,16468.23,1,Active,241200.0,Occasional Delay,Mass Affluent,9.39
+CUST0607,49,Female,Married,Bachelor's,Engineering,Pune,Salary,76300.0,855200.0,743.0,9.0,5,584200.0,Classic,57073.4,23,2565.68,14047.34,40940.79,0,Active,188800.0,On Time,Mass Affluent,9.77
+CUST0608,33,Female,Single,Master's,Retail,Kochi,Savings,94100.0,896500.0,697.0,8.8,5,505900.0,Platinum,9129.8,16,825.77,431.76,3771.31,0,No Loan,0.0,On Time,Mass Affluent,1.8
+CUST0609,29,Male,Married,Diploma,Healthcare,Chennai,Current,130600.0,343100.0,664.0,3.9,2,156700.0,Gold,17329.71,19,908.5,453.65,7589.04,1,No Loan,0.0,Occasional Delay,Basic,11.06
+CUST0610,30,Female,Married,Bachelor's,Retail,Mumbai,Savings,120800.0,560400.0,698.0,7.4,3,192400.0,Classic,39877.26,17,2492.03,7871.49,29768.8,0,Active,494600.0,On Time,Mass Affluent,20.73
+CUST0611,35,Female,Married,Bachelor's,Business,Pune,Salary,349800.0,865100.0,650.0,10.8,4,433100.0,Classic,33564.65,16,2073.0,4880.42,15641.3,1,Closed,140700.0,Occasional Delay,Mass Affluent,7.75
+CUST0612,38,Female,Single,Master's,Engineering,Ahmedabad,Savings,58200.0,835100.0,676.0,2.9,4,220000.0,Signature,20569.92,17,1201.2,2510.12,14731.25,0,Closed,149300.0,On Time,Mass Affluent,9.35
+CUST0613,37,Male,Married,Master's,Healthcare,Mumbai,Savings,112100.0,616500.0,693.0,4.3,4,378800.0,Classic,18595.52,25,864.41,2704.06,14741.93,1,Active,725700.0,Occasional Delay,Standard,4.91
+CUST0614,49,Male,Single,Master's,Retail,Jaipur,Savings,5000.0,556700.0,723.0,7.0,4,234800.0,Signature,24834.32,20,1637.58,2676.0,15805.83,0,No Loan,0.0,On Time,Standard,10.58
+CUST0615,57,Female,Married,Master's,Engineering,Chennai,Current,259200.0,1457900.0,751.0,9.0,3,979500.0,Gold,30945.79,18,1748.21,2422.95,22077.7,1,No Loan,0.0,Occasional Delay,Mass Affluent,3.16
+CUST0616,26,Male,Married,Bachelor's,Finance,Kochi,Savings,142500.0,540300.0,646.0,2.5,4,262300.0,Classic,17703.03,19,1378.0,1650.11,6657.96,0,Active,327600.0,On Time,Standard,6.75
+CUST0617,28,Female,Divorced,Bachelor's,Engineering,Ahmedabad,Savings,203500.0,1139900.0,700.0,1.6,2,543900.0,Classic,10554.25,14,1073.59,950.76,7831.31,0,No Loan,0.0,On Time,Mass Affluent,1.94
+CUST0618,61,Female,Single,High School,Engineering,Mumbai,Current,241100.0,769100.0,650.0,3.1,6,506200.0,Classic,22207.15,24,901.3,1950.92,7445.39,0,Closed,204100.0,On Time,Mass Affluent,4.39
+CUST0619,36,Male,Married,Bachelor's,Engineering,Ahmedabad,Savings,36900.0,417100.0,701.0,6.6,3,142700.0,Classic,90625.05,23,4021.37,8780.59,53047.96,2,No Loan,0.0,Occasional Delay,Mass Affluent,63.51
+CUST0620,43,Male,Married,High School,Government,Jaipur,Savings,385700.0,1226600.0,686.0,4.1,4,858100.0,Signature,11750.24,20,807.24,2150.49,7835.82,0,No Loan,0.0,On Time,Mass Affluent,1.37
+CUST0621,42,Male,Single,Master's,Business,Bengaluru,Savings,48200.0,872300.0,712.0,5.8,1,657400.0,Classic,42047.97,18,2803.26,4522.79,30674.84,1,Active,565600.0,Occasional Delay,Mass Affluent,6.4
+CUST0622,62,Male,Single,Professional,Government,Kochi,Savings,100300.0,391500.0,640.0,4.9,4,97400.0,Platinum,18366.31,26,841.15,1585.12,6946.48,1,Active,414100.0,Occasional Delay,Basic,18.86
+CUST0623,21,Male,Married,Bachelor's,Retail,Hyderabad,Savings,57300.0,586600.0,693.0,5.6,3,285600.0,Gold,9633.12,22,608.81,498.31,3244.5,0,Active,1003000.0,On Time,Standard,3.37
+CUST0624,52,Male,Single,Bachelor's,Healthcare,Mumbai,Savings,5000.0,382600.0,628.0,4.5,2,88000.0,Classic,28307.25,21,1731.48,2019.96,11588.01,1,Closed,1376000.0,Occasional Delay,Basic,32.17
+CUST0625,40,Male,Single,Master's,Retail,Delhi,Savings,229500.0,515200.0,651.0,7.0,2,279800.0,Classic,70767.06,25,2888.52,10442.59,54585.5,1,No Loan,0.0,Occasional Delay,Mass Affluent,25.29
+CUST0626,48,Male,Married,Bachelor's,Engineering,Pune,Current,87600.0,393900.0,709.0,3.6,2,198000.0,Gold,77457.86,20,3906.17,16454.86,41231.57,3,No Loan,0.0,Delayed,Mass Affluent,39.12
+CUST0627,24,Female,Married,High School,IT Professional,Kochi,Savings,17700.0,599400.0,634.0,2.2,3,284700.0,Gold,28460.56,21,2058.15,1259.35,19752.1,1,No Loan,0.0,Occasional Delay,Standard,10.0
+CUST0628,51,Male,Married,Bachelor's,Finance,Bengaluru,Savings,65500.0,948500.0,680.0,2.5,4,343700.0,Signature,86353.86,23,3604.05,13220.84,48223.81,0,No Loan,0.0,On Time,Mass Affluent,25.12
+CUST0629,40,Female,Single,Bachelor's,Retail,Delhi,Savings,55100.0,408900.0,657.0,5.8,2,228400.0,Signature,32272.87,16,2409.26,1214.38,23228.31,1,Closed,325900.0,Occasional Delay,Mass Affluent,14.13
+CUST0630,58,Male,Married,Master's,Government,Delhi,Current,227300.0,1293000.0,713.0,6.5,4,408800.0,Classic,32664.75,22,1690.72,2041.26,22220.03,1,Active,432000.0,Occasional Delay,Mass Affluent,7.99
+CUST0631,37,Female,Married,Bachelor's,Government,Kochi,Savings,199200.0,1009100.0,739.0,6.4,3,552200.0,Gold,38788.47,14,3898.77,1404.9,21406.33,0,No Loan,0.0,On Time,Mass Affluent,7.02
+CUST0632,35,Male,Married,Bachelor's,Healthcare,Mumbai,Salary,805200.0,1997400.0,756.0,1.3,4,1468400.0,Classic,16007.64,17,1428.69,3618.04,8666.93,1,No Loan,0.0,Occasional Delay,Mass Affluent,1.09
+CUST0633,39,Male,Divorced,High School,Healthcare,Pune,Savings,459900.0,1538700.0,797.0,6.6,3,450300.0,Gold,13789.3,14,990.19,2366.1,10747.34,0,No Loan,0.0,On Time,Mass Affluent,3.06
+CUST0634,42,Female,Married,High School,Finance,Bengaluru,Savings,182100.0,1073400.0,713.0,12.8,6,731100.0,Platinum,36711.86,21,2024.74,7519.73,20438.53,1,Closed,93500.0,Occasional Delay,Mass Affluent,5.02
+CUST0635,43,Female,Married,Bachelor's,Finance,Pune,Savings,405800.0,1259000.0,739.0,3.6,3,902900.0,Gold,15080.91,20,1160.05,629.01,10228.59,0,No Loan,0.0,On Time,Mass Affluent,1.67
+CUST0636,28,Male,Married,Master's,Engineering,Jaipur,Current,25000.0,387500.0,665.0,19.1,4,223500.0,Classic,55037.44,21,2648.34,5255.36,23888.15,0,No Loan,0.0,On Time,Mass Affluent,24.63
+CUST0637,47,Female,Married,Bachelor's,Education,Kolkata,Savings,205900.0,660500.0,646.0,7.9,2,454300.0,Classic,22637.58,23,1138.23,2718.48,13504.69,2,Active,287500.0,Occasional Delay,Mass Affluent,4.98
+CUST0638,38,Male,Married,Bachelor's,Government,Pune,Current,191700.0,589200.0,710.0,12.7,1,280000.0,Gold,25012.76,21,1203.6,773.46,15216.45,0,Active,329100.0,On Time,Standard,8.93
+CUST0639,34,Female,Single,High School,Finance,Delhi,Savings,221600.0,899800.0,627.0,8.6,1,364700.0,Classic,41821.37,17,2615.31,9329.74,13669.93,0,Active,667100.0,On Time,Mass Affluent,11.47
+CUST0640,67,Female,Married,High School,Business,Jaipur,Savings,328900.0,712100.0,648.0,7.3,1,334500.0,Classic,75018.5,21,3708.67,11747.46,35005.86,1,No Loan,0.0,Occasional Delay,Mass Affluent,22.43
+CUST0641,55,Male,Single,Professional,Education,Chennai,Current,76300.0,692200.0,610.0,12.2,5,174300.0,Classic,26391.89,22,1644.0,4392.57,19278.31,2,No Loan,0.0,Occasional Delay,Standard,15.14
+CUST0642,43,Male,Single,Bachelor's,Finance,Kolkata,Current,5000.0,338000.0,648.0,1.6,4,112900.0,Platinum,18993.78,15,1489.56,1589.38,5322.52,3,No Loan,0.0,Delayed,Basic,16.82
+CUST0643,30,Female,Divorced,Professional,Business,Mumbai,Savings,376600.0,711000.0,630.0,5.2,3,162500.0,Signature,33932.69,24,1774.22,1944.39,26020.2,0,No Loan,0.0,On Time,Mass Affluent,20.88
+CUST0644,27,Female,Divorced,Bachelor's,Government,Pune,Savings,611200.0,1302100.0,720.0,3.1,3,372000.0,Platinum,22340.18,27,963.28,4142.52,14633.57,1,No Loan,0.0,Occasional Delay,Mass Affluent,6.01
+CUST0645,49,Female,Married,Master's,Healthcare,Kochi,Savings,227000.0,578500.0,698.0,8.6,3,325800.0,Classic,10292.56,12,1065.46,2011.02,2812.62,0,Closed,683700.0,On Time,Standard,3.16
+CUST0646,46,Male,Married,Master's,IT Professional,Jaipur,Savings,74100.0,385000.0,676.0,11.7,1,159400.0,Classic,10687.5,20,631.31,2120.21,2792.47,1,No Loan,0.0,Occasional Delay,Basic,6.7
+CUST0647,41,Male,Married,Bachelor's,Government,Pune,Savings,165800.0,593500.0,600.0,3.5,3,374200.0,Gold,100555.24,25,3912.09,9011.72,76423.34,2,Active,624400.0,Occasional Delay,Mass Affluent,26.87
+CUST0648,37,Female,Single,Master's,Government,Kochi,Savings,663200.0,1890600.0,794.0,6.4,3,719700.0,Classic,47556.06,25,2157.09,2056.2,36764.48,1,No Loan,0.0,Occasional Delay,Mass Affluent,6.61
+CUST0649,37,Male,Single,Diploma,Engineering,Ahmedabad,Savings,1091500.0,2919700.0,850.0,4.4,7,1409100.0,Gold,26625.43,18,1623.67,3732.45,17585.65,2,No Loan,0.0,Occasional Delay,Mass Affluent,1.89
+CUST0650,28,Female,Married,Master's,IT Professional,Pune,Savings,60600.0,474600.0,664.0,1.9,3,305600.0,Signature,18254.94,17,1153.26,2646.58,4664.0,0,No Loan,0.0,On Time,Standard,5.97
+CUST0651,48,Female,Divorced,Bachelor's,Engineering,Kolkata,Savings,135500.0,456000.0,653.0,2.0,4,246900.0,Classic,19161.24,19,1212.25,2710.15,9221.73,1,Active,1107800.0,Occasional Delay,Standard,7.76
+CUST0652,43,Male,Married,Bachelor's,Government,Bengaluru,Savings,194300.0,549500.0,683.0,10.2,3,208100.0,Gold,36148.87,23,1913.88,1875.53,25811.48,1,No Loan,0.0,Occasional Delay,Mass Affluent,17.37
+CUST0653,32,Male,Married,High School,Retail,Delhi,Salary,71700.0,904500.0,660.0,1.2,4,601000.0,Gold,46453.83,16,2820.94,6508.12,28748.17,1,Active,200500.0,Occasional Delay,Mass Affluent,7.73
+CUST0654,33,Male,Single,Master's,Retail,Pune,Salary,5000.0,379700.0,712.0,3.4,2,108800.0,Platinum,17496.96,13,2057.86,3287.5,6675.55,1,No Loan,0.0,Occasional Delay,Basic,16.08
+CUST0655,52,Female,Single,Master's,Engineering,Pune,Salary,38100.0,762600.0,633.0,4.0,4,511300.0,Platinum,25484.27,26,1413.48,4654.5,11210.1,0,Active,980300.0,On Time,Mass Affluent,4.98
+CUST0656,38,Male,Single,Bachelor's,Business,Kolkata,Current,251400.0,1060100.0,745.0,0.7,4,803600.0,Gold,38345.6,19,2843.94,5408.72,13530.82,2,Closed,625500.0,Occasional Delay,Mass Affluent,4.77
+CUST0657,33,Female,Married,High School,Government,Kochi,Savings,60600.0,294000.0,596.0,4.7,3,87400.0,Classic,37665.33,34,1559.34,5366.56,27608.35,3,Active,379900.0,Delayed,Mass Affluent,43.1
+CUST0658,45,Male,Married,Diploma,Other,Kolkata,Current,35400.0,544600.0,612.0,3.4,4,272100.0,Platinum,32589.62,18,2051.43,7394.27,15390.16,1,Active,272800.0,Occasional Delay,Mass Affluent,11.98
+CUST0659,42,Male,Married,Master's,Engineering,Pune,Salary,337500.0,1301500.0,750.0,2.6,3,616600.0,Gold,21289.87,13,2182.84,890.89,5971.89,3,No Loan,0.0,Delayed,Mass Affluent,3.45
+CUST0660,33,Female,Single,Bachelor's,IT Professional,Jaipur,Savings,9000.0,1086800.0,690.0,13.3,3,648000.0,Classic,69687.24,21,3413.81,9889.24,29861.68,0,No Loan,0.0,On Time,Mass Affluent,10.75
+CUST0661,33,Male,Married,Professional,Retail,Kolkata,Savings,72700.0,466600.0,652.0,2.4,6,183600.0,Classic,61756.54,28,2679.09,3810.11,30364.39,0,No Loan,0.0,On Time,Mass Affluent,33.64
+CUST0662,52,Female,Married,Professional,IT Professional,Jaipur,Savings,145000.0,551100.0,643.0,7.2,3,183300.0,Signature,23335.32,20,1681.58,964.49,9216.7,0,Active,1765400.0,On Time,Standard,12.73
+CUST0663,58,Male,Single,High School,Business,Jaipur,Savings,320400.0,789200.0,623.0,0.9,1,275600.0,Classic,18256.43,18,1301.08,2729.43,7174.15,0,No Loan,0.0,On Time,Mass Affluent,6.62
+CUST0664,27,Male,Married,Bachelor's,IT Professional,Pune,Savings,5000.0,440900.0,604.0,6.1,1,199800.0,Gold,23739.09,23,1129.1,2701.31,13402.94,2,Active,830500.0,Occasional Delay,Standard,11.88
+CUST0665,68,Male,Single,Master's,Education,Jaipur,Savings,30400.0,459600.0,628.0,3.5,4,174000.0,Classic,80917.8,25,4559.92,2422.44,45948.9,0,Active,205000.0,On Time,Mass Affluent,46.5
+CUST0666,45,Female,Married,Professional,Other,Hyderabad,Current,70300.0,457800.0,641.0,3.6,2,126800.0,Gold,76617.46,27,3196.12,10045.49,40253.3,0,Active,688600.0,On Time,Mass Affluent,60.42
+CUST0667,24,Female,Single,Bachelor's,Retail,Kochi,Savings,142800.0,443400.0,655.0,3.2,3,226200.0,Classic,42885.68,23,1865.57,6347.56,20683.9,0,Closed,478000.0,On Time,Mass Affluent,18.96
+CUST0668,52,Female,Married,Bachelor's,IT Professional,Chennai,Current,256200.0,952000.0,715.0,4.4,3,480300.0,Gold,22180.97,10,2291.37,1547.31,11176.35,0,No Loan,0.0,On Time,Mass Affluent,4.62
+CUST0669,46,Male,Married,Master's,Healthcare,Jaipur,Savings,5000.0,506400.0,686.0,16.2,3,255200.0,Signature,27301.66,22,1660.98,5493.82,9145.15,1,Active,278700.0,Occasional Delay,Standard,10.7
+CUST0670,47,Female,Single,Bachelor's,IT Professional,Delhi,Current,140600.0,935800.0,725.0,3.7,3,690200.0,Classic,34446.5,25,1469.66,1316.83,25504.74,0,Active,427600.0,On Time,Mass Affluent,4.99
+CUST0671,35,Male,Married,Master's,Business,Ahmedabad,Savings,24800.0,573800.0,574.0,9.4,5,120600.0,Gold,32257.85,27,1199.03,1231.52,9054.11,6,No Loan,0.0,Delayed,Mass Affluent,26.75
+CUST0672,41,Male,Married,Bachelor's,IT Professional,Kolkata,Savings,91400.0,823600.0,640.0,5.3,2,359900.0,Gold,17984.95,28,840.03,1537.24,9482.99,1,No Loan,0.0,Occasional Delay,Mass Affluent,5.0
+CUST0673,37,Male,Single,Bachelor's,Finance,Jaipur,Savings,468300.0,1088300.0,728.0,6.0,7,384300.0,Gold,26548.17,19,1802.87,4508.19,12091.3,1,Closed,672100.0,Occasional Delay,Mass Affluent,6.91
+CUST0674,45,Female,Single,Professional,Education,Pune,Savings,118200.0,955800.0,727.0,5.5,2,257100.0,Classic,39430.29,22,2623.02,6743.51,18984.45,0,Active,171200.0,On Time,Mass Affluent,15.34
+CUST0675,70,Male,Married,Diploma,Education,Bengaluru,Salary,5000.0,331800.0,669.0,3.8,2,147800.0,Platinum,75927.59,25,3302.26,12435.98,47367.33,1,No Loan,0.0,Occasional Delay,Mass Affluent,51.37
+CUST0676,40,Male,Single,Bachelor's,Government,Ahmedabad,Current,158600.0,526500.0,676.0,13.6,5,334000.0,Classic,23861.81,19,1714.57,4134.85,17033.45,0,No Loan,0.0,On Time,Standard,7.14
+CUST0677,63,Female,Married,Bachelor's,Engineering,Pune,Current,10100.0,261500.0,604.0,1.6,2,153500.0,Gold,21151.55,22,1398.77,3794.68,8493.71,1,Closed,747400.0,Occasional Delay,Basic,13.78
+CUST0678,43,Male,Married,Bachelor's,Healthcare,Hyderabad,Savings,393900.0,600900.0,690.0,17.8,3,298200.0,Platinum,25638.7,18,1550.81,2397.97,7936.89,0,No Loan,0.0,On Time,Standard,8.6
+CUST0679,37,Male,Married,Master's,Business,Pune,Savings,109200.0,266500.0,608.0,6.4,2,153000.0,Platinum,52062.69,30,1969.6,8862.08,26004.95,1,Closed,592300.0,Occasional Delay,Mass Affluent,34.03
+CUST0680,42,Male,Married,Master's,Business,Mumbai,Savings,36900.0,827000.0,693.0,4.8,1,574600.0,Signature,27439.15,22,1609.42,4932.27,17744.26,2,No Loan,0.0,Occasional Delay,Mass Affluent,4.78
+CUST0681,33,Male,Single,Bachelor's,IT Professional,Mumbai,Savings,405900.0,1148300.0,801.0,4.8,3,751700.0,Platinum,52354.73,21,3544.24,11865.44,34944.04,1,No Loan,0.0,Occasional Delay,Mass Affluent,6.96
+CUST0682,54,Female,Married,Professional,IT Professional,Kochi,Savings,154700.0,970200.0,687.0,5.6,3,389100.0,Classic,42348.2,24,1764.86,873.34,24070.47,1,No Loan,0.0,Occasional Delay,Mass Affluent,10.88
+CUST0683,24,Male,Married,Master's,IT Professional,Kochi,Salary,368800.0,837500.0,623.0,10.1,3,495200.0,Classic,36162.81,23,1727.54,3802.86,18681.72,0,Closed,435500.0,On Time,Mass Affluent,7.3
+CUST0684,43,Male,Single,Diploma,Other,Mumbai,Savings,141900.0,1596800.0,757.0,2.0,3,627000.0,Gold,13106.64,21,646.28,1449.76,9950.87,0,Active,231100.0,On Time,Mass Affluent,2.09
+CUST0685,38,Female,Single,Bachelor's,IT Professional,Ahmedabad,Savings,5000.0,344400.0,638.0,0.9,4,132400.0,Gold,77743.34,22,3532.79,14979.07,22424.46,0,No Loan,0.0,On Time,Mass Affluent,58.72
+CUST0686,32,Female,Single,Bachelor's,Business,Kochi,Savings,73600.0,592600.0,644.0,7.1,5,318900.0,Platinum,17453.46,21,901.01,1210.91,12675.25,0,Active,390500.0,On Time,Standard,5.47
+CUST0687,38,Female,Single,Master's,Business,Bengaluru,Salary,87600.0,274600.0,640.0,7.9,1,140600.0,Classic,37118.57,24,1477.4,4025.26,19092.09,0,No Loan,0.0,On Time,Mass Affluent,26.4
+CUST0688,40,Male,Married,Bachelor's,Engineering,Hyderabad,Savings,159700.0,588400.0,628.0,5.9,2,180600.0,Classic,21720.48,14,1577.43,2850.81,9648.24,0,No Loan,0.0,On Time,Standard,12.03
+CUST0689,21,Male,Married,Bachelor's,Engineering,Pune,Salary,143200.0,654900.0,647.0,2.1,4,318800.0,Gold,21381.56,18,1449.08,828.93,9348.58,0,Active,500300.0,On Time,Standard,6.71
+CUST0690,46,Female,Married,Master's,Engineering,Chennai,Savings,75200.0,613800.0,613.0,6.1,4,148800.0,Signature,30345.29,26,1437.22,832.82,14843.9,1,Active,424700.0,Occasional Delay,Mass Affluent,20.39
+CUST0691,35,Male,Married,Master's,Engineering,Mumbai,Salary,87900.0,433300.0,664.0,2.6,2,234900.0,Gold,9243.84,16,672.59,1568.1,4898.91,1,Active,203800.0,Occasional Delay,Standard,3.94
+CUST0692,50,Male,Married,High School,Education,Chennai,Salary,314500.0,966700.0,706.0,8.8,5,340200.0,Gold,40076.45,14,3237.82,2624.12,25408.69,3,Closed,1227000.0,Delayed,Mass Affluent,11.78
+CUST0693,62,Male,Married,Bachelor's,Retail,Kolkata,Savings,211400.0,783000.0,755.0,4.2,4,536800.0,Classic,22238.76,19,1756.87,3921.36,12881.05,0,No Loan,0.0,On Time,Mass Affluent,4.14
+CUST0694,55,Male,Married,Bachelor's,Engineering,Mumbai,Savings,87900.0,347100.0,606.0,13.8,3,175000.0,Gold,34637.99,20,1673.23,7851.9,15284.31,2,Active,354900.0,Occasional Delay,Mass Affluent,19.79
+CUST0695,41,Male,Married,Master's,Finance,Pune,Savings,290100.0,424900.0,660.0,4.5,2,296500.0,Platinum,14074.51,8,2475.84,3295.66,8469.82,0,No Loan,0.0,On Time,Standard,4.75
+CUST0696,29,Male,Single,Diploma,Engineering,Hyderabad,Savings,364900.0,904900.0,716.0,2.6,2,382700.0,Platinum,51106.68,17,3346.6,8982.18,40042.35,3,Active,532900.0,Delayed,Mass Affluent,13.35
+CUST0697,39,Male,Single,Professional,Business,Delhi,Savings,481000.0,736300.0,634.0,5.8,3,252000.0,Classic,17358.85,18,1441.82,3790.78,12759.82,2,Active,1155900.0,Occasional Delay,Mass Affluent,6.89
+CUST0698,34,Female,Married,Master's,IT Professional,Ahmedabad,Savings,181800.0,525700.0,692.0,8.6,3,187000.0,Platinum,67239.4,20,4311.33,11141.62,48983.51,0,No Loan,0.0,On Time,Mass Affluent,35.96
+CUST0699,60,Female,Single,Bachelor's,Education,Bengaluru,Savings,117100.0,477300.0,619.0,9.7,3,205800.0,Gold,19866.99,18,1352.17,4668.36,9937.24,2,Closed,775600.0,Occasional Delay,Standard,9.65
+CUST0700,31,Male,Married,Master's,Other,Mumbai,Savings,184700.0,730700.0,645.0,3.9,5,480800.0,Gold,61987.08,22,2822.25,3841.96,19226.98,2,No Loan,0.0,Occasional Delay,Mass Affluent,12.89
+CUST0701,24,Male,Married,Bachelor's,Government,Chennai,Current,26500.0,821100.0,710.0,3.5,3,389000.0,Gold,41911.51,26,1850.35,9598.21,33151.61,2,No Loan,0.0,Occasional Delay,Mass Affluent,10.77
+CUST0702,28,Male,Single,High School,Engineering,Jaipur,Savings,5000.0,407800.0,676.0,20.0,6,226200.0,Classic,38373.03,18,2204.77,2680.29,29378.44,0,No Loan,0.0,On Time,Mass Affluent,16.96
+CUST0703,30,Male,Single,Bachelor's,Other,Ahmedabad,Savings,251800.0,999300.0,773.0,3.6,3,522000.0,Platinum,21489.52,16,1470.78,1484.59,14413.82,2,Active,1186700.0,Occasional Delay,Mass Affluent,4.12
+CUST0704,51,Female,Married,Bachelor's,Healthcare,Ahmedabad,Savings,144300.0,307500.0,595.0,3.1,3,111100.0,Classic,37822.23,21,1971.27,9014.88,13182.8,1,No Loan,0.0,Occasional Delay,Mass Affluent,34.04
+CUST0705,35,Male,Single,Master's,IT Professional,Hyderabad,Savings,248800.0,810300.0,628.0,5.8,7,531600.0,Gold,31954.08,23,1588.94,6661.5,18954.73,2,Active,232000.0,Occasional Delay,Mass Affluent,6.01
+CUST0706,40,Male,Married,Bachelor's,Healthcare,Jaipur,Savings,268600.0,739500.0,781.0,3.4,2,251900.0,Gold,52007.38,11,5858.7,4784.31,19706.33,0,Active,172700.0,On Time,Mass Affluent,20.65
+CUST0707,21,Female,Married,Master's,Healthcare,Chennai,Salary,356400.0,1212300.0,748.0,2.8,4,880900.0,Gold,36260.45,17,2252.91,3053.99,16875.76,0,No Loan,0.0,On Time,Mass Affluent,4.12
+CUST0708,35,Female,Single,Bachelor's,Healthcare,Pune,Current,5000.0,1496300.0,736.0,6.9,1,442200.0,Platinum,50677.46,22,2233.36,4959.81,25939.14,0,Closed,530800.0,On Time,Mass Affluent,11.46
+CUST0709,52,Male,Single,Bachelor's,Finance,Ahmedabad,Savings,201000.0,504700.0,562.0,2.2,5,164400.0,Gold,6524.91,12,809.59,886.03,1749.59,4,No Loan,0.0,Delayed,Standard,3.97
+CUST0710,44,Male,Divorced,Bachelor's,IT Professional,Ahmedabad,Savings,75500.0,676700.0,673.0,6.1,5,462100.0,Classic,62636.86,24,2520.14,14905.75,39631.17,1,Active,215200.0,Occasional Delay,Mass Affluent,13.55
+CUST0711,33,Male,Single,High School,IT Professional,Delhi,Savings,200900.0,487500.0,710.0,3.0,2,314300.0,Classic,46081.03,26,2396.03,7425.31,23245.02,0,Closed,1276300.0,On Time,Mass Affluent,14.66
+CUST0712,61,Male,Married,Diploma,Finance,Kochi,Savings,34000.0,347000.0,659.0,1.8,2,140200.0,Signature,24980.15,17,1627.85,1919.78,11151.98,1,No Loan,0.0,Occasional Delay,Basic,17.82
+CUST0713,55,Male,Married,Bachelor's,Healthcare,Mumbai,Current,155100.0,684800.0,697.0,4.2,7,501900.0,Platinum,73212.58,24,3126.04,2958.27,25165.04,0,Active,556100.0,On Time,Mass Affluent,14.59
+CUST0714,33,Male,Married,Professional,IT Professional,Ahmedabad,Savings,346100.0,705700.0,640.0,1.7,4,211200.0,Signature,78100.8,22,4124.48,2691.25,52212.04,0,No Loan,0.0,On Time,Mass Affluent,36.98
+CUST0715,37,Male,Married,Bachelor's,Retail,Hyderabad,Savings,5000.0,383600.0,549.0,11.4,3,93400.0,Classic,63072.05,22,3116.16,5217.53,44686.73,3,No Loan,0.0,Delayed,Mass Affluent,67.53
+CUST0716,21,Female,Single,Bachelor's,IT Professional,Kolkata,Current,5000.0,400700.0,653.0,9.5,4,158400.0,Classic,30139.395,29,1675.05,6724.64,33156.62,1,No Loan,0.0,Occasional Delay,Mass Affluent,26.96
+CUST0717,50,Female,Married,Professional,Healthcare,Delhi,Salary,114400.0,456600.0,676.0,2.8,4,141400.0,Gold,72395.56,19,3833.99,7655.28,50355.94,0,No Loan,0.0,On Time,Mass Affluent,51.2
+CUST0718,52,Male,Married,Master's,Healthcare,Kochi,Savings,74400.0,610300.0,701.0,6.4,3,175000.0,Signature,6755.43,21,346.98,1282.61,3241.97,0,Active,550100.0,On Time,Standard,3.86
+CUST0719,37,Female,Married,Diploma,Finance,Pune,Savings,67900.0,309000.0,754.0,5.0,2,103200.0,Signature,50869.17,19,3063.01,3658.08,27920.62,0,Closed,1253700.0,On Time,Mass Affluent,49.29
+CUST0720,44,Female,Married,Bachelor's,IT Professional,Jaipur,Savings,150300.0,342600.0,659.0,3.5,3,209700.0,Classic,32624.93,15,2701.64,6027.45,20389.96,1,No Loan,0.0,Occasional Delay,Mass Affluent,15.56
+CUST0721,39,Female,Single,Bachelor's,IT Professional,Jaipur,Savings,52300.0,1138500.0,621.0,3.2,3,550700.0,Platinum,132220.36,34,5298.84,6286.06,52492.99,3,Closed,432000.0,Delayed,Mass Affluent,24.01
+CUST0722,31,Female,Single,Professional,Other,Kolkata,Salary,5000.0,552000.0,684.0,1.7,6,198900.0,Classic,37576.31,27,1749.5,3721.24,29752.96,0,Active,1082800.0,On Time,Mass Affluent,18.89
+CUST0723,21,Female,Married,Bachelor's,Retail,Kolkata,Savings,242800.0,987100.0,668.0,14.7,2,355800.0,Gold,22113.27,17,1680.29,2812.66,7981.9,0,No Loan,0.0,On Time,Mass Affluent,6.22
+CUST0724,46,Female,Married,Bachelor's,Education,Hyderabad,Savings,410200.0,662800.0,592.0,1.4,6,229900.0,Signature,20707.64,24,996.86,1638.85,8991.33,4,No Loan,0.0,Delayed,Standard,9.01
+CUST0725,34,Female,Single,Master's,IT Professional,Mumbai,Salary,270700.0,1089000.0,710.0,9.1,4,387400.0,Gold,54167.27,22,2421.76,5757.7,26834.46,2,Closed,559100.0,Occasional Delay,Mass Affluent,13.98
+CUST0726,33,Male,Married,Bachelor's,IT Professional,Ahmedabad,Current,237900.0,790000.0,735.0,13.8,2,529500.0,Classic,26879.69,21,1495.57,6682.1,10572.27,0,Active,485700.0,On Time,Mass Affluent,5.08
+CUST0727,40,Male,Single,Professional,Finance,Jaipur,Salary,91500.0,431300.0,675.0,11.8,4,209700.0,Signature,23038.57,15,2214.96,5127.7,14790.8,1,No Loan,0.0,Occasional Delay,Standard,10.99
+CUST0728,33,Male,Married,Master's,Healthcare,Kochi,Savings,255100.0,1295900.0,701.0,7.8,2,960800.0,Signature,31271.47,19,2329.24,877.12,9831.37,0,Active,554200.0,On Time,Mass Affluent,3.25
+CUST0729,38,Male,Married,Master's,Business,Pune,Savings,344300.0,944500.0,677.0,9.1,3,485300.0,Classic,29668.75,20,2164.43,2796.83,15453.87,0,No Loan,0.0,On Time,Mass Affluent,6.11
+CUST0730,24,Male,Single,Diploma,Finance,Delhi,Savings,51400.0,638300.0,703.0,4.2,6,345500.0,Gold,48119.97,19,2419.22,6506.5,26965.57,0,No Loan,0.0,On Time,Mass Affluent,13.93
+CUST0731,48,Male,Married,Bachelor's,Healthcare,Delhi,Salary,312800.0,892900.0,599.0,9.9,5,205200.0,Platinum,26505.02,19,1455.86,2225.31,9340.86,3,Closed,427400.0,Delayed,Mass Affluent,12.92
+CUST0732,33,Female,Married,Master's,Government,Kochi,Savings,157900.0,586300.0,657.0,5.0,2,411300.0,Gold,26291.42,19,1534.21,3399.37,17761.81,0,Active,516500.0,On Time,Standard,6.39
+CUST0733,21,Female,Divorced,Bachelor's,Finance,Pune,Savings,143400.0,703200.0,673.0,2.1,4,257400.0,Classic,45611.24,22,2901.83,7006.67,11465.2,0,No Loan,0.0,On Time,Mass Affluent,17.72
+CUST0734,43,Female,Married,Master's,Healthcare,Chennai,Savings,68300.0,755100.0,673.0,2.7,2,401000.0,Classic,38682.45,21,2543.17,9597.19,25417.7,0,No Loan,0.0,On Time,Mass Affluent,9.65
+CUST0735,50,Male,Divorced,Master's,Education,Mumbai,Savings,284900.0,2144500.0,814.0,11.0,4,759900.0,Gold,34723.99,17,2088.61,2319.94,26133.5,0,No Loan,0.0,On Time,Mass Affluent,4.57
+CUST0736,36,Male,Married,High School,Education,Bengaluru,Savings,112000.0,468000.0,593.0,5.1,2,223200.0,Gold,10971.88,21,757.14,2168.5,3752.46,3,Active,143000.0,Delayed,Standard,4.92
+CUST0737,25,Female,Divorced,Diploma,Government,Bengaluru,Savings,5000.0,1984500.0,829.0,6.2,3,929500.0,Platinum,27586.49,11,2417.92,1646.37,13131.46,1,Closed,493400.0,Occasional Delay,Mass Affluent,2.97
+CUST0738,41,Male,Single,Master's,Government,Bengaluru,Salary,210300.0,878700.0,731.0,0.7,1,448700.0,Platinum,29271.06,20,1848.04,7158.61,14426.67,1,Closed,290300.0,Occasional Delay,Mass Affluent,6.52
+CUST0739,54,Male,Married,Professional,Education,Mumbai,Savings,119100.0,912000.0,651.0,6.8,1,400700.0,Platinum,42062.52,23,2222.22,7181.76,15980.23,1,Active,344700.0,Occasional Delay,Mass Affluent,10.5
+CUST0740,43,Male,Married,Diploma,Business,Delhi,Salary,5000.0,519000.0,676.0,14.1,4,214800.0,Gold,14693.51,14,1055.2,616.09,8229.19,0,No Loan,0.0,On Time,Standard,6.84
+CUST0741,26,Male,Married,Master's,Education,Delhi,Salary,256500.0,1044400.0,675.0,6.7,1,573800.0,Platinum,49528.0,22,2676.32,11915.28,32696.77,0,Closed,619300.0,On Time,Mass Affluent,8.63
+CUST0742,35,Male,Single,Master's,Education,Jaipur,Salary,708200.0,1392500.0,679.0,4.0,2,864300.0,Gold,20881.41,22,1154.29,2449.99,15113.59,1,Active,967800.0,Occasional Delay,Mass Affluent,2.42
+CUST0743,32,Male,Single,Master's,Finance,Bengaluru,Savings,45500.0,523100.0,718.0,9.6,6,257000.0,Gold,24535.67,23,1532.62,2038.22,9637.16,1,Active,223000.0,Occasional Delay,Standard,9.55
+CUST0744,41,Female,Married,Diploma,Engineering,Ahmedabad,Savings,237100.0,534500.0,736.0,8.2,3,366900.0,Platinum,34558.61,24,1935.58,2117.46,26333.13,0,No Loan,0.0,On Time,Mass Affluent,9.42
+CUST0745,25,Male,Single,High School,Finance,Kochi,Current,140800.0,420700.0,648.0,2.3,2,121400.0,Classic,21405.75,28,1032.1,3966.59,12005.33,1,Active,468200.0,Occasional Delay,Standard,17.63
+CUST0746,47,Male,Married,Master's,Healthcare,Hyderabad,Salary,41500.0,585600.0,688.0,9.8,3,212300.0,Signature,34101.22,18,1959.41,6923.61,15454.23,0,Active,185200.0,On Time,Mass Affluent,16.06
+CUST0747,51,Male,Single,Professional,Healthcare,Pune,Salary,29200.0,598600.0,633.0,1.8,2,355200.0,Classic,19998.48,28,780.15,4164.14,8612.53,1,Closed,679400.0,Occasional Delay,Standard,5.63
+CUST0748,40,Female,Divorced,High School,Retail,Kolkata,Salary,192800.0,457600.0,714.0,6.9,5,320500.0,Gold,42395.66,17,3296.28,7681.16,24364.73,0,No Loan,0.0,On Time,Mass Affluent,13.23
+CUST0749,39,Male,Single,Diploma,Business,Bengaluru,Savings,65100.0,716100.0,716.0,3.1,5,260200.0,Classic,13297.3,15,1254.93,1686.01,9776.82,0,No Loan,0.0,On Time,Mass Affluent,5.11
+CUST0750,51,Male,Married,Master's,Government,Kochi,Savings,155400.0,1215600.0,815.0,7.4,1,483600.0,Classic,22533.48,10,2384.66,3707.05,7530.49,1,Closed,452500.0,Occasional Delay,Mass Affluent,4.66
+CUST0751,36,Female,Divorced,Bachelor's,IT Professional,Pune,Savings,199900.0,1106100.0,637.0,4.9,3,652700.0,Classic,11933.16,23,731.85,1527.28,4526.05,0,Closed,803000.0,On Time,Mass Affluent,1.83
+CUST0752,28,Male,Married,Diploma,Other,Bengaluru,Current,90500.0,644100.0,629.0,7.3,1,298000.0,Classic,13955.25,18,1118.74,1024.07,7876.15,0,No Loan,0.0,On Time,Standard,4.68
+CUST0753,31,Male,Married,Bachelor's,Engineering,Hyderabad,Savings,584400.0,1017300.0,665.0,1.8,3,344200.0,Gold,28480.56,28,1057.53,7005.05,22739.92,0,Active,776600.0,On Time,Mass Affluent,8.27
+CUST0754,52,Male,Married,Bachelor's,Education,Chennai,Savings,163700.0,655600.0,690.0,9.0,1,410700.0,Gold,30139.395,20,1465.5,1727.46,6017.59,3,Active,395100.0,Delayed,Standard,4.99
+CUST0755,28,Female,Married,Bachelor's,IT Professional,Delhi,Savings,53000.0,891500.0,707.0,2.5,1,490200.0,Signature,28830.54,21,1715.3,663.05,21529.13,0,Active,749900.0,On Time,Mass Affluent,5.88
+CUST0756,39,Male,Single,Master's,IT Professional,Jaipur,Salary,248300.0,676600.0,712.0,4.7,4,216400.0,Platinum,77883.29,20,5121.66,8950.6,50578.96,1,Active,1051000.0,Occasional Delay,Mass Affluent,35.99
+CUST0757,34,Male,Single,Diploma,Government,Kolkata,Savings,394700.0,1322600.0,721.0,8.7,1,941600.0,Classic,31138.13,27,1618.0,5510.56,22243.9,1,No Loan,0.0,Occasional Delay,Mass Affluent,3.31
+CUST0758,36,Female,Married,High School,Other,Delhi,Savings,87500.0,766800.0,706.0,4.4,2,447300.0,Signature,15623.95,17,1337.18,2016.01,4102.8,2,No Loan,0.0,Occasional Delay,Mass Affluent,3.49
+CUST0759,21,Male,Married,Master's,Engineering,Delhi,Salary,93500.0,436500.0,611.0,6.7,4,148600.0,Gold,25543.08,17,2289.88,692.98,17616.65,0,Active,742300.0,On Time,Standard,17.19
+CUST0760,53,Male,Married,High School,Education,Chennai,Savings,6300.0,642500.0,612.0,5.3,3,183000.0,Classic,36799.11,14,2704.68,2021.07,29354.79,2,No Loan,0.0,Occasional Delay,Mass Affluent,20.11
+CUST0761,35,Male,Married,Bachelor's,IT Professional,Jaipur,Savings,5000.0,292500.0,592.0,8.3,7,108200.0,Platinum,29474.77,23,1251.22,2333.1,8252.65,3,Closed,439200.0,Delayed,Basic,27.24
+CUST0762,23,Male,Married,High School,Business,Chennai,Savings,585900.0,2055300.0,777.0,2.0,3,987100.0,Gold,74844.89,24,3184.61,14279.48,29107.86,0,Active,929200.0,On Time,Premium,7.58
+CUST0763,31,Male,Married,Bachelor's,Business,Pune,Savings,151700.0,616400.0,635.0,2.2,2,196500.0,Gold,31330.01,16,2719.98,3331.21,15629.71,0,No Loan,0.0,On Time,Mass Affluent,15.94
+CUST0764,32,Female,Divorced,Master's,Engineering,Ahmedabad,Savings,45200.0,401900.0,670.0,5.0,3,268600.0,Platinum,46561.88,26,2211.18,11297.05,12251.39,0,No Loan,0.0,On Time,Mass Affluent,17.34
+CUST0765,33,Male,Single,High School,Education,Hyderabad,Current,93100.0,502600.0,655.0,11.0,3,342800.0,Gold,19919.89,21,999.4,942.95,6450.41,0,Active,591900.0,On Time,Standard,5.81
+CUST0766,38,Male,Married,Bachelor's,Finance,Pune,Salary,116300.0,373000.0,598.0,9.1,6,88400.0,Platinum,26610.65,12,2344.35,2455.95,10269.33,1,Active,963100.0,Occasional Delay,Basic,30.1
+CUST0767,58,Male,Single,High School,Healthcare,Mumbai,Savings,76900.0,240900.0,667.0,1.5,4,153900.0,Classic,26950.7,25,1638.76,3063.4,19576.89,2,Active,1141200.0,Occasional Delay,Basic,17.51
+CUST0768,63,Female,Married,Diploma,IT Professional,Kolkata,Salary,289000.0,835200.0,742.0,2.4,6,632800.0,Gold,30095.74,18,1738.71,4665.39,22932.49,1,No Loan,0.0,Occasional Delay,Mass Affluent,4.76
+CUST0769,45,Male,Married,Master's,Finance,Bengaluru,Salary,67900.0,549300.0,684.0,6.1,4,399600.0,Gold,22460.81,20,1706.01,3370.4,14628.0,0,No Loan,0.0,On Time,Standard,5.62
+CUST0770,30,Male,Married,Master's,Business,Hyderabad,Savings,150900.0,719400.0,759.0,6.1,6,217800.0,Platinum,60447.94,18,3311.3,4257.45,44306.36,0,No Loan,0.0,On Time,Mass Affluent,27.75
+CUST0771,40,Male,Single,Bachelor's,Education,Pune,Salary,5000.0,630300.0,709.0,6.8,4,357100.0,Platinum,81130.67,18,4720.44,10290.5,41733.81,1,Active,1724000.0,Occasional Delay,Mass Affluent,22.72
+CUST0772,30,Male,Married,Bachelor's,Business,Chennai,Savings,207800.0,805700.0,719.0,6.0,1,528100.0,Classic,26278.97,13,2133.58,4756.78,9425.91,1,Closed,496500.0,Occasional Delay,Mass Affluent,4.98
+CUST0773,48,Male,Single,Bachelor's,Business,Ahmedabad,Savings,82500.0,658500.0,667.0,8.5,2,310000.0,Classic,15152.63,19,875.21,2506.21,10541.68,0,No Loan,0.0,On Time,Standard,4.89
+CUST0774,42,Male,Divorced,Professional,Healthcare,Hyderabad,Savings,435900.0,992200.0,676.0,3.0,4,569000.0,Platinum,84707.23,22,4161.73,18409.12,27843.0,1,Active,788900.0,Occasional Delay,Mass Affluent,14.89
+CUST0775,21,Male,Married,High School,Engineering,Kochi,Current,92300.0,469400.0,714.0,1.4,3,228600.0,Platinum,37461.4,17,2249.49,8330.59,10742.02,0,Active,166800.0,On Time,Mass Affluent,16.39
+CUST0776,43,Male,Single,Bachelor's,Retail,Bengaluru,Savings,172400.0,594600.0,635.0,7.2,3,347300.0,Platinum,17322.81,21,1156.32,2553.96,6916.53,1,Active,444700.0,Occasional Delay,Standard,4.99
+CUST0777,49,Male,Single,Bachelor's,Education,Hyderabad,Savings,5000.0,1054800.0,791.0,1.4,1,535900.0,Classic,40955.71,21,2057.42,6639.92,18069.13,1,Closed,539400.0,Occasional Delay,Mass Affluent,7.64
+CUST0778,29,Male,Single,Professional,Education,Pune,Savings,140100.0,509400.0,650.0,1.2,4,285500.0,Classic,43190.4,14,3591.56,9721.83,32197.65,1,Closed,351900.0,Occasional Delay,Mass Affluent,15.13
+CUST0779,39,Female,Married,Bachelor's,Government,Kochi,Savings,320300.0,1326400.0,704.0,7.3,1,985500.0,Platinum,23140.8,19,1216.49,5323.81,7205.42,1,Closed,828900.0,Occasional Delay,Mass Affluent,2.35
+CUST0780,25,Female,Married,Bachelor's,IT Professional,Kochi,Savings,102200.0,356500.0,638.0,5.5,7,240500.0,Classic,23789.05,15,1770.83,2868.74,16682.54,0,Active,254600.0,On Time,Basic,9.89
+CUST0781,44,Male,Married,Master's,Healthcare,Bengaluru,Salary,30300.0,521500.0,643.0,7.4,5,313500.0,Gold,38445.9,23,1886.24,5775.77,26632.54,2,No Loan,0.0,Occasional Delay,Mass Affluent,12.26
+CUST0782,37,Male,Divorced,High School,Business,Hyderabad,Savings,5000.0,582000.0,742.0,6.5,4,453400.0,Classic,39335.52,24,2143.27,2633.33,10928.25,3,Active,410700.0,Delayed,Mass Affluent,8.68
+CUST0783,33,Female,Single,Bachelor's,Finance,Kochi,Savings,222300.0,718900.0,761.0,0.5,2,468400.0,Classic,15424.09,15,1277.18,3020.62,8080.02,0,Closed,257000.0,On Time,Mass Affluent,3.29
+CUST0784,40,Female,Married,Bachelor's,Education,Bengaluru,Savings,293700.0,541200.0,654.0,4.5,3,226100.0,Platinum,45632.86,17,2789.84,6693.59,22718.02,0,No Loan,0.0,On Time,Mass Affluent,20.18
+CUST0785,47,Female,Married,Master's,Finance,Ahmedabad,Current,27700.0,272300.0,661.0,4.9,1,140700.0,Platinum,23419.44,25,1385.04,1919.51,18161.81,1,No Loan,0.0,Occasional Delay,Basic,16.64
+CUST0786,63,Male,Married,High School,Finance,Delhi,Savings,158000.0,685600.0,685.0,3.3,6,293200.0,Classic,14460.61,16,1140.83,575.61,8525.93,1,No Loan,0.0,Occasional Delay,Standard,4.93
+CUST0787,52,Male,Single,Professional,Government,Pune,Savings,77000.0,473800.0,590.0,3.7,4,205700.0,Classic,28774.92,18,1738.66,3568.86,14294.78,0,No Loan,0.0,On Time,Standard,13.99
+CUST0788,35,Male,Single,High School,Government,Hyderabad,Savings,32800.0,363900.0,648.0,1.4,4,193500.0,Platinum,50510.66,14,3446.16,6159.51,31088.18,2,Active,1240900.0,Occasional Delay,Mass Affluent,26.1
+CUST0789,33,Female,Single,Professional,Government,Kolkata,Savings,259700.0,425900.0,681.0,1.6,5,273100.0,Classic,25335.53,21,1473.92,2589.34,20196.01,0,No Loan,0.0,On Time,Standard,9.28
+CUST0790,54,Male,Married,Master's,Healthcare,Ahmedabad,Savings,92500.0,367100.0,673.0,6.1,3,176100.0,Platinum,16193.14,13,1788.81,1882.73,9117.1,0,Active,488800.0,On Time,Basic,9.2
+CUST0791,31,Female,Married,High School,IT Professional,Mumbai,Savings,5000.0,892300.0,720.0,5.6,3,616200.0,Classic,16290.6,19,841.21,2865.79,11296.06,1,Active,317000.0,Occasional Delay,Mass Affluent,2.64
+CUST0792,40,Female,Married,Bachelor's,IT Professional,Chennai,Savings,405000.0,2301800.0,742.0,3.1,5,1085200.0,Classic,33321.23,13,2872.13,4130.8,24620.79,1,Active,1639300.0,Occasional Delay,Mass Affluent,3.07
+CUST0793,58,Male,Married,Master's,Government,Kolkata,Salary,175400.0,1259100.0,702.0,2.2,7,351100.0,Classic,11788.8,20,837.48,1006.49,4087.47,0,Active,411300.0,On Time,Mass Affluent,3.36
+CUST0794,37,Male,Married,Diploma,IT Professional,Bengaluru,Savings,53700.0,876000.0,691.0,19.7,4,412400.0,Classic,50287.28,20,2697.93,6085.19,18960.01,2,Closed,340700.0,Occasional Delay,Mass Affluent,12.19
+CUST0795,47,Male,Married,Master's,Government,Jaipur,Savings,280100.0,990200.0,743.0,3.2,4,754000.0,Classic,25676.66,24,1290.88,5448.31,10324.13,0,Active,1740200.0,On Time,Mass Affluent,3.41
+CUST0796,33,Male,Married,Professional,Education,Mumbai,Savings,194000.0,425800.0,547.0,5.5,6,214000.0,Signature,15064.47,24,772.26,3764.81,4605.0,2,No Loan,0.0,Occasional Delay,Standard,7.04
+CUST0797,55,Male,Married,Professional,IT Professional,Kochi,Savings,138800.0,430600.0,657.0,4.4,2,263300.0,Classic,38657.2,17,2637.75,8384.32,13777.3,1,No Loan,0.0,Occasional Delay,Mass Affluent,14.68
+CUST0798,35,Male,Single,Master's,Finance,Pune,Savings,148200.0,252200.0,632.0,2.0,3,117200.0,Platinum,53731.63,24,2192.76,11222.23,29031.2,2,No Loan,0.0,Occasional Delay,Mass Affluent,45.85
+CUST0799,52,Female,Married,Bachelor's,IT Professional,Kochi,Salary,166500.0,683900.0,738.0,3.8,1,331100.0,Classic,27207.53,21,1313.35,4175.69,16673.83,1,No Loan,0.0,Occasional Delay,Standard,8.22
+CUST0800,38,Female,Married,Master's,Other,Ahmedabad,Savings,240900.0,660500.0,570.0,1.9,4,350000.0,Platinum,16671.07,22,1126.71,3824.73,10763.87,4,Closed,559000.0,Delayed,Standard,4.76
+CUST0801,48,Male,Married,High School,Other,Ahmedabad,Savings,71100.0,435800.0,588.0,8.9,1,208600.0,Classic,24573.62,17,1562.5,2931.81,19491.78,0,No Loan,0.0,On Time,Standard,11.78
+CUST0802,36,Male,Divorced,Bachelor's,Engineering,Mumbai,Savings,263700.0,766200.0,753.0,5.7,2,521000.0,Classic,81884.9,22,4294.95,3118.79,47699.18,2,Active,490500.0,Occasional Delay,Mass Affluent,15.72
+CUST0803,48,Male,Married,Professional,Healthcare,Bengaluru,Savings,462200.0,856300.0,770.0,3.3,3,379600.0,Classic,15111.05,20,1082.14,2693.11,8466.03,0,Active,617900.0,On Time,Mass Affluent,3.98
+CUST0804,35,Male,Single,High School,Education,Jaipur,Savings,52500.0,712800.0,564.0,10.8,3,323600.0,Gold,23618.26,18,1556.9,4924.53,18294.28,1,No Loan,0.0,Occasional Delay,Mass Affluent,7.3
+CUST0805,46,Female,Single,Professional,Retail,Bengaluru,Salary,105000.0,307500.0,685.0,13.5,3,214100.0,Classic,71321.49,20,3610.43,5940.99,56604.53,2,No Loan,0.0,Occasional Delay,Mass Affluent,33.31
+CUST0806,40,Male,Married,Bachelor's,Education,Ahmedabad,Savings,8100.0,461000.0,661.0,2.1,5,142000.0,Platinum,21386.99,11,2678.68,3390.11,7273.87,1,Active,566600.0,Occasional Delay,Standard,15.06
+CUST0807,31,Female,Married,Master's,IT Professional,Hyderabad,Savings,5000.0,820200.0,654.0,8.5,4,316900.0,Classic,37108.05,21,1727.91,1130.1,12789.5,0,No Loan,0.0,On Time,Mass Affluent,11.71
+CUST0808,39,Female,Divorced,Bachelor's,Healthcare,Pune,Savings,115600.0,789100.0,675.0,1.6,2,480000.0,Classic,13253.08,15,889.45,2412.19,5226.55,0,Active,484600.0,On Time,Mass Affluent,2.76
+CUST0809,25,Male,Single,Master's,IT Professional,Mumbai,Salary,124100.0,628900.0,678.0,8.4,2,242800.0,Classic,17347.48,13,1778.6,4250.96,10130.38,0,Closed,346500.0,On Time,Standard,7.14
+CUST0810,44,Female,Single,Master's,Business,Kochi,Savings,62200.0,438000.0,624.0,6.6,3,258300.0,Platinum,144836.92,23,7579.27,11023.83,66150.44,0,Active,817500.0,On Time,Mass Affluent,56.07
+CUST0811,36,Male,Married,Professional,Business,Hyderabad,Savings,202900.0,559800.0,724.0,2.2,4,412600.0,Classic,19494.7,19,1515.24,1796.44,6859.76,0,Active,200900.0,On Time,Standard,4.72
+CUST0812,31,Male,Married,Bachelor's,Engineering,Ahmedabad,Current,60400.0,441400.0,649.0,5.0,1,127000.0,Classic,19468.74,16,1624.3,3200.8,14696.05,1,No Loan,0.0,Occasional Delay,Standard,15.33
+CUST0813,22,Male,Divorced,Bachelor's,IT Professional,Ahmedabad,Savings,115300.0,693900.0,581.0,5.0,3,321000.0,Gold,38142.64,20,2625.85,4631.12,25720.93,3,No Loan,0.0,Delayed,Mass Affluent,11.88
+CUST0814,62,Female,Married,Bachelor's,IT Professional,Chennai,Savings,5000.0,604400.0,635.0,6.9,3,298400.0,Classic,38565.33,21,1944.37,8095.62,27087.2,2,No Loan,0.0,Occasional Delay,Mass Affluent,12.92
+CUST0815,48,Male,Married,Master's,IT Professional,Mumbai,Savings,127600.0,255700.0,661.0,5.1,3,64000.0,Platinum,33683.17,16,2081.42,7524.15,18017.87,1,No Loan,0.0,Occasional Delay,Mass Affluent,52.63
+CUST0816,54,Male,Married,Master's,Retail,Hyderabad,Current,52400.0,1158000.0,696.0,2.5,4,381600.0,Classic,27290.4,16,2227.3,3900.32,12016.41,1,No Loan,0.0,Occasional Delay,Mass Affluent,7.15
+CUST0817,56,Female,Single,Diploma,Healthcare,Chennai,Salary,523300.0,781600.0,664.0,11.3,2,380200.0,Signature,30330.45,25,1695.76,7050.81,18416.74,0,Active,660900.0,On Time,Mass Affluent,7.98
+CUST0818,44,Male,Married,High School,Finance,Jaipur,Savings,210300.0,948500.0,756.0,8.0,1,724100.0,Classic,49315.79,26,2460.18,5545.97,22049.85,1,No Loan,0.0,Occasional Delay,Mass Affluent,6.81
+CUST0819,39,Male,Single,High School,Other,Chennai,Savings,166700.0,481000.0,625.0,2.2,2,282200.0,Classic,37387.64,18,2320.66,5862.34,20115.61,1,Closed,145000.0,Occasional Delay,Mass Affluent,13.25
+CUST0820,49,Male,Married,Master's,Government,Hyderabad,Current,29700.0,1224900.0,768.0,2.6,3,698900.0,Platinum,23144.3,16,1871.07,5001.45,8386.68,0,No Loan,0.0,On Time,Mass Affluent,3.31
+CUST0821,51,Male,Married,Bachelor's,Government,Ahmedabad,Salary,518800.0,1053800.0,779.0,1.9,1,777900.0,Platinum,22424.86,17,1444.87,2730.01,15175.58,0,Active,1717500.0,On Time,Mass Affluent,2.88
+CUST0822,34,Female,Married,Diploma,IT Professional,Pune,Salary,126100.0,1289900.0,693.0,5.4,3,465100.0,Platinum,20806.08,16,1928.9,3868.1,13483.73,0,No Loan,0.0,On Time,Mass Affluent,4.47
+CUST0823,34,Female,Married,Bachelor's,Other,Chennai,Savings,473100.0,786800.0,570.0,2.4,3,181300.0,Gold,17660.91,17,1037.76,2030.9,11361.67,1,No Loan,0.0,Occasional Delay,Mass Affluent,9.74
+CUST0824,23,Female,Single,Master's,IT Professional,Chennai,Savings,136000.0,936100.0,700.0,12.0,3,458500.0,Classic,38814.49,22,1726.6,3047.31,17978.59,1,Active,1246800.0,Occasional Delay,Mass Affluent,8.47
+CUST0825,23,Female,Single,Bachelor's,Education,Kolkata,Savings,367700.0,816100.0,706.0,8.2,2,559600.0,Classic,30249.26,19,2418.09,3080.42,9942.8,0,Closed,252000.0,On Time,Mass Affluent,5.41
+CUST0826,30,Male,Married,Master's,Finance,Chennai,Savings,367000.0,879900.0,661.0,4.0,3,356200.0,Signature,49117.45,15,3288.65,5902.63,34780.09,0,Closed,791100.0,On Time,Mass Affluent,13.79
+CUST0827,21,Male,Single,Professional,Finance,Bengaluru,Savings,158500.0,486500.0,584.0,3.9,7,265800.0,Classic,14345.37,13,1659.97,2629.69,9593.92,2,Active,733500.0,Occasional Delay,Standard,5.4
+CUST0828,49,Female,Married,Diploma,Business,Ahmedabad,Savings,343600.0,878000.0,723.0,3.6,2,434200.0,Gold,32344.95,19,2371.92,5291.36,24181.67,0,No Loan,0.0,On Time,Mass Affluent,7.45
+CUST0829,43,Male,Married,Bachelor's,Education,Kolkata,Savings,111400.0,473700.0,657.0,1.4,2,266500.0,Platinum,24680.62,11,2583.81,5126.04,9258.62,0,No Loan,0.0,On Time,Standard,9.26
+CUST0830,39,Female,Married,Bachelor's,Engineering,Pune,Savings,41200.0,254600.0,638.0,2.8,7,141900.0,Classic,42333.19,22,2211.54,7056.08,11666.71,1,No Loan,0.0,Occasional Delay,Mass Affluent,29.83
+CUST0831,40,Female,Single,Master's,Business,Bengaluru,Savings,5000.0,461600.0,674.0,7.0,2,132100.0,Classic,13047.24,16,808.14,3004.02,6931.24,0,Closed,622700.0,On Time,Standard,9.88
+CUST0832,50,Female,Married,Bachelor's,Education,Chennai,Savings,162600.0,374400.0,631.0,3.8,2,206600.0,Classic,37779.94,19,2034.63,7613.21,14653.19,0,No Loan,0.0,On Time,Mass Affluent,18.29
+CUST0833,50,Female,Married,Bachelor's,Healthcare,Kochi,Savings,483500.0,1128500.0,798.0,1.3,5,902900.0,Platinum,27546.03,21,1750.98,5032.55,10053.06,1,No Loan,0.0,Occasional Delay,Mass Affluent,3.05
+CUST0834,59,Male,Single,Diploma,Finance,Ahmedabad,Salary,184600.0,1748400.0,754.0,6.4,2,836500.0,Gold,17644.13,18,951.47,4374.9,7646.57,1,Closed,186300.0,Occasional Delay,Mass Affluent,2.11
+CUST0835,37,Male,Married,Master's,Business,Pune,Current,5700.0,295100.0,640.0,6.7,2,160100.0,Platinum,17108.83,20,872.4,2141.73,4807.14,0,Active,438300.0,On Time,Basic,10.69
+CUST0836,39,Male,Divorced,Diploma,Business,Pune,Savings,114000.0,730500.0,630.0,2.0,1,183200.0,Classic,45066.65,21,2861.73,4615.51,15740.36,0,No Loan,0.0,On Time,Mass Affluent,24.6
+CUST0837,23,Male,Married,Bachelor's,Education,Kolkata,Savings,194800.0,625700.0,616.0,4.4,3,152400.0,Classic,52053.25,27,2566.86,4382.26,30243.24,1,No Loan,0.0,Occasional Delay,Mass Affluent,34.16
+CUST0838,59,Female,Married,High School,Finance,Delhi,Savings,110300.0,299800.0,625.0,9.7,1,175200.0,Gold,40628.99,22,1956.22,1867.59,25671.71,2,Closed,775300.0,Occasional Delay,Mass Affluent,23.19
+CUST0839,53,Male,Married,Professional,Retail,Chennai,Salary,117800.0,376000.0,585.0,3.7,2,225600.0,Classic,24739.45,22,1557.11,3515.64,14484.12,3,Closed,602100.0,Delayed,Basic,10.97
+CUST0840,40,Male,Married,Bachelor's,Finance,Delhi,Savings,569800.0,1313300.0,753.0,3.9,3,883600.0,Gold,51407.59,22,2975.8,9526.04,28572.6,0,No Loan,0.0,On Time,Mass Affluent,5.82
+CUST0841,57,Female,Married,Bachelor's,Finance,Pune,Salary,92400.0,646600.0,734.0,10.4,7,293600.0,Platinum,50332.03,20,3177.41,4245.08,23773.56,1,No Loan,0.0,Occasional Delay,Mass Affluent,17.14
+CUST0842,46,Female,Single,Master's,Business,Chennai,Salary,5000.0,655400.0,661.0,5.3,3,363300.0,Classic,35676.95,24,2156.7,4767.06,15588.17,1,No Loan,0.0,Occasional Delay,Mass Affluent,9.82
+CUST0843,32,Male,Single,Bachelor's,Education,Bengaluru,Savings,48400.0,337700.0,619.0,3.3,1,85000.0,Classic,75066.19,15,5827.24,16301.5,53784.29,0,No Loan,0.0,On Time,Mass Affluent,88.31
+CUST0844,47,Male,Married,Master's,Other,Delhi,Savings,264100.0,638200.0,659.0,9.8,5,420900.0,Classic,16761.01,19,862.47,1226.83,6677.23,0,No Loan,0.0,On Time,Standard,3.98
+CUST0845,27,Male,Married,Master's,Finance,Ahmedabad,Savings,130300.0,813300.0,662.0,3.5,2,518300.0,Classic,21017.62,21,1451.58,2412.48,13111.21,2,Active,310700.0,Occasional Delay,Mass Affluent,4.06
+CUST0846,58,Female,Married,Bachelor's,Government,Chennai,Savings,363500.0,1538700.0,709.0,11.0,1,534700.0,Classic,42530.96,20,3186.66,4759.33,27478.85,0,No Loan,0.0,On Time,Mass Affluent,7.95
+CUST0847,38,Female,Married,High School,Government,Pune,Savings,12400.0,236100.0,606.0,1.7,4,148700.0,Platinum,47475.82,24,2207.48,3448.51,28431.47,0,Active,421300.0,On Time,Mass Affluent,31.93
+CUST0848,37,Female,Married,Bachelor's,Healthcare,Delhi,Current,119300.0,750300.0,686.0,6.6,1,322700.0,Platinum,26482.95,15,1747.5,4509.56,11299.82,1,Active,2393000.0,Occasional Delay,Mass Affluent,8.21
+CUST0849,49,Male,Single,Diploma,Engineering,Chennai,Savings,5000.0,443100.0,647.0,4.1,4,122300.0,Gold,16249.58,19,839.56,1498.4,5299.91,1,Closed,179000.0,Occasional Delay,Standard,13.29
+CUST0850,39,Female,Single,Bachelor's,IT Professional,Ahmedabad,Savings,99800.0,655300.0,682.0,4.3,4,366500.0,Gold,17256.24,9,1873.47,1505.6,10496.96,0,No Loan,0.0,On Time,Standard,4.71
+CUST0851,42,Female,Married,Bachelor's,Engineering,Mumbai,Salary,570600.0,1258300.0,709.0,10.1,2,372700.0,Gold,21733.34,21,1375.38,4370.23,6504.51,0,Active,238000.0,On Time,Mass Affluent,5.83
+CUST0852,44,Male,Divorced,Professional,IT Professional,Kochi,Savings,164300.0,306000.0,618.0,4.6,2,91000.0,Gold,8073.82,23,534.14,293.4,5999.75,0,Active,283600.0,On Time,Basic,8.87
+CUST0853,47,Male,Single,Master's,Business,Delhi,Savings,41500.0,574400.0,629.0,2.6,2,303400.0,Classic,55581.87,23,2305.26,2776.67,25217.94,0,No Loan,0.0,On Time,Mass Affluent,18.32
+CUST0854,33,Male,Married,Diploma,Government,Pune,Savings,175500.0,871200.0,707.0,4.9,2,526100.0,Signature,46940.58,24,2263.41,8320.57,27418.16,0,Active,612200.0,On Time,Mass Affluent,8.92
+CUST0855,48,Female,Married,Bachelor's,Engineering,Hyderabad,Savings,260600.0,630100.0,684.0,4.4,1,215200.0,Gold,21659.02,23,1199.19,2202.02,14153.05,0,No Loan,0.0,On Time,Standard,10.06
+CUST0856,54,Female,Single,Diploma,Engineering,Ahmedabad,Savings,245300.0,1003800.0,690.0,2.5,2,337900.0,Gold,9185.89,17,809.53,1656.01,7266.53,0,Active,182600.0,On Time,Mass Affluent,2.72
+CUST0857,21,Female,Married,Master's,Other,Ahmedabad,Savings,14500.0,635200.0,585.0,15.6,5,139200.0,Classic,30461.05,23,1396.4,6184.28,13746.09,3,Active,501900.0,Delayed,Mass Affluent,21.88
+CUST0858,56,Female,Married,Bachelor's,Finance,Ahmedabad,Current,150600.0,724200.0,709.0,6.1,6,378700.0,Classic,30575.97,23,1797.11,5715.89,15172.01,2,Active,311200.0,Occasional Delay,Mass Affluent,8.07
+CUST0859,43,Male,Married,Bachelor's,Education,Jaipur,Salary,564200.0,1076600.0,616.0,7.4,3,545300.0,Gold,23423.51,18,1538.97,3652.68,14068.73,0,Closed,645800.0,On Time,Mass Affluent,4.3
+CUST0860,47,Female,Married,Bachelor's,IT Professional,Kolkata,Savings,231100.0,1488300.0,701.0,9.5,3,782100.0,Classic,62520.67,27,2761.78,8006.53,20394.46,0,Active,365500.0,On Time,Premium,7.99
+CUST0861,45,Male,Married,Master's,IT Professional,Delhi,Savings,120200.0,1236700.0,674.0,2.8,5,831400.0,Signature,31587.38,19,1960.07,1454.05,10617.64,0,No Loan,0.0,On Time,Mass Affluent,3.8
+CUST0862,43,Male,Single,Diploma,Retail,Pune,Salary,270300.0,544400.0,669.0,2.3,1,156700.0,Platinum,22479.14,13,1832.53,1332.32,14588.97,1,Active,255400.0,Occasional Delay,Standard,14.35
+CUST0863,34,Female,Married,Professional,Government,Kochi,Current,163500.0,366600.0,622.0,0.5,3,238900.0,Platinum,22847.56,23,1478.65,474.26,13255.21,0,No Loan,0.0,On Time,Basic,9.56
+CUST0864,22,Female,Single,Master's,Business,Pune,Savings,274500.0,880800.0,706.0,2.5,2,358000.0,Classic,5733.85,18,418.87,1354.3,1897.36,4,Closed,220300.0,Delayed,Mass Affluent,1.6
+CUST0865,48,Male,Single,Bachelor's,Business,Jaipur,Savings,159400.0,1265200.0,698.0,11.7,4,888600.0,Gold,33677.81,30,1568.58,4594.42,21611.99,0,Closed,305100.0,On Time,Mass Affluent,3.79
+CUST0866,34,Female,Married,Bachelor's,Engineering,Kolkata,Savings,200000.0,866200.0,762.0,4.2,2,427300.0,Classic,27147.57,33,841.26,2233.12,16983.03,3,Active,510200.0,Delayed,Mass Affluent,6.35
+CUST0867,50,Male,Married,Bachelor's,Government,Jaipur,Savings,174200.0,973100.0,697.0,18.3,3,442400.0,Classic,35404.72,21,1727.17,6591.14,27407.44,1,No Loan,0.0,Occasional Delay,Mass Affluent,8.0
+CUST0868,35,Female,Single,Professional,Government,Ahmedabad,Salary,258600.0,559900.0,666.0,2.2,2,263900.0,Platinum,24479.71,17,1935.57,5263.72,8741.1,1,Closed,140300.0,Occasional Delay,Standard,9.28
+CUST0869,30,Male,Married,Master's,IT Professional,Jaipur,Savings,392100.0,826700.0,781.0,6.5,2,643000.0,Platinum,24306.17,17,1561.66,5691.67,18291.88,2,No Loan,0.0,Occasional Delay,Mass Affluent,3.78
+CUST0870,21,Male,Married,Bachelor's,IT Professional,Hyderabad,Salary,216200.0,853800.0,719.0,12.3,4,280100.0,Platinum,23378.34,16,1644.72,1718.15,10390.03,3,No Loan,0.0,Delayed,Mass Affluent,8.35
+CUST0871,39,Female,Single,Bachelor's,Government,Kochi,Savings,368500.0,943000.0,722.0,7.9,3,456000.0,Gold,49431.47,22,2399.66,1154.77,12566.57,0,Active,1002000.0,On Time,Mass Affluent,10.84
+CUST0872,32,Female,Married,Master's,Government,Kochi,Savings,275600.0,758600.0,639.0,7.4,3,317000.0,Signature,75312.33,26,4101.88,8195.61,34344.65,0,No Loan,0.0,On Time,Mass Affluent,23.76
+CUST0873,59,Female,Married,Professional,Other,Mumbai,Savings,397000.0,903300.0,700.0,2.7,3,438900.0,Gold,30139.395,15,2988.03,3070.81,23573.6,3,Active,356300.0,Delayed,Mass Affluent,7.36
+CUST0874,22,Female,Married,Bachelor's,Government,Delhi,Savings,63700.0,598900.0,697.0,2.6,6,262900.0,Platinum,14348.74,17,1062.29,3246.77,8078.4,0,Active,375700.0,On Time,Standard,5.46
+CUST0875,49,Male,Married,High School,Finance,Kochi,Savings,73000.0,539700.0,688.0,4.1,2,243800.0,Gold,31349.55,20,1885.78,2805.93,17404.98,1,Closed,972100.0,Occasional Delay,Mass Affluent,12.86
+CUST0876,21,Male,Divorced,High School,Education,Chennai,Savings,783300.0,1617900.0,750.0,2.2,2,1017000.0,Classic,50985.18,14,4497.12,3876.03,38617.33,0,Active,410200.0,On Time,Mass Affluent,5.01
+CUST0877,39,Female,Single,Bachelor's,Business,Bengaluru,Savings,5000.0,964200.0,751.0,8.1,3,487500.0,Classic,19459.33,17,1160.2,4666.94,8863.21,1,Closed,394400.0,Occasional Delay,Mass Affluent,3.99
+CUST0878,41,Female,Married,Bachelor's,Retail,Ahmedabad,Savings,18700.0,663100.0,708.0,5.7,1,447000.0,Platinum,27844.9,13,2051.37,6285.19,10254.51,1,No Loan,0.0,Occasional Delay,Standard,6.23
+CUST0879,46,Male,Married,Bachelor's,Business,Jaipur,Savings,383000.0,840400.0,736.0,3.7,2,587000.0,Gold,29644.35,25,1195.7,3531.55,12732.07,1,No Loan,0.0,Occasional Delay,Mass Affluent,5.05
+CUST0880,69,Female,Married,Bachelor's,Other,Hyderabad,Current,80100.0,866600.0,770.0,12.6,4,678300.0,Gold,25615.07,19,1453.47,1654.68,18438.13,1,Active,581800.0,Occasional Delay,Mass Affluent,3.78
+CUST0881,23,Male,Married,Bachelor's,Business,Mumbai,Savings,90900.0,455500.0,699.0,3.9,3,210900.0,Classic,14868.36,11,1727.04,3650.16,11062.35,0,No Loan,0.0,On Time,Standard,7.05
+CUST0882,46,Male,Single,Master's,Engineering,Kochi,Savings,303000.0,670300.0,636.0,1.2,3,259200.0,Classic,13829.29,25,703.5,1396.54,5239.76,2,Closed,784300.0,Occasional Delay,Standard,5.34
+CUST0883,41,Male,Married,Bachelor's,IT Professional,Hyderabad,Savings,96700.0,296200.0,729.0,6.7,3,102600.0,Classic,34318.42,20,2000.18,5133.86,22032.22,1,No Loan,0.0,Occasional Delay,Mass Affluent,33.45
+CUST0884,46,Female,Married,High School,IT Professional,Chennai,Salary,5000.0,1589800.0,736.0,11.8,4,634900.0,Gold,70546.76,28,2796.6,6615.51,32395.83,0,Closed,1171100.0,On Time,Premium,11.11
+CUST0885,24,Female,Married,Master's,Engineering,Pune,Savings,5000.0,1331700.0,813.0,2.6,7,422900.0,Classic,28177.17,22,1686.25,3328.44,16905.99,0,No Loan,0.0,On Time,Mass Affluent,6.66
+CUST0886,44,Male,Married,Bachelor's,Engineering,Kochi,Salary,160200.0,686300.0,678.0,1.0,4,308400.0,Gold,20927.78,15,2087.23,2968.6,11214.71,1,Active,558000.0,Occasional Delay,Standard,6.79
+CUST0887,33,Male,Single,Master's,Government,Chennai,Savings,43400.0,441600.0,587.0,6.5,4,140500.0,Classic,77509.01,15,7862.59,13181.1,61606.24,2,Active,405600.0,Occasional Delay,Mass Affluent,55.17
+CUST0888,37,Male,Single,Bachelor's,Finance,Kolkata,Savings,88500.0,463800.0,690.0,11.0,2,248600.0,Gold,26383.9,15,2102.15,578.75,13653.1,0,No Loan,0.0,On Time,Standard,10.61
+CUST0889,47,Female,Single,Bachelor's,Healthcare,Hyderabad,Current,249100.0,634100.0,661.0,8.7,4,201100.0,Gold,37256.09,25,1871.84,9062.04,20234.05,2,Closed,789700.0,Occasional Delay,Mass Affluent,18.53
+CUST0890,44,Male,Single,Master's,Education,Jaipur,Savings,210900.0,846600.0,716.0,10.2,4,258200.0,Gold,33373.49,19,1673.28,5335.78,17386.8,0,Active,345700.0,On Time,Mass Affluent,12.93
+CUST0891,29,Male,Married,Bachelor's,Finance,Bengaluru,Savings,85800.0,485300.0,674.0,5.7,5,230800.0,Platinum,36788.33,16,3419.78,3590.8,12690.36,0,No Loan,0.0,On Time,Mass Affluent,15.94
+CUST0892,55,Male,Married,Diploma,Government,Pune,Savings,71500.0,469100.0,610.0,9.4,3,211300.0,Gold,25026.73,23,1274.59,1911.73,19289.68,3,No Loan,0.0,Delayed,Standard,11.84
+CUST0893,41,Male,Single,Master's,IT Professional,Mumbai,Savings,97900.0,546200.0,585.0,5.4,4,173300.0,Platinum,55648.94,18,3237.98,9173.47,23603.12,5,No Loan,0.0,Delayed,Mass Affluent,32.11
+CUST0894,35,Female,Single,Bachelor's,Education,Ahmedabad,Salary,210300.0,603600.0,652.0,4.0,2,312000.0,Gold,61896.89,25,3518.4,8697.16,21992.51,0,Closed,2396600.0,On Time,Mass Affluent,19.84
+CUST0895,29,Male,Married,High School,Business,Hyderabad,Savings,122600.0,549200.0,762.0,7.0,4,246500.0,Platinum,112080.99,24,5060.98,11765.89,56994.08,1,No Loan,0.0,Occasional Delay,Mass Affluent,45.47
+CUST0896,36,Male,Married,Bachelor's,Business,Kochi,Salary,41400.0,501400.0,577.0,2.4,2,272300.0,Platinum,20660.86,20,1221.61,1167.84,6995.91,2,Closed,482200.0,Occasional Delay,Standard,7.59
+CUST0897,21,Female,Single,Bachelor's,Healthcare,Bengaluru,Current,166200.0,674000.0,651.0,9.8,3,434500.0,Signature,153703.43,21,7491.62,30803.62,70406.7,1,Active,249500.0,Occasional Delay,Mass Affluent,35.37
+CUST0898,21,Male,Married,Master's,Business,Chennai,Salary,5000.0,642300.0,626.0,11.1,2,302500.0,Gold,24950.77,21,1732.79,3495.82,14678.1,0,Active,701500.0,On Time,Standard,8.25
+CUST0899,42,Female,Married,Bachelor's,Business,Mumbai,Savings,595300.0,1276500.0,759.0,0.5,2,944400.0,Gold,31164.87,17,1855.36,3084.53,23988.69,0,Active,1086700.0,On Time,Mass Affluent,3.3
+CUST0900,32,Male,Divorced,Bachelor's,Other,Pune,Savings,84800.0,385000.0,621.0,4.9,5,176700.0,Gold,134701.21,23,5868.85,5751.51,63943.37,0,Active,645300.0,On Time,Mass Affluent,76.23
+CUST0901,44,Male,Married,Master's,Education,Jaipur,Savings,5000.0,698500.0,713.0,3.0,4,442900.0,Classic,37282.95,20,1977.85,2620.19,18650.36,1,No Loan,0.0,Occasional Delay,Mass Affluent,8.42
+CUST0902,52,Male,Married,High School,IT Professional,Hyderabad,Savings,144400.0,326900.0,640.0,8.2,3,208600.0,Gold,18596.89,15,1384.44,451.54,11773.14,1,Closed,224300.0,Occasional Delay,Basic,8.92
+CUST0903,48,Female,Married,Master's,Education,Delhi,Savings,81800.0,368800.0,726.0,1.2,3,284000.0,Gold,33886.73,26,1418.39,836.58,13464.11,0,Active,736300.0,On Time,Mass Affluent,11.93
+CUST0904,43,Female,Married,Professional,Business,Jaipur,Savings,70100.0,709100.0,678.0,11.1,4,335000.0,Gold,29047.24,21,1573.24,6665.52,11554.44,0,Active,420600.0,On Time,Mass Affluent,8.67
+CUST0905,48,Female,Single,Professional,Government,Chennai,Savings,133200.0,641100.0,652.0,5.9,5,315000.0,Platinum,22024.61,28,902.76,5159.56,6494.78,0,No Loan,0.0,On Time,Standard,6.99
+CUST0906,37,Male,Single,High School,Business,Mumbai,Savings,281400.0,649300.0,660.0,7.6,3,401300.0,Gold,24115.65,16,2146.68,3764.4,17388.98,0,No Loan,0.0,On Time,Standard,6.01
+CUST0907,30,Male,Married,Bachelor's,Government,Ahmedabad,Savings,117800.0,374900.0,588.0,4.8,4,161800.0,Classic,41547.97,27,1653.12,1180.36,25991.86,4,Active,1290400.0,Delayed,Mass Affluent,25.68
+CUST0908,36,Male,Married,Bachelor's,Engineering,Mumbai,Current,122500.0,701100.0,696.0,6.9,1,436300.0,Platinum,27242.56,23,1606.69,795.56,17419.77,2,No Loan,0.0,Occasional Delay,Mass Affluent,6.24
+CUST0909,41,Male,Single,Diploma,IT Professional,Hyderabad,Salary,88300.0,1242300.0,746.0,10.9,1,729700.0,Classic,26108.23,21,1479.88,5437.01,12703.57,0,Closed,351700.0,On Time,Mass Affluent,3.58
+CUST0910,34,Female,Single,High School,Education,Chennai,Savings,316100.0,976300.0,705.0,6.3,4,591500.0,Platinum,20704.26,21,947.73,4093.66,7684.26,1,No Loan,0.0,Occasional Delay,Mass Affluent,3.5
+CUST0911,41,Male,Divorced,Bachelor's,Finance,Kolkata,Salary,36400.0,197600.0,612.0,6.2,3,48600.0,Signature,23134.96,17,1828.29,3480.27,14870.49,1,No Loan,0.0,Occasional Delay,Basic,47.6
+CUST0912,28,Male,Single,Master's,Retail,Kolkata,Savings,403900.0,660500.0,669.0,2.9,4,455400.0,Gold,20448.45,16,1653.58,682.6,8069.17,2,Closed,173900.0,Occasional Delay,Standard,4.49
+CUST0913,41,Male,Single,Bachelor's,Engineering,Mumbai,Salary,116200.0,378200.0,652.0,8.1,1,230400.0,Platinum,37884.9,18,3175.41,3038.29,20979.3,1,No Loan,0.0,Occasional Delay,Mass Affluent,16.44
+CUST0914,43,Female,Single,Bachelor's,Government,Kolkata,Current,6000.0,604600.0,653.0,2.9,1,373200.0,Signature,47507.94,21,2545.93,4290.61,17277.12,0,Active,892300.0,On Time,Mass Affluent,12.73
+CUST0915,54,Male,Single,Professional,IT Professional,Ahmedabad,Savings,63600.0,232900.0,563.0,11.1,2,126000.0,Gold,47969.71,24,2763.72,5304.91,22324.83,1,Active,208800.0,Occasional Delay,Mass Affluent,38.07
+CUST0916,24,Male,Married,Bachelor's,Finance,Mumbai,Savings,70800.0,332300.0,648.0,4.7,5,198600.0,Classic,10121.14,16,945.36,694.83,2603.02,0,Active,1639100.0,On Time,Basic,5.1
+CUST0917,23,Male,Single,High School,Healthcare,Kochi,Savings,5000.0,477600.0,610.0,4.2,2,263100.0,Classic,7612.21,22,485.1,538.04,5785.96,2,Closed,226200.0,Occasional Delay,Standard,2.89
+CUST0918,51,Male,Married,Master's,Finance,Ahmedabad,Current,281200.0,691400.0,668.0,5.3,4,482000.0,Classic,53393.56,15,4518.97,11519.19,19529.49,1,No Loan,0.0,Occasional Delay,Mass Affluent,11.08
+CUST0919,29,Male,Married,Professional,Education,Pune,Savings,223200.0,742300.0,707.0,2.5,3,311200.0,Classic,15763.0,19,953.32,709.56,4326.54,0,No Loan,0.0,On Time,Mass Affluent,5.07
+CUST0920,37,Male,Married,Professional,Other,Delhi,Savings,56900.0,610300.0,683.0,6.1,3,384700.0,Classic,49575.95,20,2481.44,2355.42,29563.07,0,Active,1074000.0,On Time,Mass Affluent,12.89
+CUST0921,35,Female,Married,Bachelor's,Other,Ahmedabad,Salary,240600.0,1030500.0,729.0,4.4,5,401800.0,Classic,79790.42,18,4273.25,8082.11,46850.81,1,No Loan,0.0,Occasional Delay,Mass Affluent,19.86
+CUST0922,21,Male,Single,Bachelor's,Business,Ahmedabad,Savings,70500.0,397400.0,614.0,8.6,5,176300.0,Gold,26726.38,19,2154.18,6654.65,11444.56,2,Closed,310700.0,Occasional Delay,Basic,15.16
+CUST0923,62,Female,Married,Master's,IT Professional,Hyderabad,Salary,337600.0,630400.0,630.0,3.2,2,412800.0,Classic,22424.27,18,1651.17,2397.23,11797.46,2,No Loan,0.0,Occasional Delay,Standard,5.43
+CUST0924,44,Male,Single,Bachelor's,Engineering,Hyderabad,Salary,348700.0,551200.0,678.0,7.3,3,180000.0,Gold,32181.78,21,1461.71,4901.4,15747.37,0,No Loan,0.0,On Time,Mass Affluent,17.88
+CUST0925,43,Male,Married,Master's,Business,Mumbai,Savings,72600.0,888100.0,591.0,12.5,3,385000.0,Classic,23081.84,16,1812.64,2282.85,12259.56,3,No Loan,0.0,Delayed,Mass Affluent,6.0
+CUST0926,45,Male,Married,High School,Engineering,Pune,Salary,210100.0,774100.0,697.0,4.8,2,335600.0,Classic,34440.33,17,2442.82,6360.46,11379.96,0,Active,163000.0,On Time,Mass Affluent,10.26
+CUST0927,31,Male,Divorced,Bachelor's,Other,Ahmedabad,Current,119000.0,555000.0,699.0,3.8,4,321600.0,Gold,18629.47,24,929.77,1835.64,14622.29,2,No Loan,0.0,Occasional Delay,Standard,5.79
+CUST0928,53,Female,Married,Diploma,IT Professional,Pune,Salary,140900.0,488000.0,639.0,1.3,4,146000.0,Platinum,38427.1,25,1720.22,4045.01,15471.82,0,No Loan,0.0,On Time,Mass Affluent,26.32
+CUST0929,21,Male,Single,Bachelor's,Engineering,Jaipur,Salary,568800.0,1224000.0,710.0,3.3,4,510700.0,Classic,29845.64,24,1782.63,4296.04,11488.43,0,No Loan,0.0,On Time,Mass Affluent,5.84
+CUST0930,64,Female,Married,Diploma,Government,Delhi,Savings,77600.0,425000.0,632.0,2.9,3,273900.0,Classic,39464.5,20,2585.61,2578.66,20661.48,4,Closed,420700.0,Delayed,Mass Affluent,14.41
+CUST0931,42,Male,Single,Bachelor's,Engineering,Chennai,Savings,5000.0,620600.0,705.0,7.3,4,209700.0,Gold,33184.81,22,1559.42,7670.35,24582.6,1,No Loan,0.0,Occasional Delay,Mass Affluent,15.82
+CUST0932,37,Female,Single,Professional,Retail,Jaipur,Savings,118200.0,667600.0,689.0,2.4,2,402900.0,Gold,9662.08,19,530.63,1621.23,5649.92,0,Active,508000.0,On Time,Standard,2.4
+CUST0933,38,Male,Married,Master's,Finance,Delhi,Savings,319700.0,921900.0,687.0,3.3,6,594500.0,Platinum,18250.2,14,1386.8,2208.3,12678.61,0,Closed,535100.0,On Time,Mass Affluent,3.07
+CUST0934,47,Male,Divorced,Professional,Engineering,Bengaluru,Salary,163900.0,617700.0,644.0,2.4,4,372300.0,Gold,21438.93,24,860.9,4869.49,13081.62,0,No Loan,0.0,On Time,Standard,5.76
+CUST0935,50,Female,Married,Bachelor's,IT Professional,Ahmedabad,Current,303700.0,1486800.0,779.0,1.5,2,766000.0,Platinum,44097.84,20,3121.68,3576.14,25218.61,1,No Loan,0.0,Occasional Delay,Mass Affluent,5.76
+CUST0936,51,Male,Single,Professional,Education,Chennai,Current,123300.0,749800.0,657.0,3.2,3,442600.0,Gold,47144.36,30,2149.83,5004.78,17582.43,1,No Loan,0.0,Occasional Delay,Mass Affluent,10.65
+CUST0937,37,Male,Divorced,Master's,IT Professional,Delhi,Salary,160100.0,1042900.0,715.0,5.6,5,401400.0,Gold,68764.29,20,4163.24,7952.07,19664.9,0,Active,880500.0,On Time,Mass Affluent,17.13
+CUST0938,55,Male,Single,Professional,Engineering,Mumbai,Savings,256400.0,1376000.0,747.0,4.6,5,1078400.0,Classic,18029.62,28,736.52,4434.56,6534.5,0,No Loan,0.0,On Time,Mass Affluent,1.67
+CUST0939,70,Male,Married,Bachelor's,Education,Jaipur,Savings,92600.0,819400.0,699.0,5.3,2,310500.0,Platinum,38680.39,32,1650.26,4893.04,28477.28,3,Active,1384500.0,Delayed,Mass Affluent,12.46
+CUST0940,38,Male,Married,Bachelor's,Government,Ahmedabad,Savings,5000.0,1606100.0,758.0,11.1,7,643300.0,Platinum,6141.04,18,421.84,1295.53,4028.35,1,Active,510000.0,Occasional Delay,Mass Affluent,1.0
+CUST0941,44,Female,Married,Diploma,Engineering,Delhi,Savings,5000.0,506200.0,676.0,8.0,4,334900.0,Gold,20577.55,18,1502.98,4755.68,9956.52,0,Active,1120400.0,On Time,Standard,6.14
+CUST0942,42,Female,Married,Master's,IT Professional,Delhi,Salary,376000.0,848200.0,731.0,9.9,3,289400.0,Classic,45322.27,22,2032.05,4734.43,28699.51,0,No Loan,0.0,On Time,Mass Affluent,15.66
+CUST0943,37,Female,Single,Bachelor's,Finance,Delhi,Savings,121400.0,1002700.0,690.0,4.6,3,340200.0,Platinum,73498.44,29,3269.44,6404.1,46297.09,1,Active,103600.0,Occasional Delay,Mass Affluent,21.6
+CUST0944,24,Male,Single,Professional,Finance,Kolkata,Savings,119500.0,419900.0,623.0,5.4,4,113400.0,Classic,27491.78,23,1163.73,2094.68,9432.62,1,Closed,385300.0,Occasional Delay,Standard,24.24
+CUST0945,49,Female,Married,Bachelor's,Retail,Jaipur,Salary,5000.0,1566000.0,699.0,4.0,5,539300.0,Gold,19719.39,14,1900.23,3791.5,13788.23,1,Closed,401000.0,Occasional Delay,Mass Affluent,3.66
+CUST0946,41,Male,Single,Master's,Engineering,Jaipur,Salary,20700.0,246000.0,584.0,4.3,5,92800.0,Gold,17957.91,18,991.42,1525.08,7999.99,2,No Loan,0.0,Occasional Delay,Basic,19.35
+CUST0947,31,Male,Single,Bachelor's,IT Professional,Bengaluru,Savings,519400.0,1263900.0,676.0,3.7,3,592800.0,Signature,38123.36,22,2577.42,3369.97,28433.12,2,No Loan,0.0,Occasional Delay,Mass Affluent,6.43
+CUST0948,41,Male,Single,High School,Healthcare,Kochi,Salary,238800.0,757300.0,725.0,1.3,4,329800.0,Gold,39460.49,25,1896.06,3158.23,11865.03,1,Closed,616000.0,Occasional Delay,Mass Affluent,11.96
+CUST0949,39,Male,Married,Bachelor's,IT Professional,Ahmedabad,Current,33600.0,515900.0,660.0,3.1,3,352800.0,Classic,40539.23,20,2457.56,2616.43,10606.67,0,Closed,1115400.0,On Time,Mass Affluent,11.49
+CUST0950,49,Male,Married,Master's,Education,Kolkata,Salary,28100.0,462600.0,676.0,6.4,4,149700.0,Classic,45128.83,21,2380.96,2566.53,23261.49,3,Closed,1477300.0,Delayed,Mass Affluent,30.15
+CUST0951,64,Female,Married,Bachelor's,Retail,Chennai,Salary,5000.0,628300.0,669.0,11.3,4,419100.0,Classic,10070.31,23,557.73,1404.79,7600.05,1,No Loan,0.0,Occasional Delay,Standard,2.4
+CUST0952,33,Female,Married,High School,Healthcare,Kochi,Savings,111200.0,751600.0,709.0,4.8,3,455500.0,Signature,24183.5,19,1525.06,3865.81,18125.11,1,Active,607900.0,Occasional Delay,Mass Affluent,5.31
+CUST0953,45,Male,Single,Bachelor's,IT Professional,Hyderabad,Savings,332300.0,660400.0,721.0,1.6,4,507700.0,Platinum,20726.29,19,1306.55,2518.06,15677.28,0,No Loan,0.0,On Time,Standard,4.08
+CUST0954,38,Female,Single,Master's,IT Professional,Chennai,Current,69300.0,733700.0,640.0,4.3,6,295700.0,Classic,13795.35,21,734.41,1376.25,4058.79,0,Closed,515300.0,On Time,Mass Affluent,4.67
+CUST0955,41,Male,Married,Bachelor's,Healthcare,Mumbai,Savings,264000.0,716300.0,585.0,2.8,4,230600.0,Classic,11345.74,24,493.1,2792.54,4882.48,2,No Loan,0.0,Occasional Delay,Mass Affluent,4.92
+CUST0956,54,Female,Divorced,Professional,Retail,Bengaluru,Savings,5000.0,591900.0,736.0,20.0,2,262100.0,Gold,65141.97,19,3912.23,3673.89,41942.99,1,No Loan,0.0,Occasional Delay,Mass Affluent,24.85
+CUST0957,47,Female,Married,High School,Engineering,Jaipur,Savings,166300.0,398100.0,636.0,6.5,4,230400.0,Platinum,29567.74,21,1350.69,2581.62,12149.47,1,Active,415000.0,Occasional Delay,Basic,12.83
+CUST0958,35,Male,Single,Bachelor's,Retail,Pune,Current,200500.0,1189300.0,722.0,2.6,1,822000.0,Gold,24945.45,26,1190.09,3937.52,7452.93,2,No Loan,0.0,Occasional Delay,Mass Affluent,3.03
+CUST0959,44,Male,Single,Bachelor's,Healthcare,Delhi,Current,153400.0,551800.0,645.0,4.1,2,306500.0,Classic,17654.72,29,692.79,2631.68,9950.85,0,Active,322400.0,On Time,Standard,5.76
+CUST0960,44,Male,Single,Bachelor's,Finance,Mumbai,Salary,6800.0,557400.0,643.0,2.2,5,228500.0,Gold,30182.25,13,2264.35,4367.11,13612.16,2,Closed,564500.0,Occasional Delay,Mass Affluent,13.21
+CUST0961,21,Male,Married,Professional,Business,Kochi,Savings,94300.0,491900.0,652.0,4.3,1,217700.0,Platinum,50097.86,18,3434.3,6617.01,13785.21,0,No Loan,0.0,On Time,Mass Affluent,23.01
+CUST0962,42,Male,Married,Diploma,IT Professional,Mumbai,Savings,5000.0,941900.0,685.0,4.1,4,241000.0,Classic,127439.89,24,6937.56,23696.98,83754.6,1,No Loan,0.0,Occasional Delay,Mass Affluent,52.88
+CUST0963,55,Female,Married,Master's,Retail,Jaipur,Savings,44500.0,677300.0,602.0,5.1,2,285000.0,Gold,34372.07,17,2343.62,701.3,27111.62,0,No Loan,0.0,On Time,Mass Affluent,12.06
+CUST0964,57,Female,Married,Master's,IT Professional,Mumbai,Salary,5000.0,630400.0,570.0,2.8,4,201600.0,Gold,17318.88,22,956.04,2786.82,10568.28,2,Closed,123800.0,Occasional Delay,Standard,8.59
+CUST0965,51,Male,Married,Bachelor's,Retail,Kolkata,Savings,5000.0,770300.0,596.0,6.7,7,399200.0,Gold,29020.58,14,2479.37,5204.29,11347.29,2,No Loan,0.0,Occasional Delay,Mass Affluent,7.27
+CUST0966,41,Male,Divorced,Bachelor's,Retail,Mumbai,Savings,190600.0,1463900.0,800.0,9.7,3,491100.0,Classic,41255.43,27,1781.76,1611.4,17521.68,1,No Loan,0.0,Occasional Delay,Mass Affluent,8.4
+CUST0967,46,Female,Married,Bachelor's,Government,Bengaluru,Savings,313300.0,867400.0,698.0,1.0,5,625000.0,Platinum,19664.84,19,1492.77,693.74,8593.77,0,Closed,455100.0,On Time,Mass Affluent,3.15
+CUST0968,36,Female,Single,High School,Government,Bengaluru,Salary,166600.0,664100.0,644.0,12.3,5,447400.0,Signature,18447.37,25,765.04,3152.91,10410.27,1,No Loan,0.0,Occasional Delay,Standard,4.12
+CUST0969,32,Female,Married,Bachelor's,Education,Hyderabad,Savings,253100.0,517400.0,669.0,5.2,1,267200.0,Classic,28709.63,15,1993.77,5107.27,10420.75,2,No Loan,0.0,Occasional Delay,Standard,10.74
+CUST0970,52,Female,Single,Diploma,Engineering,Jaipur,Savings,503800.0,1858500.0,836.0,5.5,3,872100.0,Signature,48414.52,15,4384.71,2644.09,34283.44,0,Active,121400.0,On Time,Mass Affluent,5.55
+CUST0971,27,Male,Married,Bachelor's,IT Professional,Pune,Current,5000.0,582200.0,695.0,2.5,2,180700.0,Gold,31296.93,22,2150.8,6301.85,15436.73,0,Closed,158100.0,On Time,Mass Affluent,17.32
+CUST0972,21,Female,Single,Bachelor's,Healthcare,Pune,Savings,235200.0,355600.0,657.0,7.6,1,201600.0,Classic,40723.7,24,1905.2,5985.64,22885.43,0,Closed,1170000.0,On Time,Mass Affluent,20.2
+CUST0973,36,Male,Single,Bachelor's,Retail,Mumbai,Current,135900.0,779900.0,736.0,3.4,3,395000.0,Gold,71065.29,23,3248.46,13825.06,39991.23,1,Active,357500.0,Occasional Delay,Mass Affluent,17.99
+CUST0974,35,Female,Single,High School,Engineering,Kolkata,Savings,157800.0,304500.0,624.0,4.3,2,186300.0,Platinum,28426.45,20,1764.34,2723.27,18899.17,3,Active,285500.0,Delayed,Basic,15.26
+CUST0975,49,Female,Single,Bachelor's,Engineering,Kolkata,Savings,418300.0,916100.0,716.0,4.3,2,702200.0,Gold,17615.17,18,1049.15,1527.75,7738.86,1,Active,181200.0,Occasional Delay,Mass Affluent,2.51
+CUST0976,35,Female,Single,Diploma,Engineering,Delhi,Savings,239800.0,571600.0,629.0,6.3,3,344000.0,Platinum,29185.37,25,1547.01,6790.36,15287.81,2,No Loan,0.0,Occasional Delay,Standard,8.48
+CUST0977,36,Female,Single,Bachelor's,IT Professional,Mumbai,Savings,119200.0,396400.0,675.0,5.1,2,201600.0,Platinum,26882.75,17,1798.23,4950.13,18578.56,0,Closed,197300.0,On Time,Basic,13.33
+CUST0978,42,Female,Divorced,Bachelor's,Healthcare,Mumbai,Salary,137100.0,780600.0,669.0,2.6,2,542500.0,Platinum,15647.46,23,808.07,1940.95,9396.75,1,No Loan,0.0,Occasional Delay,Mass Affluent,2.88
+CUST0979,43,Female,Single,Bachelor's,Finance,Kochi,Current,347200.0,1532400.0,694.0,3.2,1,1013300.0,Classic,10064.63,14,854.6,2349.55,5212.46,0,Active,1769200.0,On Time,Mass Affluent,1.0
+CUST0980,45,Male,Married,Master's,IT Professional,Kolkata,Savings,68500.0,459800.0,759.0,18.0,3,174100.0,Classic,72442.12,24,3361.87,3306.61,21410.02,0,Active,319700.0,On Time,Mass Affluent,41.61
+CUST0981,48,Female,Single,Bachelor's,IT Professional,Chennai,Current,413200.0,1714400.0,782.0,3.9,2,760200.0,Gold,29475.6,22,1344.19,2324.92,18157.98,0,No Loan,0.0,On Time,Mass Affluent,3.88
+CUST0982,25,Female,Married,High School,Healthcare,Hyderabad,Savings,61200.0,431100.0,613.0,5.2,3,245200.0,Gold,11835.4,10,1479.42,1942.84,6093.65,0,Active,472200.0,On Time,Standard,4.83
+CUST0983,32,Male,Divorced,Bachelor's,Government,Delhi,Savings,5000.0,783000.0,736.0,3.2,4,365400.0,Gold,59067.97,26,2334.23,3666.48,20358.06,0,Closed,1902600.0,On Time,Mass Affluent,16.17
+CUST0984,56,Female,Single,Professional,IT Professional,Ahmedabad,Savings,177600.0,443600.0,728.0,1.7,1,160500.0,Classic,55902.64,19,3854.75,3819.96,44104.33,2,Active,358500.0,Occasional Delay,Mass Affluent,34.83
+CUST0985,55,Female,Married,Diploma,Education,Delhi,Current,91500.0,535200.0,627.0,3.2,5,266700.0,Gold,22097.01,16,2091.82,5463.47,8903.72,0,Active,708200.0,On Time,Standard,8.29
+CUST0986,42,Female,Married,Master's,Healthcare,Pune,Savings,187300.0,645000.0,707.0,7.9,2,374200.0,Signature,28469.91,25,1657.55,4455.97,13503.15,1,Closed,605200.0,Occasional Delay,Standard,7.61
+CUST0987,39,Female,Married,Master's,IT Professional,Mumbai,Savings,72000.0,1755600.0,806.0,5.7,2,608000.0,Classic,15719.61,20,756.26,3408.5,8902.49,0,Closed,1283700.0,On Time,Mass Affluent,2.59
+CUST0988,35,Male,Divorced,Diploma,Business,Hyderabad,Savings,36700.0,427600.0,624.0,10.3,5,145400.0,Signature,77307.85,17,4604.3,11092.51,42921.79,2,Closed,1472000.0,Occasional Delay,Mass Affluent,53.17
+CUST0989,42,Female,Married,Bachelor's,Government,Kolkata,Savings,48300.0,530400.0,736.0,0.5,3,287700.0,Signature,36121.08,26,1645.87,1112.62,15583.46,0,Active,132000.0,On Time,Mass Affluent,12.56
+CUST0990,25,Female,Single,Diploma,Government,Pune,Savings,45300.0,520700.0,620.0,4.9,2,164500.0,Gold,44058.91,12,3887.74,5728.47,29386.96,0,Active,853700.0,On Time,Mass Affluent,26.78
+CUST0991,49,Male,Single,Master's,IT Professional,Chennai,Savings,167400.0,838500.0,761.0,11.7,4,321500.0,Gold,21683.11,14,1767.26,2787.38,15149.62,1,Closed,819400.0,Occasional Delay,Mass Affluent,6.74
+CUST0992,45,Female,Married,High School,IT Professional,Jaipur,Salary,239600.0,577700.0,664.0,1.0,3,177500.0,Signature,34068.65,15,2976.72,2884.4,25764.61,1,No Loan,0.0,Occasional Delay,Mass Affluent,19.19
+CUST0993,36,Female,Married,Bachelor's,Engineering,Chennai,Savings,196000.0,845400.0,749.0,3.0,4,293000.0,Gold,40979.53,9,4642.75,3692.62,27557.89,0,Active,462400.0,On Time,Mass Affluent,13.99
+CUST0994,58,Female,Married,Master's,IT Professional,Kolkata,Salary,36100.0,635200.0,645.0,1.8,4,174400.0,Classic,22983.23,22,1352.83,2923.99,17147.88,0,No Loan,0.0,On Time,Standard,13.18
+CUST0995,53,Male,Divorced,Master's,Engineering,Chennai,Salary,5000.0,757300.0,599.0,5.1,3,281300.0,Gold,25793.79,20,1440.33,1513.5,7115.6,1,No Loan,0.0,Occasional Delay,Mass Affluent,9.17
+CUST0996,48,Male,Single,High School,Finance,Hyderabad,Current,155100.0,671700.0,676.0,9.3,3,344500.0,Gold,137577.67,23,6088.09,7690.37,69997.93,0,Closed,1359100.0,On Time,Mass Affluent,39.94
+CUST0997,21,Female,Married,Diploma,Engineering,Bengaluru,Current,143500.0,576900.0,724.0,5.3,2,196000.0,Classic,43941.65,24,2464.59,9299.8,28814.84,1,No Loan,0.0,Occasional Delay,Mass Affluent,22.42
+CUST0998,61,Male,Divorced,Bachelor's,Government,Delhi,Savings,26400.0,1074800.0,702.0,3.1,3,797800.0,Signature,26592.82,28,1135.34,5560.57,17471.3,0,Active,673500.0,On Time,Mass Affluent,3.33
+CUST0999,59,Female,Single,Bachelor's,Other,Ahmedabad,Savings,482500.0,1228700.0,734.0,4.4,3,515200.0,Signature,36956.19,21,1802.11,5925.29,14014.09,4,Active,410400.0,Delayed,Mass Affluent,7.17
+CUST1000,34,Male,Single,High School,Business,Hyderabad,Salary,146700.0,515100.0,676.0,6.3,4,311500.0,Classic,15327.36,20,768.13,1519.56,9096.08,0,Active,241600.0,On Time,Standard,4.92
